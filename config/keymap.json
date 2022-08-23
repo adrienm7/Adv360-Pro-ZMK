@@ -28,11 +28,11 @@
        "&trans",   "&trans",   "&trans",    "&trans",  "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&trans",  "&trans", "&trans",      "&trans", "&trans",   "&trans",        "&trans", "&trans",
        "&trans",   "&trans",   "&trans",    "&trans",  "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&trans",  "&trans", "&trans",      "&trans"
     ], [
-       "&trans",           "&trans",            "&trans",         "&trans",          "&trans",        "&trans",           "&trans", "&trans", "&trans",     "&trans",    "&trans",   "&trans",    "&trans", "&trans",
-       "&trans",           "&trans",            "&trans",         "&trans",           "&kp Q",        "&trans",           "&trans", "&trans", "&trans", "&kp DOLLAR", "&kp EQUAL", "&kp PLUS", "&kp QMARK",    "&kp",
-       "&trans", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET", "&kp LEFT_BRACE", "&kp RIGHT_BRACE", "&kp SEMICOLON",           "&trans", "&trans", "&trans",                              "&trans",    "&trans", "&trans", "&kp AMPERSAND", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp LESS_THAN", "&kp GREATER_THAN", "&kp EXCLAMATION",
-       "&trans",    "&kp BACKSLASH",            "&trans",   "&kp ASTERISK",       "&kp SLASH",     "&kp COLON",           "&trans", "&trans", "&trans",     "&trans",    "&trans",   "&trans",    "&trans", "&trans",        "&trans",               "&trans",              "&kp HASH",        "&trans",           "&trans",          "&trans",
-       "&trans",           "&trans",            "&trans",         "&trans",          "&trans",        "&trans",           "&trans", "&trans", "&trans",     "&trans",    "&trans",   "&trans",    "&trans", "&trans",        "&trans",               "&trans"
+       "&trans",           "&trans",            "&trans",         "&trans",          "&trans",        "&trans",           "&trans", "&trans",    "&trans",     "&trans",    "&trans",   "&trans",    "&trans", "&trans",
+       "&trans",           "&trans",            "&trans",         "&trans",           "&kp Q",        "&trans",           "&trans", "&trans", "&kp TILDE", "&kp DOLLAR", "&kp EQUAL", "&kp PLUS", "&kp QMARK",    "&kp",
+       "&trans", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET", "&kp LEFT_BRACE", "&kp RIGHT_BRACE", "&kp SEMICOLON",           "&trans", "&trans",    "&trans",                              "&trans",    "&trans", "&trans", "&kp AMPERSAND", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp LESS_THAN", "&kp GREATER_THAN", "&kp EXCLAMATION",
+       "&trans",    "&kp BACKSLASH",            "&trans",   "&kp ASTERISK",       "&kp SLASH",     "&kp COLON",           "&trans", "&trans",    "&trans",     "&trans",    "&trans",   "&trans",    "&trans", "&trans",      "&kp PIPE",               "&trans",              "&kp HASH",        "&trans",           "&trans",          "&trans",
+       "&trans",           "&trans",            "&trans",         "&trans",          "&trans",        "&trans",           "&trans", "&trans",    "&trans",     "&trans",    "&trans",   "&trans",    "&trans", "&trans",        "&trans",               "&trans"
     ]
   ]
 }
