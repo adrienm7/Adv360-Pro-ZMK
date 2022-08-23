@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp DELETE    &kp N1     &kp N2             &kp N3     &kp N4     &kp N5                   &tog 1         &mo 3     &kp N6         &kp N7           &kp N8    &kp N9            &kp N0    &kp MINUS
- &kp DOLLAR     &kp X      &kp Y              &kp O      &kp Q      &kp T                    &none         &none      &kp F          &kp D            &kp L     &kp P  &kp SINGLE_QUOTE  &kp PERCENT
-   &kp CAPS     &kp A      &kp I              &kp E      &kp U  &kp COMMA                    &none     &kp ENTER  &kp LCTRL                                  &kp LGUI         &kp RCTRL        &none     &kp M   &kp S   &kp N   &kp T   &kp R  &kp CARET
-  &kp LSHFT     &kp Z      &kp X  &kp DOUBLE_QUOTES      &kp X    &kp DOT                    &none         &none    &kp TAB          &none            &none    &tog 1             &none        &none     &kp V   &kp C   &kp H   &kp G   &kp X  &kp EQUAL
-      &mo 2  &kp LEFT  &kp RIGHT           &kp LEFT  &kp RIGHT  &kp SPACE            &kp BACKSPACE  &kp LEFT_ALT  &kp PG_DN  &kp RIGHT_ALT  &kp RIGHT_SHIFT     &kp W             &kp J       &kp UP  &kp DOWN   &mo 2
+         &kp DELETE    &kp N1     &kp N2             &kp N3     &kp N4     &kp N5                   &tog 1         &mo 3     &kp N6         &kp N7           &kp N8    &kp N9            &kp N0    &kp MINUS
+         &kp DOLLAR     &kp X      &kp Y              &kp O      &kp Q      &kp T                    &none         &none      &kp F          &kp D            &kp L     &kp P  &kp SINGLE_QUOTE  &kp PERCENT
+           &kp CAPS     &kp A      &kp I              &kp E      &kp U  &kp COMMA                    &none     &kp ENTER  &kp LCTRL                                  &kp LGUI         &kp RCTRL        &none     &kp M   &kp S   &kp N   &kp T   &kp R  &kp CARET
+ &mt LEFT_CONTROL C     &kp X      &kp Z  &kp DOUBLE_QUOTES      &kp X    &kp DOT                    &none         &none    &kp TAB          &none            &none    &tog 1             &none        &none     &kp V   &kp C   &kp H   &kp G   &kp X  &kp EQUAL
+ &mt LEFT_CONTROL V  &kp LEFT  &kp RIGHT           &kp LEFT  &kp RIGHT  &kp SPACE            &kp BACKSPACE  &kp LEFT_ALT  &kp PG_DN  &kp RIGHT_ALT  &kp RIGHT_SHIFT     &kp W             &kp J       &kp UP  &kp DOWN   &mo 2
             >;
         };
 
