@@ -18,6 +18,9 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+
+#include "keymap_azerty_win.h"
+
 / {
   behaviors {
     #include "macros.dtsi"
@@ -40,9 +43,9 @@
         default_layer {
             bindings = <
          &kp DELETE    &kp N1     &kp N2             &kp N3     &kp N4     &kp N5                   &tog 1         &mo 1        &kp N6  &kp N7           &kp N8     &kp N9            &kp N0    &kp MINUS
-         &kp DOLLAR     &kp X      &kp Y              &kp O      &kp Q      &kp T                    &none         &none         &kp F   &kp D            &kp L      &kp P  &kp SINGLE_QUOTE  &kp PERCENT
-           &kp CAPS     &kp A      &kp I              &kp E      &kp U  &kp COMMA                    &none     &kp ENTER    &kp DELETE                            &kp LGUI    &lt 2 C_REPEAT        &none     &kp M   &kp S   &kp N   &kp T   &kp R  &kp CARET
- &mt LEFT_CONTROL C     &kp X      &kp Z  &kp DOUBLE_QUOTES      &kp X    &kp DOT                    &none         &none       &kp TAB   &none            &none  &kp RCTRL             &none        &none     &kp V   &kp C   &kp H   &kp G   &kp X  &kp EQUAL
+         &kp DOLLAR     &kp FR_X      &kp FR_Y              &kp FR_O      &kp Q      &kp T                    &none         &none         &kp F   &kp D            &kp L      &kp P  &kp SINGLE_QUOTE  &kp PERCENT
+           &kp CAPS     &kp FR_A      &kp FR_I              &kp FR_E      &kp U  &kp COMMA                    &none     &kp ENTER    &kp DELETE                            &kp LGUI    &lt 2 C_REPEAT        &none     &kp M   &kp S   &kp N   &kp T   &kp R  &kp CARET
+ &mt LEFT_CONTROL C     &kp FR_X      &kp FR_Z  &kp DOUBLE_QUOTES      &kp X    &kp DOT                    &none         &none       &kp TAB   &none            &none  &kp RCTRL             &none        &none     &kp V   &kp C   &kp H   &kp G   &kp X  &kp EQUAL
  &mt LEFT_CONTROL V  &kp LEFT  &kp RIGHT           &kp LEFT  &kp RIGHT  &kp SPACE            &kp BACKSPACE  &kp LEFT_ALT  &kp CAPSLOCK   &mo 3  &kp RIGHT_SHIFT      &kp W             &kp J       &kp UP  &kp DOWN   &mo 2
             >;
         };
