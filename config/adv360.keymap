@@ -74,7 +74,7 @@
             bindings = <
  &trans            &trans             &trans          &trans           &trans         &trans            &trans  &trans     &trans      &trans     &trans    &trans     &trans  &trans
  &trans            &trans             &trans          &trans            &kp Q         &trans            &trans  &trans  &kp TILDE  &kp DOLLAR  &kp EQUAL  &kp PLUS  &kp QMARK     &kp
- &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON            &trans  &trans     &trans                           &trans     &trans  &trans  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp EXCLAMATION
+ &trans  		   &kp FR_LBKT  	  &kp FR_RBKT  	  &kp FR_LBRC      &kp FR_RBRC  	&kp FR_SCLN            &trans  &trans     &trans                           &trans     &trans  &trans   	&kp FR_AMPR	  			&kp FR_LPRN  		&kp FR_RPRN  	&kp FR_LABK  	&kp FR_RABK 	 &kp FR_EXLM
  &trans     &kp BACKSLASH             &trans    &kp ASTERISK        &kp SLASH      &kp COLON            &trans  &trans     &trans      &trans     &trans    &trans     &trans  &trans       &kp PIPE                &trans               &kp HASH         &trans            &trans           &trans
  &trans            &trans             &trans          &trans           &trans         &trans            &trans  &trans     &trans      &trans     &trans    &trans     &trans  &trans         &trans                &trans
             >;
