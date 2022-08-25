@@ -6,6 +6,11 @@
  */
 
 
+/* THIS FILE WAS GENERATED!
+ *
+ * This file was generated automatically. You may or may not want to
+ * edit it directly.
+ */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -67,11 +72,11 @@
 
         layer_Symboles {
             bindings = <
- &trans            &trans             &trans          &trans           &trans           &trans            &trans  																	&trans        &trans 			&trans  	    &trans          &trans 			&trans  	     &trans
- &trans            &trans             &trans          &trans           &kp FR_Q         &trans            &trans  																	&trans     	  &kp FR_TILD       &kp FR_DLLR     &kp FR_EQUAL    &kp FR_PLUS     &kp FR_QUES      &trans
- &trans  		   &kp FR_LBKT  	  &kp FR_RBKT  	  &kp FR_LBRC      &kp FR_RBRC  	&kp FR_SCLN       &trans  &trans     &trans        						trans      &trans 	&trans 		  &kp FR_AMPR	  	&kp FR_LPRN  	&kp FR_RPRN  	&kp FR_LABK  	&kp FR_RABK 	 &kp FR_EXLM
- &trans     	   &kp FR_BSLS        &trans    	  &kp FR_ASTR      &kp FR_SLSH      &kp FR_COLN       &trans  &trans     &trans        &trans     &trans    &trans     &trans   &trans        &kp FR_PIPE       &kp FR_LCCE     &kp FR_HASH     &trans          &trans           &trans
- &trans            &trans             &trans          &trans           &trans           &trans            &trans  &trans     &trans        &trans     &trans    &trans     &trans   &trans        &trans            &trans
+ &trans            &trans             &trans          &trans           &trans         &trans            &trans  &trans     &trans      &trans     &trans    &trans     &trans  &trans
+ &trans            &trans             &trans          &trans            &kp Q         &trans            &trans  &trans  &kp TILDE  &kp DOLLAR  &kp EQUAL  &kp PLUS  &kp QMARK     &kp
+ &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMICOLON            &trans  &trans     &trans                           &trans     &trans  &trans  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp EXCLAMATION
+ &trans     &kp BACKSLASH             &trans    &kp ASTERISK        &kp SLASH      &kp COLON            &trans  &trans     &trans      &trans     &trans    &trans     &trans  &trans       &kp PIPE                &trans               &kp HASH         &trans            &trans           &trans
+ &trans            &trans             &trans          &trans           &trans         &trans            &trans  &trans     &trans      &trans     &trans    &trans     &trans  &trans         &trans                &trans
             >;
         };
 
