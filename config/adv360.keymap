@@ -22,7 +22,18 @@
 #include "keymap_azerty_win.h"
 
 / {
+  behaviors {
+    #include "macros.dtsi"
 
+    hm: homerow_mods {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_MODS";
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        quick_tap_ms = <175>;
+        flavor = "tap-preferred";
+        bindings = <&kp>, <&kp>;
+    };
 
     macros {
         zed_em_kay: zed_em_kay {
@@ -36,19 +47,7 @@
                 ;
         };
     };
-	
-  behaviors {
-    #include "macros.dtsi"
 
-    hm: homerow_mods {
-        compatible = "zmk,behavior-hold-tap";
-        label = "HOMEROW_MODS";
-        #binding-cells = <2>;
-        tapping-term-ms = <200>;
-        quick_tap_ms = <175>;
-        flavor = "tap-preferred";
-        bindings = <&kp>, <&kp>;
-    };
   };
 
     keymap {
