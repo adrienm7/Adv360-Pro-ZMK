@@ -20,7 +20,6 @@
 
 
 #include "keymap_azerty_win.h"
-#include "../zmk-nodefree-config/helper.h"
 
 / {
   behaviors {
