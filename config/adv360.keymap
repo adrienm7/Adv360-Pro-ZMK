@@ -6,11 +6,7 @@
  */
 
 
-/* THIS FILE WAS GENERATED!
- *
- * This file was generated automatically. You may or may not want to
- * edit it directly.
- */
+
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -18,8 +14,11 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
-
 #include "keymap_azerty_win.h"
+#define DEFAULT 0
+#define MOD   	1
+#define NAV   	2
+#define SYMB   	3
 
 / {
   behaviors {
@@ -42,11 +41,11 @@
 
         default_layer {
             bindings = <
-        		&kp DELETE   			&kp FR_1   	      &kp FR_2            &kp FR_3               &kp FR_4        &kp FR_5            &tog 1            																								    												&mo 1     			&kp FR_6        &kp FR_7        &kp FR_8     	&kp FR_9        &kp FR_0    		&kp FR_MINUS
+        		&kp DELETE   			&kp FR_1   	      &kp FR_2            &kp FR_3               &kp FR_4        &kp FR_5            &tog MOD            																								    											&mo MOD   			&kp FR_6        &kp FR_7        &kp FR_8     	&kp FR_9        &kp FR_0    		&kp FR_MINUS
          		&kp FR_DLLR    			&kp FR_LAGR       &kp FR_Y            &kp FR_O               &kp FR_Q        &kp FR_B            &none             																																					&none      			&kp FR_F        &kp FR_D        &kp FR_L      	&kp FR_P  		&kp FR_QUOT		  	&kp FR_PRCNT
            		&kp CAPS     			&kp FR_A          &kp FR_I            &kp FR_E               &kp FR_U        &kp FR_COMM         &none          				  &kp ENTER       		&kp LCTRL             				 				&kp LGUI           &key_repeat       					&none     	    	&kp FR_M   	    &kp FR_S   		&kp FR_N        &kp FR_T  	   	&kp FR_R 			&kp FR_CIRC
 				&mt LEFT_CONTROL FR_C   &kp FR_LEGR       &kp FR_Z            &kp FR_DQUO		     &kp FR_LEAC     &kp FR_DOT            				&none          	  &none             	&kp TAB               &none          &none 	        &kp RCTRL          &none    	    	&none   							&kp FR_V  		&kp FR_C  	    &kp FR_H 	    &kp FR_G     	&kp FR_X 	    	&kp FR_EQUAL
-				&mt LEFT_CONTROL FR_V  	&kp LEFT  	      &kp RIGHT           &kp UP              	 &kp DOWN       									&kp SPACE         &kp BACKSPACE     	&kp LEFT_ALT  						 				&kp CAPSLOCK	   &mo 3                &kp RIGHT_SHIFT 	        						&kp FR_W        &kp FR_J        &kp UP  	  	&kp DOWN       		&mo 2
+				&mt LEFT_CONTROL FR_V  	&kp LEFT  	      &kp RIGHT           &kp UP              	 &kp DOWN       									&kp SPACE         &kp BACKSPACE     	&kp LEFT_ALT  						 				&caps_word	   	   &mo SYMB             &kp RIGHT_SHIFT 	        						&kp FR_W        &kp FR_J        &kp UP  	  	&kp DOWN       		&mo NAV
             >;
         };
 
