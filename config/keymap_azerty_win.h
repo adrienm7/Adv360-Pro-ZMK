@@ -19,7 +19,7 @@
 #define FR_LPRN 	N5   		  	   // (
 #define FR_MINUS 	N6   		  	   // -
 #define FR_LEGR 	N7  		  	   // è
-#define FR_EXLM 	N8   		 	   // _
+#define FR_UNDS 	N8   		 	   // _
 #define FR_LCCE 	N9   		  	   // ç
 #define FR_LAGR 	N0   		 	   // à
 #define FR_RPRN 	MINUS		 	   // )
