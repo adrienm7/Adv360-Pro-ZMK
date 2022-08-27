@@ -32,5 +32,5 @@ macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
 #binding-cells = <0>;
-bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+bindings = <&kp LS(K)>, <&macro_tap &kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
