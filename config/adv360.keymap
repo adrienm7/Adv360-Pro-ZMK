@@ -68,7 +68,7 @@
             >;
         };
 
-        layer_Navigation {
+        layer_nav {
             bindings = <
 				&trans          	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											 &trans          	 &kp F6          	 &kp F7           	 &kp F8          	&kp F9          	 &kp F10        	 &kp F11
 				&trans				&trans				&trans				&trans				&trans				&trans				&trans   																																											 &trans  			 &trans          	 &trans           	 &trans          	&trans          	 &trans         	 &kp F12
@@ -78,12 +78,12 @@
             >;
         };
 
-        layer_Symboles {
+        layer_symb {
             bindings = <
 				&trans              &trans          	&trans              &trans          	&trans              &trans              &trans  																 	   			 																							 &trans              &trans              &trans              &trans              &trans              &trans              &trans
 				&trans              &kp FR_GRV      	&kp FR_LUGR     	&trans          	&kp FR_Q         	&trans              &trans  																 	   			 																							 &trans  			 &kp TILDE  		 &kp DOLLAR  	 	 &kp EQUAL  	 	 &kp FR_PLUS		 &kp QMARK     		 &trans
 				&trans              &kp FR_LBKT  		&kp FR_RBKT  		&kp FR_LBRC     	&kp FR_RBRC  	 	&kp FR_SCLN    		&trans              			 		 &trans     	 	 &trans      	  								 			 &trans              &trans                                  &trans              &kp FR_AMPR	  	 &kp FR_LPRN  	 	 &kp FR_RPRN  	 	 &kp FR_LABK  		 &kp FR_RABK 		 &kp FR_EXLM
-				&trans              &kp FR_BSLS	    	&trans    	  		&kp FR_ASTR     	&kp FR_SLSH      	&kp COLON         	                     &trans              &trans          	 &trans              &trans              &trans              &trans          	 &trans              &trans     				             &kp FR_PIPE  	 	 &kp FR_LCCE     	 &kp FR_HASH     	 &trans   			 &trans          	 &trans
+				&trans              &kp FR_BSLS	    	&kp FR_AT  	  		&kp FR_ASTR     	&kp FR_SLSH      	&kp COLON         	                     &trans              &trans          	 &trans              &trans              &trans              &trans          	 &trans              &trans     				             &kp FR_PIPE  	 	 &kp FR_LCCE     	 &kp FR_HASH     	 &trans   			 &trans          	 &trans
 				&trans              &trans              &trans              &trans              &trans                            							 &kp FR_UNDS	  	 &trans              &trans     					  				 			 &trans              &trans              &trans    									 	 			 &trans     	 	 &trans  		 	 &trans     		 &trans          	 &trans
             >;
         };
