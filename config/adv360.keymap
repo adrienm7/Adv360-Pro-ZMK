@@ -81,9 +81,9 @@
         layer_symb {
             bindings = <
 				&trans              &trans          	&trans              &trans          	&trans              &trans              &trans  																 	   			 																							 &trans              &trans              &trans              &trans              &trans              &trans              &trans
-				&trans              &kp FR_GRV      	&kp FR_LUGR     	&trans          	&kp FR_Q         	&trans              &trans  																 	   			 																							 &trans  			 &kp TILDE  		 &kp DOLLAR  	 	 &kp EQUAL  	 	 &kp FR_PLUS		 &kp QMARK     		 &trans
+				&kp FR_EURO         &kp FR_GRV      	&kp FR_LUGR     	&trans          	&kp FR_Q         	&trans              &trans  																 	   			 																							 &trans  			 &kp TILDE  		 &kp DOLLAR  	 	 &kp EQUAL  	 	 &kp FR_PLUS		 &kp QMARK     		 &trans
 				&trans              &kp FR_LBKT  		&kp FR_RBKT  		&kp FR_LBRC     	&kp FR_RBRC  	 	&kp FR_SCLN    		&trans              			 		 &trans     	 	 &trans      	  								 			 &trans              &trans                                  &trans              &kp FR_AMPR	  	 &kp FR_LPRN  	 	 &kp FR_RPRN  	 	 &kp FR_LABK  		 &kp FR_RABK 		 &kp FR_EXLM
-				&trans              &kp FR_BSLS	    	&kp FR_AT  	  		&kp FR_ASTR     	&kp FR_SLSH      	&kp COLON         	                     &trans              &trans          	 &trans              &trans              &trans              &trans          	 &trans              &trans     				             &kp FR_PIPE  	 	 &kp FR_LCCE     	 &kp FR_HASH     	 &trans   			 &trans          	 &trans
+				&trans              &kp FR_BSLS	    	&kp FR_AT  	  		&kp FR_ASTR     	&kp FR_SLSH      	&kp COLON         	                     &trans              &trans          	 &trans              &trans              &trans              &trans          	 &trans              &trans     				             &kp FR_PIPE  	 	 &kp FR_LCCE     	 &kp FR_HASH     	 &trans   			 &trans          	 &kp FR_TILD
 				&trans              &trans              &trans              &trans              &trans                            							 &kp FR_UNDS	  	 &trans              &trans     					  				 			 &trans              &trans              &trans    									 	 			 &trans     	 	 &trans  		 	 &trans     		 &trans          	 &trans
             >;
         };
