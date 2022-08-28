@@ -32,6 +32,16 @@ APOS_QUES: apostrophe_interrogation {
 
 
 
+QU: qu {
+	compatible = "zmk,behavior-mod-morph";
+	label = "qu Qu";
+	#binding-cells = <0>;
+	bindings = <&QU_MIN>, <&QU_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
 E_AIG: e_accent_aigu {
 	compatible = "zmk,behavior-mod-morph";
 	label = "éÉ";
