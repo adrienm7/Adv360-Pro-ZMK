@@ -1,36 +1,10 @@
-macro_e_accent_aigu: macro_e_accent_aigu{
+zed_em_kay: zed_em_kay {
+	label = "ZM_zed_em_kay";
 	compatible = "zmk,behavior-macro";
-	label = "é";
 	#binding-cells = <0>;
-	bindings = <&macro_press   &kp LALT>
-		, <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N3>
-		, <&macro_release &kp LALT>
-		;
-};
-macro_e_accent_grave: macro_e_accent_grave{
-	compatible = "zmk,behavior-macro";
-	label = "è";
-	#binding-cells = <0>;
-	bindings = <&macro_press   &kp LALT>
-		, <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N2>
-		, <&macro_release &kp LALT>
-		;
-};
-macro_e_accent_circonflexe: macro_e_accent_circonflexe{
-	compatible = "zmk,behavior-macro";
-	label = "ê";
-	#binding-cells = <0>;
-	bindings = <&macro_press   &kp LALT>
-		, <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N3 &kp KP_N4>
-		, <&macro_release &kp LALT>
-		;
-};
-macro_a_accent_grave: macro_a_accent_grave{
-	compatible = "zmk,behavior-macro";
-	label = "à";
-	#binding-cells = <0>;
-	bindings = <&macro_press   &kp LALT>
-		, <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N4>
-		, <&macro_release &kp LALT>
+	bindings
+		= <&macro_press &kp LSHFT>
+		, <&macro_tap &kp Z &kp M &kp K>
+		, <&macro_release &kp LSHFT>
 		;
 };
