@@ -2,11 +2,11 @@ manifest:
     remotes:
         - name: zmkfirmware
           url-base: https://github.com/zmkfirmware
-        - name: refil
+        - name: adrienm7
           url-base: https://github.com/adrienm7
     projects:
         - name: zmk
-          remote: refil
+          remote: adrienm7
           revision: adv360-beta
           import: app/west.yml
     self:
