@@ -37,3 +37,19 @@ U_GRV: u_accent_grave {
 	bindings = <&U_GRV_MIN>, <&U_GRV_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
+
+C_CED: c_cedille {
+	compatible = "zmk,behavior-mod-morph";
+	label = "çÇ";
+	#binding-cells = <0>;
+	bindings = <&C_CED_MIN>, <&C_CED_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+LIG_OE: ligature_oe {
+	compatible = "zmk,behavior-mod-morph";
+	label = "çÇ";
+	#binding-cells = <0>;
+	bindings = <&LIG_OE_MIN>, <&LIG_OE_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};

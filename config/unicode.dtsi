@@ -173,6 +173,7 @@ RDAQ: guillemet_droit {
 };
 
 
+
 ESP_INSEC: espace_insecable {
 	compatible = "zmk,behavior-macro";
 	label = "espace insécable";
@@ -192,6 +193,7 @@ ESP_INSEC_FINE: espace_insecable_fine {
 			 , <&macro_release 	 &kp LALT>
 	;
 };
+
 
 
 PTS_SUSP: points_de_suspension {
