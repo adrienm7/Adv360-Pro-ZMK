@@ -44,9 +44,9 @@
 			bindings = <&sk LEFT_SHIFT>, <&caps_word>;
 		};
 
-		E_CIRC: grave_escape {
+		E_CIRC: e_accent_circonflexe {
             compatible = "zmk,behavior-mod-morph";
-            label = "GRAVE_ESCAPE";
+            label = "êÊ";
             #binding-cells = <0>;
             bindings = <&E_CIRC_MIN>, <&E_CIRC_MAJ>;
             mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
