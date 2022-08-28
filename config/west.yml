@@ -3,7 +3,7 @@ manifest:
         - name: zmkfirmware
           url-base: https://github.com/zmkfirmware
         - name: refil
-          url-base: https://github.com/refil
+          url-base: https://github.com/adrienm7
     projects:
         - name: zmk
           remote: refil
