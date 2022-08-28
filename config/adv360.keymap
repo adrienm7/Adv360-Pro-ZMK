@@ -44,11 +44,11 @@
 			bindings = <&sk LEFT_SHIFT>, <&caps_word>;
 		};
 
-        E_AIG: grave_escape {
+        E_AIG: e_accent_aigu {
             compatible = "zmk,behavior-mod-morph";
-            label = "GRAVE_ESCAPE";
+            label = "éÉ";
             #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp GRAVE>;
+            bindings = <&E_AIG_MIN>, <&kE_AIG_MAJ>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
