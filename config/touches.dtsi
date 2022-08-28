@@ -48,6 +48,14 @@ OU: ou {
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
+ESPACE: espace {
+	compatible = "zmk,behavior-mod-morph";
+	label = "_-";
+	#binding-cells = <0>;
+	bindings = <&kp SPACE>, <&TIRET>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
 
 
 
