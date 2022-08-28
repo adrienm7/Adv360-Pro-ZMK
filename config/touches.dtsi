@@ -1,3 +1,21 @@
+COMM_SCLN: virgule_point_virgule {
+	compatible = "zmk,behavior-mod-morph";
+	label = ",;";
+	#binding-cells = <0>;
+	bindings = <&kp FR_COMM>, <&SPACE_SCLN>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+DOT_CLN: point_deux_points {
+	compatible = "zmk,behavior-mod-morph";
+	label = ".:";
+	#binding-cells = <0>;
+	bindings = <&kp FR_DOT>, <&SPACE_COLN>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
 E_AIG: e_accent_aigu {
 	compatible = "zmk,behavior-mod-morph";
 	label = "éÉ";
@@ -22,6 +40,8 @@ E_CIRC: e_accent_circonflexe {
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
+
+
 A_GRV: a_accent_grave {
 	compatible = "zmk,behavior-mod-morph";
 	label = "àÀ";
@@ -37,6 +57,8 @@ U_GRV: u_accent_grave {
 	bindings = <&U_GRV_MIN>, <&U_GRV_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
+
+
 
 C_CED: c_cedille {
 	compatible = "zmk,behavior-mod-morph";
