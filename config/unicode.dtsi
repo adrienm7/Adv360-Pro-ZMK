@@ -206,7 +206,7 @@ PTS_SUSP: points_de_suspension {
 
 
 
-CARAC_TILDE: tidle {
+CARAC_TILDE: tilde {
 	compatible = "zmk,behavior-macro";
 	label = "~";
 	#binding-cells = <0>;
