@@ -56,6 +56,14 @@ ESPACE: espace {
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
+RETOUR_ARRIERE: retour_arriere {
+	compatible = "zmk,behavior-mod-morph";
+	label = "suppr del";
+	#binding-cells = <0>;
+	bindings = <&kp BACKSPACE>, <&SUPPR>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
 
 
 
