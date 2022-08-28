@@ -204,6 +204,16 @@ PTS_SUSP: points_de_suspension {
 	;
 };
 
+APOS_TYPO: apostrophe_typographique {
+	compatible = "zmk,behavior-macro";
+	label = "’";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N2 &kp KP_N0 &kp KP_N1 &kp KP_N9>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
 
 
 CARAC_TILDE: tilde {
