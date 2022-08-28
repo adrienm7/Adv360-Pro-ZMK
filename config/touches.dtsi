@@ -40,6 +40,14 @@ QU: qu {
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
+OU: ou {
+	compatible = "zmk,behavior-mod-morph";
+	label = "où Où";
+	#binding-cells = <0>;
+	bindings = <&OU_MIN>, <&OU_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
 
 
 
