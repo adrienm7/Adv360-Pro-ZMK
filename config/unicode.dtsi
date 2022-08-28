@@ -18,14 +18,6 @@ E_AIG_MAJ: e_accent_aigu_majuscule {
 	;
 };
 
-E_AIG: e_accent_aigu {
-	compatible = "zmk,behavior-mod-morph";
-	label = "éÉ";
-	#binding-cells = <0>;
-	bindings = <&E_AIG_MIN>, <&E_AIG_MAJ>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
-};
-
 
 
 E_GRV_MIN: e_accent_grave_minuscule {
@@ -48,14 +40,6 @@ E_GRV_MAJ: e_accent_grave_majuscule {
 	;
 };
 
-E_GRV: e_accent_grave {
-	compatible = "zmk,behavior-mod-morph";
-	label = "èÈ";
-	#binding-cells = <0>;
-	bindings = <&E_GRV_MIN>, <&E_GRV_MAJ>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
-};
-
 
 
 E_CIRC_MIN: e_accent_circonflexe_minuscule {
@@ -76,14 +60,6 @@ E_CIRC_MAJ: e_accent_circonflexe_majuscule {
 			 , <&macro_tap     	 &kp KP_N2 &kp KP_N1 &kp KP_N0>
 			 , <&macro_release 	 &kp LALT>
 	;
-};
-
-E_CIRC: e_accent_circonflexe {
-	compatible = "zmk,behavior-mod-morph";
-	label = "êÊ";
-	#binding-cells = <0>;
-	bindings = <&E_CIRC_MIN>, <&E_CIRC_MAJ>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
 

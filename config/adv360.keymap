@@ -24,6 +24,7 @@
 
 	behaviors {
 		#include "unicode.dtsi"
+		#include "touches.dtsi"
 		#include "macros.dtsi"
 
 		hm: homerow_mods {

@@ -1,0 +1,39 @@
+E_AIG: e_accent_aigu {
+	compatible = "zmk,behavior-mod-morph";
+	label = "éÉ";
+	#binding-cells = <0>;
+	bindings = <&E_AIG_MIN>, <&E_AIG_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+E_GRV: e_accent_grave {
+	compatible = "zmk,behavior-mod-morph";
+	label = "èÈ";
+	#binding-cells = <0>;
+	bindings = <&E_GRV_MIN>, <&E_GRV_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+E_CIRC: e_accent_circonflexe {
+	compatible = "zmk,behavior-mod-morph";
+	label = "êÊ";
+	#binding-cells = <0>;
+	bindings = <&E_CIRC_MIN>, <&E_CIRC_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+A_GRV: a_accent_grave {
+	compatible = "zmk,behavior-mod-morph";
+	label = "àÀ";
+	#binding-cells = <0>;
+	bindings = <&A_GRV_MIN>, <&A_GRV_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+U_GRV: u_accent_grave {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ùÙ";
+	#binding-cells = <0>;
+	bindings = <&U_GRV_MIN>, <&U_GRV_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
