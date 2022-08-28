@@ -194,6 +194,17 @@ ESP_INSEC_FINE: espace_insecable_fine {
 };
 
 
+PTS_SUSP: points_de_suspension {
+	compatible = "zmk,behavior-macro";
+	label = "…";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N3>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+
 
 CARAC_TILDE: tidle {
 	compatible = "zmk,behavior-macro";
