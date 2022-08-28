@@ -35,7 +35,7 @@
 #define FR_I  		I    		 	   // I
 #define FR_O   		O    		  	   // O
 #define FR_P   		P    		 	   // P
-#define FR_CIRC		LEFT_BRACKET  	   // ^
+#define FR_CIRC		LEFT_BRACKET  	   // ^ (dead)
 #define FR_DLLR  	RIGHT_BRACKET	   // $
 // Rangée du milieu
 #define FR_Q  		A   		 	   // Q
@@ -124,7 +124,7 @@
 #define FR_LBRC    	RA(FR_QUOT) 	   // {
 #define FR_LBKT    	RA(FR_LPRN) 	   // [
 #define FR_PIPE    	RA(FR_MINUS) 	   // |
-#define FR_GRV    	RA(FR_LEGR) 	   // `
+#define FR_GRV    	RA(FR_LEGR) 	   // ` (dead)
 #define FR_BSLS    	RA(FR_EXLM) 	   // (backslash)
 #define FR_AT    	RA(FR_LAGR) 	   // @
 #define FR_RBKT  	RA(FR_RPRN) 	   // ]

@@ -1,9 +1,31 @@
+E_AIG_MIN: e_accent_aigu_minuscule {
+	compatible = "zmk,behavior-macro";
+	label = "é";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N1 &kp KP_N3 &kp KP_N0>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
 E_AIG_MAJ: e_accent_aigu_majuscule {
 	compatible = "zmk,behavior-macro";
 	label = "É";
 	#binding-cells = <0>;
 	bindings = <&macro_press   	 &kp LALT>
 			 , <&macro_tap     	 &kp KP_N1 &kp KP_N4 &kp KP_N4>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+
+
+E_GRV_MIN: e_accent_grave_minuscule {
+	compatible = "zmk,behavior-macro";
+	label = "è";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N1 &kp KP_N3 &kp KP_N8>
 			 , <&macro_release 	 &kp LALT>
 	;
 };
@@ -18,7 +40,19 @@ E_GRV_MAJ: e_accent_grave_majuscule {
 	;
 };
 
-E_CIR_MAJ: e_accent_circonflexe_majuscule {
+
+
+E_CIRC_MIN: e_accent_circonflexe_minuscule {
+	compatible = "zmk,behavior-macro";
+	label = "ê";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N1 &kp KP_N3 &kp KP_N6>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+E_CIRC_MAJ: e_accent_circonflexe_majuscule {
 	compatible = "zmk,behavior-macro";
 	label = "Ê";
 	#binding-cells = <0>;
@@ -28,12 +62,36 @@ E_CIR_MAJ: e_accent_circonflexe_majuscule {
 	;
 };
 
+
+
+A_GRV_MIN: a_accent_grave_minuscule {
+	compatible = "zmk,behavior-macro";
+	label = "à";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N1 &kp KP_N3 &kp KP_N3>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
 A_GRV_MAJ: a_accent_grave_majuscule {
 	compatible = "zmk,behavior-macro";
-	label = "Ê";
+	label = "À";
 	#binding-cells = <0>;
 	bindings = <&macro_press   	 &kp LALT>
 			 , <&macro_tap     	 &kp KP_N1 &kp KP_N8 &kp KP_N3>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+
+
+U_GRV_MIN: u_accent_grave_minuscule {
+	compatible = "zmk,behavior-macro";
+	label = "ù";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N1 &kp KP_N5 &kp KP_N1>
 			 , <&macro_release 	 &kp LALT>
 	;
 };
@@ -48,6 +106,18 @@ U_GRV_MAJ: u_accent_grave_majuscule {
 	;
 };
 
+
+
+C_CED_MIN: c_cedille_minuscule {
+	compatible = "zmk,behavior-macro";
+	label = "ç";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N1 &kp KP_N3 &kp KP_N5>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
 C_CED_MAJ: c_cedille_majuscule {
 	compatible = "zmk,behavior-macro";
 	label = "Ç";
@@ -57,6 +127,30 @@ C_CED_MAJ: c_cedille_majuscule {
 			 , <&macro_release 	 &kp LALT>
 	;
 };
+
+
+
+LIG_OE_MIN: ligature_oe_minuscule {
+	compatible = "zmk,behavior-macro";
+	label = "œ";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N6>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+LIG_OE_MAJ: ligature_oe_majuscule {
+	compatible = "zmk,behavior-macro";
+	label = "Œ";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N0 &kp KP_N1 &kp KP_N4 &kp KP_N0>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+
 
 LDAQ: guillemet_gauche {
 	compatible = "zmk,behavior-macro";
@@ -68,7 +162,7 @@ LDAQ: guillemet_gauche {
 	;
 };
 
-RDAQ: guillemet_gauche {
+RDAQ: guillemet_droit {
 	compatible = "zmk,behavior-macro";
 	label = "»";
 	#binding-cells = <0>;
@@ -78,13 +172,49 @@ RDAQ: guillemet_gauche {
 	;
 };
 
-LIG_OE: ligature_oe {
+
+ESP_INSEC: espace_insecable {
 	compatible = "zmk,behavior-macro";
-	label = "œ";
+	label = "espace insécable";
 	#binding-cells = <0>;
 	bindings = <&macro_press   	 &kp LALT>
-			 , <&macro_tap     	 &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N6>
+			 , <&macro_tap     	 &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N0>
 			 , <&macro_release 	 &kp LALT>
 	;
 };
 
+ESP_INSEC_FINE: espace_insecable_fine {
+	compatible = "zmk,behavior-macro";
+	label = "espace insécable fine";
+	#binding-cells = <0>;
+	bindings = <&macro_press   	 &kp LALT>
+			 , <&macro_tap     	 &kp KP_N8 &kp KP_N2 &kp KP_N0 &kp KP_N1>
+			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+
+
+CARAC_TILDE: tidle {
+	compatible = "zmk,behavior-macro";
+	label = "~";
+	#binding-cells = <0>;
+	bindings = <&macro_tap     	 &kp FR_TILD &kp SPACE>
+	;
+};
+
+CARAC_GRV: tidle {
+	compatible = "zmk,behavior-macro";
+	label = "`";
+	#binding-cells = <0>;
+	bindings = <&macro_tap     	 &kp FR_GRV &kp SPACE>
+	;
+};
+
+CARAC_CIRC: accent_circonflexe {
+	compatible = "zmk,behavior-macro";
+	label = "^";
+	#binding-cells = <0>;
+	bindings = <&macro_tap     	 &kp FR_CIRC &kp SPACE>
+	;
+};
