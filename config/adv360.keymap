@@ -48,7 +48,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "GRAVE_ESCAPE";
             #binding-cells = <0>;
-            bindings = <&E_CIRC_MIN>, <&kp GRAVE>;
+            bindings = <&E_CIRC_MIN>, <&E_CIRC_MIN>;
             mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
         };
 
