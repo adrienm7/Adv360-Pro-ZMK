@@ -10,3 +10,34 @@ zed_em_kay: zed_em_kay {
 };
 
 
+SPACE_QUES: espace_point_interrogation {
+	compatible = "zmk,behavior-macro";
+	label = "_?";
+	#binding-cells = <0>;
+	bindings = <&macro_tap     	 &ESP_INSEC_FINE &kp FR_QUES>
+	;
+};
+
+SPACE_EXLM: espace_point_exclamation {
+	compatible = "zmk,behavior-macro";
+	label = "_!";
+	#binding-cells = <0>;
+	bindings = <&macro_tap     	 &ESP_INSEC_FINE &kp FR_EXLM>
+	;
+};
+
+SPACE_SCLN: espace_point_virgule {
+	compatible = "zmk,behavior-macro";
+	label = "_;";
+	#binding-cells = <0>;
+	bindings = <&macro_tap     	 &ESP_INSEC_FINE &kp FR_SCLN>
+	;
+};
+
+SPACE_COLN: espace_deux_points {
+	compatible = "zmk,behavior-macro";
+	label = "_:";
+	#binding-cells = <0>;
+	bindings = <&macro_tap     	 &ESP_INSEC &kp FR_COLN>
+	;
+};
