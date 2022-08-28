@@ -40,6 +40,14 @@ QU: qu {
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
+OU_GRV: ou {
+	compatible = "zmk,behavior-mod-morph";
+	label = "où Où";
+	#binding-cells = <0>;
+	bindings = <&OU_GRV_MIN>, <&OU_GRV_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
 
 
 E_AIG: e_accent_aigu {
