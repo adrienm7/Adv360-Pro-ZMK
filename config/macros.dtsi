@@ -11,6 +11,16 @@ zed_em_kay: zed_em_kay {
 
 
 
+CTRL_SHIFT: ctrl_shift {
+	label = "Ctrl + Shift";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp LCTRL &kp LSHFT>
+	;
+};
+
+
+
 QU_MIN: qu_minuscule {
 	compatible = "zmk,behavior-macro";
 	label = "qu";
