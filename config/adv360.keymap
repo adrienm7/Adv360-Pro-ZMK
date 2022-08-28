@@ -23,7 +23,7 @@
 / {
 
 	behaviors {
-		#include "unicode.dtsi"
+		#include "caracteres_unicode.dtsi"
 		#include "macros.dtsi"
 		#include "touches.dtsi"
 
