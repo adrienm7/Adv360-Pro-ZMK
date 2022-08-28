@@ -49,7 +49,7 @@
             label = "êÊ";
             #binding-cells = <0>;
             bindings = <&E_CIRC_MIN>, <&E_CIRC_MAJ>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
 	};
