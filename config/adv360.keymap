@@ -49,7 +49,7 @@
             label = "GRAVE_ESCAPE";
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp GRAVE>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
 	};
