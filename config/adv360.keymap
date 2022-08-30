@@ -51,7 +51,7 @@
          		&kp LC(FR_C)   	    &A_GRV		        &kp FR_Y            &kp FR_O            &QU			  		&kp FR_B            &none             																																							        &none               &kp FR_F            &kp FR_D            &kp FR_L      	    &kp FR_P  	  	     &APOS_QUES		     &kp FR_PRCNT
            		&kp LC(FR_V)        &kp FR_A            &kp FR_I            &kp FR_E            &kp FR_U       		&COMM_SCLN	        &none          				  		   &kp ENTER       	   &kp LGUI             				 					   &kp RCTRL           &key_repeat       					    &none               &kp FR_M   	        &kp FR_S   	        &kp FR_N            &kp FR_T             &kp FR_R            &CIRC_EXCL
 				&kp LC(FR_X)   		&E_GRV		     	&kp FR_Z            &kp FR_DQUO		    &E_AIG		     	&DOT_CLN            				   &none          	   &none               &kp TAB             &none          	    &none 	           &CTRL_SHIFT     	   &none    	       &none   					   			    &kp FR_V  		    &kp FR_C  	        &kp FR_H            &kp FR_G     	     &kp FR_X            &kp FR_EQUAL
-				&kp LC(FR_S) 		&kp LEFT  	   		&kp RIGHT           &E_CIRC		        &kp FR_K       											   &ESPACE             &RETOUR_ARRIERE     &kp LEFT_ALT  						 		’			   &tog NAV		   	   &mo SYMB            &TD_SHIFT			        					  		    &kp FR_W          	&kp FR_J            &kp UP  	  	     &kp DOWN            &kp FR_EURO
+				&kp LC(FR_S) 		&kp LEFT  	   		&kp RIGHT           &E_CIRC		        &kp FR_K       											   &ESPACE             &RETOUR_ARRIERE     &kp LEFT_ALT  						 					   &tog NAV		   	   &mo SYMB            &TD_SHIFT			        					  		    &kp FR_W          	&kp FR_J            &kp UP  	  	     &kp DOWN            &kp FR_EURO
             >;
         };
 
@@ -68,7 +68,7 @@
         layer_nav {
             bindings = <
 				&trans          	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
-				&trans				&trans				&trans				&trans				&trans				&trans				&trans   																																											&trans  			&trans          	&trans   	&trans          	&trans          	 &trans    	 &kp F12
+				&trans				&trans				&trans				&trans				&trans				&trans				&trans   																																											&trans  			&trans          	&aller_debut_doc   	&trans          	&trans          	 &aller_fin_doc    	 &kp F12
 				&trans				&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&trans				&trans          						&trans              &trans          							               &trans              &trans   				                &trans              &trans  			&kp PAGE_UP  	 	&kp UP  		 	&kp DOWN    	 	 &kp PAGE_DOWN  	 &trans
 				&trans              &trans				&trans				&trans				&trans              &trans            		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&trans              &trans              &trans     	 		&trans          	 &trans  			 &trans
 				&trans              &trans              &trans              &trans              &trans  						                			&trans              &trans              &trans          								           &trans              &trans              &trans          												&trans			 	&trans              &trans               &trans              &trans
