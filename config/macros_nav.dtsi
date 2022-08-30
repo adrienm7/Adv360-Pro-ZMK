@@ -91,7 +91,7 @@ dupliquer_haut: dupliquer_haut {
 
 dupliquer_bas: dupliquer_bas {
 	compatible = "zmk,behavior-macro";
-	label = dupliquer_bas";
+	label = "dupliquer_bas";
 	#binding-cells = <0>;
 	bindings
 		= <&macro_press 	&kp LALT>
