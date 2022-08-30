@@ -68,7 +68,7 @@
         layer_nav {
             bindings = <
 				&trans          	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
-				&trans				&trans				&trans				&trans				&trans				&trans				&trans   																																											&trans  			&trans          	&copie_debut_doc   	&aller_debut_doc   	&aller_fin_doc     	 &copie_fin_doc    	 &kp F12
+				&trans				&trans				&trans				&trans				&trans				&trans				&trans   																																											&trans  			&trans          	&trans   	&trans   	&trans     	 &trans    	 &kp F12
 				&trans				&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&trans				&trans          						&trans              &trans          							               &trans              &trans   				                &trans              &trans  			&kp PAGE_UP  	 	&kp UP  		 	&kp DOWN    	 	 &kp PAGE_DOWN  	 &trans
 				&trans              &trans				&trans				&trans				&trans              &trans            		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&trans              &dupliquer_haut     &deplacer_haut     	&deplacer_bas        &dupliquer_bas  	 &trans
 				&trans              &trans              &trans              &trans              &trans  						                			&trans              &trans              &trans          								           &trans              &trans              &trans          												&trans			 	&trans              &trans               &trans              &trans
