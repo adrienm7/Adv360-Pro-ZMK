@@ -25,7 +25,7 @@
 	behaviors {
 		#include "caracteres_unicode.dtsi"
 		#include "macros.dtsi"
-		#include "macros_nav.dtsi"
+
 		#include "touches.dtsi"
 
 		TD_SHIFT: tap_dance_shift {
