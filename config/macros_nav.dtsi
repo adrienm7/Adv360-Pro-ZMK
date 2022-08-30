@@ -1,0 +1,23 @@
+
+
+aller_debut_doc: aller_debut_doc {
+	compatible = "zmk,behavior-macro";
+	label = "aller_debut_doc";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press &kp LCTRL>
+		, <&macro_tap &kp HOME>
+		, <&macro_release &kp LCTRL>
+	;
+};
+
+aller_fin_doc: aller_fin_doc {
+	compatible = "zmk,behavior-macro";
+	label = "aller_fin_doc";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press &kp LCTRL>
+		, <&macro_tap &kp END>
+		, <&macro_release &kp LCTRL>
+	;
+};
