@@ -39,6 +39,22 @@ QU: qu {
 	bindings = <&QU_MIN>, <&QU_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
+QU_ALT: qu_alt {
+	compatible = "zmk,behavior-mod-morph";
+	label = "Alt + Q";
+	#binding-cells = <0>;
+	bindings = <&QU>, <&kp LA(FR_Q)>;
+	mods = <MOD_LALT>;
+};
+QU_CTRL: qu_ctrl {
+	compatible = "zmk,behavior-mod-morph";
+	label = "Ctrl + Q";
+	#binding-cells = <0>;
+	bindings = <&QU_ALT>, <&kp LC(FR_Q)>;
+	mods = <(MOD_LCTRL|MOD_RCTRL)>;
+};
+
+
 
 OU: ou {
 	compatible = "zmk,behavior-mod-morph";
