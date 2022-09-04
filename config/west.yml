@@ -8,7 +8,7 @@ manifest:
           url-base: https://github.com/refil
     projects:
         - name: zmk
-          remote: adrienm7
+          remote: refil
           revision: adv360-beta
           import: app/west.yml
     self:
