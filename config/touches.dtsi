@@ -52,7 +52,7 @@ QU_CTRL: qu_ctrl {
 	compatible = "zmk,behavior-mod-morph";
 	label = "Ctrl + Q";
 	#binding-cells = <0>;
-	bindings = <&QU_ALT>, <&kp LC(FR_Q)>;
+	bindings = <&QU>, <&kp FR_Q>;
 	mods = <(MOD_LCTRL|MOD_RCTRL)>;
 };
 
