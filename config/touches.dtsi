@@ -41,6 +41,15 @@ QU: qu {
 };
 
 
+TOUCHE_QU: touche_qu {
+	compatible = "zmk,behavior-mod-morph";
+	label = "Touche [qu]";
+	#binding-cells = <0>;
+	bindings = <&QU>, <&kp FR_Q> ;
+	mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI|MOD_RCTL|MOD_RALT|MOD_RGUI)>;
+};
+
+
 
 OU: ou {
 	compatible = "zmk,behavior-mod-morph";
