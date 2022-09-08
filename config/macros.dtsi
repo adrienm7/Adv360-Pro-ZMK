@@ -39,8 +39,10 @@ CTRL_SHIFT: ctrl_shift {
 	label = "Ctrl + Shift";
 	compatible = "zmk,behavior-macro";
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp LCTRL &kp LSHFT>
-	;
+	wait-ms = <0>;
+	bindings = <&macro_press &kp LSHFT &kp LCTL>
+    	     , <&macro_pause_for_release>
+    		 , <&macro_release &kp LSHFT &kp LCTL>;
 };
 
 
