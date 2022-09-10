@@ -8,8 +8,8 @@ manifest:
           url-base: https://github.com/adrienm7
     projects:
         - name: zmk
-          remote: adrienm7
-          revision: main
+          remote: refil
+          revision: adv360-beta
           import: app/west.yml
     self:
         path: config
