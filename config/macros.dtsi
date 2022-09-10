@@ -10,6 +10,7 @@ zed_em_kay: zed_em_kay {
 };
 
 
+
 ALTGR_ENTER: altgr_enter {
 	compatible = "zmk,behavior-macro";
 	label = "altgr_enter";
