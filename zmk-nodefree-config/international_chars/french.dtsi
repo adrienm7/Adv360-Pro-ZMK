@@ -1,0 +1,4 @@
+/* French letters */
+
+//                Name     	  	Unshifted        	Shifted
+ZMK_UNICODE_PAIR( FR_E_AIG,     N0, N2, N3, N3,     N0, N2, N0, N1 )
