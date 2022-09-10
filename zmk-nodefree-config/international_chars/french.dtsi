@@ -1,4 +1,20 @@
-/* French letters */
-
-//                Name     	  	Unshifted        	Shifted
-ZMK_UNICODE_PAIR( FR_E_AIG,     N0, N2, N3, N3,     N0, N2, N0, N1 )
+//                Name     	  				Unshifted        		Shifted
+ZMK_UNICODE_PAIR( FR_A_GRV,     			N0, N0, FR_E, N0,     	N0, N0, FR_C, N0 )
+ZMK_UNICODE_PAIR( FR_U_GRV,     			N0, N0, FR_F, N9,     	N0, N0, FR_D, N9 )
+ZMK_UNICODE_PAIR( FR_E_GRV,     			N0, N0, FR_E, N8,     	N0, N0, FR_C, N8 )
+ZMK_UNICODE_PAIR( FR_E_AIG,     			N0, N0, FR_E, N9,     	N0, N0, FR_C, N9 )
+ZMK_UNICODE_PAIR( FR_E_CIR,     			N0, N0, FR_E, FR_A,    	N0, N0, FR_C, FR_A )
+ZMK_UNICODE_PAIR( FR_C_CED,     			N0, N0, FR_E, N7,     	N0, N0, FR_C, N7 )
+ZMK_UNICODE_PAIR( FR_LIG_AE,    			N0, N0, FR_E, N6,     	N0, N0, FR_C, N6 )
+ZMK_UNICODE_PAIR( FR_LIG_OE,    			N0, N1, N5, N3,     	N0, N1, N5, N2 )
+ZMK_UNICODE_PAIR( FR_T_PIPE,    			N0, N0, N7, FR_C,     	N0, N0, FR_A, N6 )
+ZMK_UNICODE_PAIR( FR_T_TILDE,    			N0, N0, N7, FR_E,     	FR_D, FR_D, N5, N8 )
+ZMK_UNICODE_PAIR( FR_T_EGAL,    			N0, N0, N3, FR_D,     	N2, N2, N6, N0 )
+ZMK_UNICODE_PAIR( FR_T_PLUS,    			N0, N0, N2, FR_B,     	N0, N0, FR_B, N1 )
+ZMK_UNICODE_PAIR( FR_T_FOIS,    			N0, N0, N2, FR_A,     	N0, N0, FR_D, N7 )
+ZMK_UNICODE_PAIR( FR_T_MOINS_GRAND,    		N0, N0, N3, FR_C,     	N2, FR_A, N7, FR_E )
+ZMK_UNICODE_PAIR( FR_T_PLUS_GRAND,    		N0, N0, N3, FR_E,     	N2, FR_A, N7, FR_D )
+ZMK_UNICODE_PAIR( FR_T_PT_INTER,    		N0, N0, N3, FR_F,     	N0, N0, FR_B, FR_F )
+ZMK_UNICODE_PAIR( FR_T_PT_EXCL,    			N0, N0, N2, N1,     	N0, N0, FR_A, N1 )
+ZMK_UNICODE_PAIR( FR_T_SLASH,    			N0, N0, N2, FR_F,     	N0, N0, FR_F, N7 )
+ZMK_UNICODE_PAIR( FR_T_QUOTE,    			N0, N0, N2, N7,     	N0, N0, N2, N2 )
