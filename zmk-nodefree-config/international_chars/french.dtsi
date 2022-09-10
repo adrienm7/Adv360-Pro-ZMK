@@ -1,7 +1,4 @@
-/* French letters */
-
 ZMK_UNICODE_SINGLE(FR_U_GRV_M, N0, N0, F, N9)
-ZMK_UNICODE_SINGLE(FR_U_GRV_J, N0, N0, D, D9)
 
 
 
