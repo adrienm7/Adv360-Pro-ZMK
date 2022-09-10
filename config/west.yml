@@ -2,10 +2,10 @@ manifest:
     remotes:
         - name: zmkfirmware
           url-base: https://github.com/zmkfirmware
-        - name: adrienm7
-          url-base: https://github.com/adrienm7
         - name: refil
           url-base: https://github.com/refil
+        - name: adrienm7
+          url-base: https://github.com/adrienm7
     projects:
         - name: zmk
           remote: adrienm7
