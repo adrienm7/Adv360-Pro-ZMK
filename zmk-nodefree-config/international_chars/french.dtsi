@@ -1,6 +1,11 @@
 ZMK_UNICODE_SINGLE( FR_A_GRV_MIN, N0, N0, E, N0 )
 ZMK_UNICODE_SINGLE( FR_A_GRV_MAJ, N0, N0, C, N0 )
 
+
+
+
+
+
 //                Name     	  				Unshifted        		Shifted
 ZMK_UNICODE_PAIR( FR_A_GRV,     			N0, N0, FR_E, N0,     	N0, N0, FR_C, N0 )
 ZMK_UNICODE_PAIR( FR_U_GRV,     			N0, N0, FR_F, N9,     	N0, N0, FR_D, N9 )
