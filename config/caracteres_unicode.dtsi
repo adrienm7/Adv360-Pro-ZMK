@@ -26,7 +26,6 @@ E_AIG_MAJ: e_accent_aigu_majuscule {
 };
 
 
-
 E_GRV_MIN: e_accent_grave_minuscule {
 	compatible = "zmk,behavior-macro";
 	label = "è";
