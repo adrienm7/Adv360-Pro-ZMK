@@ -4,10 +4,12 @@ manifest:
           url-base: https://github.com/zmkfirmware
         - name: refil
           url-base: https://github.com/refil
+        - name: adrienm7
+          url-base: https://github.com/adrienm7
     projects:
         - name: zmk
-          remote: refil
-          revision: adv360-beta
+          remote: adrienm7
+          revision: main
           import: app/west.yml
     self:
         path: config
