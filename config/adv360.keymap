@@ -23,23 +23,17 @@
 #define MOD   	3
 
 
-
+ZMK_BEHAVIOR(TD_SHIFT, tap_dance,
+    tapping-term-ms = <200>;
+    bindings = <&sk LEFT_SHIFT>, <&caps_word>;
+)
+/* peut-être que sticky ne fonctionne pas, cf. https://github.com/zmkfirmware/zmk/issues/683 */
 
 / {
 
 	behaviors {
 		#include "caracteres_unicode.dtsi"
 		#include "touches.dtsi"
-
-		TD_SHIFT: tap_dance_shift {
-			compatible = "zmk,behavior-tap-dance";
-			label = "TAP_DANCE_SHIFT";
-			#binding-cells = <0>;
-			tapping-term-ms = <200>;
-			bindings = <&sk LEFT_SHIFT>, <&caps_word>;
-		};
-		/* peut-être que sticky ne fonctionne pas, cf. https://github.com/zmkfirmware/zmk/issues/683 */
-
 	};
 
 
