@@ -20,6 +20,17 @@
 #define NAV   	2
 #define MOD   	3
 
+
+ZMK_BEHAVIOR(ALTGR_ENTER, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings
+		= <&macro_press 	&kp RALT>
+		, <&macro_tap 	  	&kp ENTER>
+		, <&macro_release 	&kp RALT>
+	;
+)
+
 / {
 
 	behaviors {
@@ -36,16 +47,6 @@
 			bindings = <&sk LEFT_SHIFT>, <&caps_word>;
 		};
 		/* peut-être que sticky ne fonctionne pas, cf. https://github.com/zmkfirmware/zmk/issues/683 */
-
-ZMK_BEHAVIOR(ALTGR_ENTER, macro,
-    wait-ms = <100>;
-    tap-ms = <5>;
-	bindings
-		= <&macro_press 	&kp RALT>
-		, <&macro_tap 	  	&kp ENTER>
-		, <&macro_release 	&kp RALT>
-	;
-);
 
 	};
 
