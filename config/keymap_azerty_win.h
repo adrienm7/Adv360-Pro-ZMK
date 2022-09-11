@@ -35,7 +35,7 @@
 #define FR_I  		I    		 	   // I
 #define FR_O   		O    		  	   // O
 #define FR_P   		P    		 	   // P
-#define FR_CIRC		LEFT_BRACKET  	   // ^ (dead)
+#define FR_CIR		LEFT_BRACKET  	   // ^ (dead)
 #define FR_DLLR  	RIGHT_BRACKET	   // $
 // Rangée du milieu
 #define FR_Q  		A   		 	   // Q

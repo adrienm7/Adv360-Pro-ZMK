@@ -287,7 +287,7 @@ CARAC_TILDE: tilde {
 	;
 };
 
-CARAC_GRV: tidle {
+CARAC_GRV: grave {
 	compatible = "zmk,behavior-macro";
 	label = "`";
 	#binding-cells = <0>;
@@ -303,7 +303,7 @@ CARAC_CIRC: accent_circonflexe {
 	#binding-cells = <0>;
 	wait-ms = <40>;
 	tap-ms = <40>;
-	bindings = <&macro_tap     	 &kp FR_CIRC &kp SPACE>
+	bindings = <&macro_tap     	 &kp FR_CIR &kp SPACE>
 	;
 };
 
