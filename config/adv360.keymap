@@ -21,12 +21,6 @@
 #define NAV   	2
 #define MOD   	3
 
-
-
-
-/ {
-
-	behaviors {
 		#include "caracteres_unicode.dtsi"
 		#include "macros_nav.dtsi"
 		#include "touches.dtsi"
@@ -40,7 +34,9 @@
 		};
 		/* peut-être que sticky ne fonctionne pas, cf. https://github.com/zmkfirmware/zmk/issues/683 */
 
-	};
+
+
+/ {
 
 
 
