@@ -18,7 +18,7 @@ ZMK_BEHAVIOR(ALTGR_ENTER, macro,
 		, <&macro_tap 	  	&kp ENTER>
 		, <&macro_release 	&kp RALT>
 	;
-)
+);
 
 ALTGR_DEL: altgr_del {
 	compatible = "zmk,behavior-macro";
