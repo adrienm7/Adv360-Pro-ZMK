@@ -14,7 +14,7 @@
 #include "keymap_azerty_win.h"
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/international_chars/french.dtsi"
-#include "macros2.dtsi"
+#include "macros.dtsi"
 
 #define DEFAULT 0
 #define SYMB   	1
@@ -28,7 +28,6 @@
 
 	behaviors {
 		#include "caracteres_unicode.dtsi"
-		#include "macros.dtsi"
 		#include "macros_nav.dtsi"
 		#include "touches.dtsi"
 
