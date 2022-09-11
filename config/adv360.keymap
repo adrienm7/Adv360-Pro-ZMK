@@ -14,6 +14,7 @@
 #include "keymap_azerty_win.h"
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/international_chars/french.dtsi"
+#include "macros2.dtsi"
 
 #define DEFAULT 0
 #define SYMB   	1
@@ -21,15 +22,7 @@
 #define MOD   	3
 
 
-ZMK_BEHAVIOR(ALTGR_ENTER, macro,
-    wait-ms = <100>;
-    tap-ms = <5>;
-	bindings
-		= <&macro_press 	&kp RALT>
-		, <&macro_tap 	  	&kp ENTER>
-		, <&macro_release 	&kp RALT>
-	;
-)
+
 
 / {
 

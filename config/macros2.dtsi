@@ -1,0 +1,9 @@
+ZMK_BEHAVIOR(ALTGR_ENTER, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings
+		= <&macro_press 	&kp RALT>
+		, <&macro_tap 	  	&kp ENTER>
+		, <&macro_release 	&kp RALT>
+	;
+)
