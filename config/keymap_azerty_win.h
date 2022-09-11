@@ -130,4 +130,4 @@
 #define FR_RBKT  	RA(FR_RPRN) 	   // ]
 #define FR_RBRC 	RA(FR_EQUAL) 	   // }
 // Rangée du haut
-#define FR_EURO 	RA(FR_E)  		   // €
+#define FR_EUR	 	RA(FR_E)  		   // €
