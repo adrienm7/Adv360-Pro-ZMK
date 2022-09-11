@@ -1,133 +1,85 @@
-zed_em_kay: zed_em_kay {
-	compatible = "zmk,behavior-macro";
-	label = "ZM_zed_em_kay";
-	#binding-cells = <0>;
-	bindings
-		= <&macro_press &kp LSHFT>
-		, <&macro_tap &kp Z &kp M &kp K>
-		, <&macro_release &kp LSHFT>
-	;
-};
-
-
-ALTGR_ENTER: altgr_enter {
-	compatible = "zmk,behavior-macro";
-	label = "altgr_enter";
-	#binding-cells = <0>;
+ZMK_BEHAVIOR(ALTGR_ENTER, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press 	&kp RALT>
 		, <&macro_tap 	  	&kp ENTER>
 		, <&macro_release 	&kp RALT>
 	;
-};
+)
 
-ALTGR_DEL: altgr_del {
-	compatible = "zmk,behavior-macro";
-	label = "altgr_del";
-	#binding-cells = <0>;
+ZMK_BEHAVIOR(ALTGR_DEL, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press 	&kp RALT>
 		, <&macro_tap 	  	&kp DELETE>
 		, <&macro_release 	&kp RALT>
 	;
-};
+)
 
 
 
-CTRL_SHIFT: ctrl_shift {
-	label = "Ctrl + Shift";
-	compatible = "zmk,behavior-macro";
-	#binding-cells = <0>;
-	wait-ms = <0>;
+ZMK_BEHAVIOR(CTRL_SHIFT, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings = <&macro_press &kp LSHFT &kp LCTL>
     	     , <&macro_pause_for_release>
     		 , <&macro_release &kp LSHFT &kp LCTL>;
-};
+)
 
 
 
-QU_MIN: qu_minuscule {
-	compatible = "zmk,behavior-macro";
-	label = "qu";
-	#binding-cells = <0>;
-	bindings = <&macro_tap 	&kp FR_Q &kp FR_U>
-	;
-};
+ZMK_BEHAVIOR(QU_MIN, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings = <&macro_tap 	&kp FR_Q &kp FR_U>;
+)
 
-QU_MAJ: q_maj_u_min {
-	compatible = "zmk,behavior-macro";
-	label = "Qu";
-	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &kp LS(FR_Q) &kp FR_U>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
-	;
-};
+ZMK_BEHAVIOR(QU_MAJ, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings = <&macro_tap     	 &kp LS(FR_Q) &kp FR_U>;
+)
 
 
 
-OU_MIN: ou_minuscule {
-	compatible = "zmk,behavior-macro";
-	label = "où_";
-	#binding-cells = <0>;
-	bindings = <&macro_tap 	&kp FR_O &U_GRV_MIN &kp SPACE>
-	;
-};
+ZMK_BEHAVIOR(OU_MIN, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings = <&macro_tap 	&kp FR_O &FR_U_GRV_MIN &kp SPACE>;
+)
 
-OU_MAJ: ou_majuscule {
-	compatible = "zmk,behavior-macro";
-	label = "Où_";
-	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap 		 &kp LS(FR_O) &U_GRV_MIN &kp SPACE>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
-	;
-};
+ZMK_BEHAVIOR(OU_MAJ, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings = <&macro_tap 	&kp LS(FR_O) &FR_U_GRV_MIN &kp SPACE>;
+)
 
 
 
-SPACE_QUES: espace_point_interrogation {
-	compatible = "zmk,behavior-macro";
-	label = "_?";
-	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &ESP_INSEC_FINE &kp FR_QUES>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
-	;
-};
+ZMK_BEHAVIOR(SPACE_QUES, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings = <&macro_tap     	 &FR_ESP_INSEC_FINE &kp FR_QUES>;
+)
 
-SPACE_EXLM: espace_point_exclamation {
-	compatible = "zmk,behavior-macro";
-	label = "_!";
-	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &ESP_INSEC_FINE &kp FR_EXLM>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
-	;
-};
+ZMK_BEHAVIOR(SPACE_EXLM, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings = <&macro_tap     	 &FR_ESP_INSEC_FINE &kp FR_EXLM>;
+)
 
-SPACE_SCLN: espace_point_virgule {
-	compatible = "zmk,behavior-macro";
-	label = "_;";
-	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &ESP_INSEC_FINE &kp FR_SCLN>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
-	;
-};
 
-SPACE_COLN: espace_deux_points {
-	compatible = "zmk,behavior-macro";
-	label = "_:";
-	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &ESP_INSEC &kp FR_COLN>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
-	;
-};
+
+ZMK_BEHAVIOR(SPACE_SCLN, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings = <&macro_tap     	 &FR_ESP_INSEC_FINE &kp FR_SCLN>;
+)
+
+ZMK_BEHAVIOR(SPACE_COLN, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+	bindings = <&macro_tap     	 &FR_ESP_INSEC &kp FR_COLN>;
+)
