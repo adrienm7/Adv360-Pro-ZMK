@@ -1,33 +1,28 @@
-
-
-aller_debut_doc: aller_debut_doc {
-	compatible = "zmk,behavior-macro";
-	label = "aller_debut_doc";
-	#binding-cells = <0>;
+ZMK_BEHAVIOR(aller_debut_doc, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press 	&kp LCTRL>
 		, <&macro_tap 		&kp HOME>
 		, <&macro_release 	&kp LCTRL>
 	;
-};
+)
 
-aller_fin_doc: aller_fin_doc {
-	compatible = "zmk,behavior-macro";
-	label = "aller_fin_doc";
-	#binding-cells = <0>;
+ZMK_BEHAVIOR(aller_fin_doc, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press		&kp LCTRL>
 		, <&macro_tap 		&kp END>
 		, <&macro_release 	&kp LCTRL>
 	;
-};
+)
 
 
 
-copie_debut_doc: copie_debut_doc {
-	compatible = "zmk,behavior-macro";
-	label = "copie_debut_doc";
-	#binding-cells = <0>;
+ZMK_BEHAVIOR(copie_debut_doc, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press 	&kp LSHIFT>
 		, <&macro_press 	&kp LCTRL>
@@ -35,12 +30,11 @@ copie_debut_doc: copie_debut_doc {
 		, <&macro_release 	&kp LCTRL>
 		, <&macro_release 	&kp LSHIFT>
 	;
-};
+)
 
-copie_fin_doc: copie_fin_doc {
-	compatible = "zmk,behavior-macro";
-	label = "copie_fin_doc";
-	#binding-cells = <0>;
+ZMK_BEHAVIOR(copie_fin_doc, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press 	&kp LSHIFT>
 		, <&macro_press 	&kp LCTRL>
@@ -48,38 +42,35 @@ copie_fin_doc: copie_fin_doc {
 		, <&macro_release 	&kp LCTRL>
 		, <&macro_release 	&kp LSHIFT>
 	;
-};
+)
 
 
-
-deplacer_haut: deplacer_haut {
-	compatible = "zmk,behavior-macro";
-	label = "deplacer_haut";
-	#binding-cells = <0>;
+ZMK_BEHAVIOR(deplacer_haut, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press 	&kp LALT>
 		, <&macro_tap 	  	&kp UP>
 		, <&macro_release 	&kp LALT>
 	;
-};
+)
 
-deplacer_bas: deplacer_bas {
-	compatible = "zmk,behavior-macro";
-	label = "deplacer_bas";
-	#binding-cells = <0>;
+ZMK_BEHAVIOR(deplacer_bas, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press 	&kp LALT>
 		, <&macro_tap 	  	&kp DOWN>
 		, <&macro_release 	&kp LALT>
 	;
-};
+)
 
 
 
-dupliquer_haut: dupliquer_haut {
-	compatible = "zmk,behavior-macro";
-	label = "dupliquer_haut";
-	#binding-cells = <0>;
+
+ZMK_BEHAVIOR(dupliquer_haut, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press 	&kp LALT>
 		, <&macro_press 	&kp LSHFT>
@@ -87,12 +78,11 @@ dupliquer_haut: dupliquer_haut {
 		, <&macro_release 	&kp LSHFT>
 		, <&macro_release 	&kp LALT>
 	;
-};
+)
 
-dupliquer_bas: dupliquer_bas {
-	compatible = "zmk,behavior-macro";
-	label = "dupliquer_bas";
-	#binding-cells = <0>;
+ZMK_BEHAVIOR(dupliquer_bas, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
 	bindings
 		= <&macro_press 	&kp LALT>
 		, <&macro_press 	&kp LSHFT>
@@ -100,4 +90,4 @@ dupliquer_bas: dupliquer_bas {
 		, <&macro_release 	&kp LSHFT>
 		, <&macro_release 	&kp LALT>
 	;
-};
+)

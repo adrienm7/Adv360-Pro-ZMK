@@ -15,14 +15,20 @@
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/international_chars/french.dtsi"
 #include "macros.dtsi"
+#include "macros_nav.dtsi"
 
 #define DEFAULT 0
 #define SYMB   	1
 #define NAV   	2
 #define MOD   	3
 
+
+
+
+/ {
+
+	behaviors {
 		#include "caracteres_unicode.dtsi"
-		#include "macros_nav.dtsi"
 		#include "touches.dtsi"
 
 		TD_SHIFT: tap_dance_shift {
@@ -34,9 +40,7 @@
 		};
 		/* peut-être que sticky ne fonctionne pas, cf. https://github.com/zmkfirmware/zmk/issues/683 */
 
-
-
-/ {
+	};
 
 
 
