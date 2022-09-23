@@ -1,0 +1,141 @@
+COMM_SCLN: virgule_point_virgule {
+	compatible = "zmk,behavior-mod-morph";
+	label = ",;";
+	#binding-cells = <0>;
+	bindings = <&kp FR_COMM>, <&SPACE_SCLN>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+DOT_CLN: point_deux_points {
+	compatible = "zmk,behavior-mod-morph";
+	label = ".:";
+	#binding-cells = <0>;
+	bindings = <&kp FR_DOT>, <&SPACE_COLN>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+CIRC_EXCL: circonflexe_exclamation {
+	compatible = "zmk,behavior-mod-morph";
+	label = "^!";
+	#binding-cells = <0>;
+	bindings = <&kp FR_CIRC>, <&SPACE_EXLM>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+APOS_QUES: apostrophe_interrogation {
+	compatible = "zmk,behavior-mod-morph";
+	label = "’?";
+	#binding-cells = <0>;
+	bindings = <&APOS_TYPO>, <&SPACE_QUES>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+QU: qu {
+	compatible = "zmk,behavior-mod-morph";
+	label = "qu Qu";
+	#binding-cells = <0>;
+	bindings = <&QU_MIN>, <&QU_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+TOUCHE_QU: touche_qu {
+	compatible = "zmk,behavior-mod-morph";
+	label = "Touche [qu]";
+	#binding-cells = <0>;
+	bindings = <&QU>, <&kp FR_Q> ;
+	mods = <(MOD_LCTL|MOD_LALT|MOD_LGUI|MOD_RCTL|MOD_RALT|MOD_RGUI)>;
+	masked-mods = <0>;
+};
+
+
+
+OU: ou {
+	compatible = "zmk,behavior-mod-morph";
+	label = "où Où";
+	#binding-cells = <0>;
+	bindings = <&OU_MIN>, <&OU_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+ESPACE: espace {
+	compatible = "zmk,behavior-mod-morph";
+	label = "_-";
+	#binding-cells = <0>;
+	bindings = <&kp SPACE>, <&TIRET>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+RETOUR_ARRIERE: retour_arriere {
+	compatible = "zmk,behavior-mod-morph";
+	label = "suppr del";
+	#binding-cells = <0>;
+	bindings = <&kp BACKSPACE>, <&SUPPR>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+
+
+E_AIG: e_accent_aigu {
+	compatible = "zmk,behavior-mod-morph";
+	label = "éÉ";
+	#binding-cells = <0>;
+	bindings = <&E_AIG_MIN>, <&E_AIG_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+E_GRV: e_accent_grave {
+	compatible = "zmk,behavior-mod-morph";
+	label = "èÈ";
+	#binding-cells = <0>;
+	bindings = <&E_GRV_MIN>, <&E_GRV_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+E_CIRC: e_accent_circonflexe {
+	compatible = "zmk,behavior-mod-morph";
+	label = "êÊ";
+	#binding-cells = <0>;
+	bindings = <&E_CIRC_MIN>, <&E_CIRC_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+A_GRV: a_accent_grave {
+	compatible = "zmk,behavior-mod-morph";
+	label = "àÀ";
+	#binding-cells = <0>;
+	bindings = <&A_GRV_MIN>, <&A_GRV_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+U_GRV: u_accent_grave {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ùÙ";
+	#binding-cells = <0>;
+	bindings = <&U_GRV_MIN>, <&U_GRV_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+C_CED: c_cedille {
+	compatible = "zmk,behavior-mod-morph";
+	label = "çÇ";
+	#binding-cells = <0>;
+	bindings = <&C_CED_MIN>, <&C_CED_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+LIG_OE: ligature_oe {
+	compatible = "zmk,behavior-mod-morph";
+	label = "çÇ";
+	#binding-cells = <0>;
+	bindings = <&LIG_OE_MIN>, <&LIG_OE_MAJ>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};

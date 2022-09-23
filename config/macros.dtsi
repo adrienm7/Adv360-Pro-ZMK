@@ -1,36 +1,144 @@
-  macro_quotes: macro_quotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_quotes";
-    #binding-cells = <0>;
-    bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
-  };
-  macro_dquotes: macro_dquotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_dquotes";
-    #binding-cells = <0>;
-    bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
-  };
-  macro_braces: macro_braces {
-    compatible = "zmk,behavior-macro";
-    label = "macro_braces";
-    #binding-cells = <0>;
-    bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
-  };
-  macro_parens: macro_parens {
-    compatible = "zmk,behavior-macro";
-    label = "macro_parens";
-    #binding-cells = <0>;
-    bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
-  };
-  macro_brackets: macro_brackets {
-    compatible = "zmk,behavior-macro";
-    label = "macro_brackets";
-    #binding-cells = <0>;
-    bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-  };
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
-  };
+zed_em_kay: zed_em_kay {
+	compatible = "zmk,behavior-macro";
+	label = "ZM_zed_em_kay";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press &kp LSHFT>
+		, <&macro_tap &kp Z &kp M &kp K>
+		, <&macro_release &kp LSHFT>
+	;
+};
+
+
+
+//  dot -> space -> sticky shift
+DOT_SPC: dot_spc {
+	compatible = "zmk,behavior-macro";
+	label = "dot_spc";
+	#binding-cells = <0>;
+	bindings = <&kp DOT &kp SPACE &sk LSHFT>;
+};
+
+
+
+ALTGR_ENTER: altgr_enter {
+	compatible = "zmk,behavior-macro";
+	label = "altgr_enter";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp RALT>
+		, <&macro_tap 	  	&kp ENTER>
+		, <&macro_release 	&kp RALT>
+	;
+};
+
+ALTGR_DEL: altgr_del {
+	compatible = "zmk,behavior-macro";
+	label = "altgr_del";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp RALT>
+		, <&macro_tap 	  	&kp DELETE>
+		, <&macro_release 	&kp RALT>
+	;
+};
+
+
+
+CTRL_SHIFT: ctrl_shift {
+	label = "Ctrl + Shift";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	wait-ms = <0>;
+	bindings = <&macro_press &kp LSHFT &kp LCTL>
+    	     , <&macro_pause_for_release>
+    		 , <&macro_release &kp LSHFT &kp LCTL>;
+};
+
+
+
+QU_MIN: qu_minuscule {
+	compatible = "zmk,behavior-macro";
+	label = "qu";
+	#binding-cells = <0>;
+	bindings = <&macro_tap 	&kp FR_Q &kp FR_U>
+	;
+};
+
+QU_MAJ: q_maj_u_min {
+	compatible = "zmk,behavior-macro";
+	label = "Qu";
+	#binding-cells = <0>;
+	bindings = <&macro_release 	 &kp LSHFT>
+			 , <&macro_tap     	 &kp LS(FR_Q) &kp FR_U>
+			 , <&macro_press 	 &kp LSHFT>
+        	 , <&macro_pause_for_release>
+	;
+};
+
+
+
+OU_MIN: ou_minuscule {
+	compatible = "zmk,behavior-macro";
+	label = "où_";
+	#binding-cells = <0>;
+	bindings = <&macro_tap 	&kp FR_O &U_GRV_MIN &kp SPACE>
+	;
+};
+
+OU_MAJ: ou_majuscule {
+	compatible = "zmk,behavior-macro";
+	label = "Où_";
+	#binding-cells = <0>;
+	bindings = <&macro_release 	 &kp LSHFT>
+			 , <&macro_tap 		 &kp LS(FR_O) &U_GRV_MIN &kp SPACE>
+			 , <&macro_press 	 &kp LSHFT>
+        	 , <&macro_pause_for_release>
+	;
+};
+
+
+
+SPACE_QUES: espace_point_interrogation {
+	compatible = "zmk,behavior-macro";
+	label = "_?";
+	#binding-cells = <0>;
+	bindings = <&macro_release 	 &kp LSHFT>
+			 , <&macro_tap     	 &ESP_INSEC_FINE &kp FR_QUES>
+			 , <&macro_press 	 &kp LSHFT>
+        	 , <&macro_pause_for_release>
+	;
+};
+
+SPACE_EXLM: espace_point_exclamation {
+	compatible = "zmk,behavior-macro";
+	label = "_!";
+	#binding-cells = <0>;
+	bindings = <&macro_release 	 &kp LSHFT>
+			 , <&macro_tap     	 &ESP_INSEC_FINE &kp FR_EXLM>
+			 , <&macro_press 	 &kp LSHFT>
+        	 , <&macro_pause_for_release>
+	;
+};
+
+SPACE_SCLN: espace_point_virgule {
+	compatible = "zmk,behavior-macro";
+	label = "_;";
+	#binding-cells = <0>;
+	bindings = <&macro_release 	 &kp LSHFT>
+			 , <&macro_tap     	 &ESP_INSEC_FINE &kp FR_SCLN>
+			 , <&macro_press 	 &kp LSHFT>
+        	 , <&macro_pause_for_release>
+	;
+};
+
+SPACE_COLN: espace_deux_points {
+	compatible = "zmk,behavior-macro";
+	label = "_:";
+	#binding-cells = <0>;
+	bindings = <&macro_release 	 &kp LSHFT>
+			 , <&macro_tap     	 &ESP_INSEC &kp FR_COLN>
+			 , <&macro_press 	 &kp LSHFT>
+        	 , <&macro_pause_for_release>
+	;
+};
