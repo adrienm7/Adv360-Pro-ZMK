@@ -52,7 +52,6 @@
 			bindings = <&DOT_CLN>, <&DOT_SPC>;
 		};
 
-
 	};
 
 
