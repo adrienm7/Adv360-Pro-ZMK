@@ -16,7 +16,7 @@ DOT_SPC: dot_spc {
 	compatible = "zmk,behavior-macro";
 	label = "dot_spc";
 	#binding-cells = <0>;
-	bindings = <&kp DOT &kp SPACE &sk LSHFT>;
+	bindings = <&kp FR_DOT &kp SPACE &sk LSHFT>;
 };
 
 
