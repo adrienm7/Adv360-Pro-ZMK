@@ -25,10 +25,9 @@ ALTGR_ENTER: altgr_enter {
 	compatible = "zmk,behavior-macro";
 	label = "altgr_enter";
 	#binding-cells = <0>;
-	bindings
-		= <&macro_press 	&kp RALT>
-		, <&macro_tap 	  	&kp ENTER>
-		, <&macro_release 	&kp RALT>
+	bindings = <&macro_press 	&kp RALT>
+			 , <&macro_tap 	  	&kp ENTER>
+			 , <&macro_release 	&kp RALT>
 	;
 };
 
@@ -69,10 +68,7 @@ QU_MAJ: q_maj_u_min {
 	compatible = "zmk,behavior-macro";
 	label = "Qu";
 	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &kp LS(FR_Q) &kp FR_U>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
+	bindings = <&macro_tap     	 &kp LS(FR_Q) &kp FR_U>
 	;
 };
 
@@ -90,10 +86,7 @@ OU_MAJ: ou_majuscule {
 	compatible = "zmk,behavior-macro";
 	label = "Où_";
 	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap 		 &kp LS(FR_O) &U_GRV_MIN &kp SPACE>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
+	bindings = <&macro_tap 		 &kp LS(FR_O) &U_GRV_MIN &kp SPACE>
 	;
 };
 
@@ -103,10 +96,7 @@ SPACE_QUES: espace_point_interrogation {
 	compatible = "zmk,behavior-macro";
 	label = "_?";
 	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &ESP_INSEC_FINE &kp FR_QUES>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
+	bindings = <&macro_tap     	 &ESP_INSEC_FINE &kp FR_QUES>
 	;
 };
 
@@ -114,10 +104,7 @@ SPACE_EXLM: espace_point_exclamation {
 	compatible = "zmk,behavior-macro";
 	label = "_!";
 	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &ESP_INSEC_FINE &kp FR_EXLM>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
+	bindings = <&macro_tap     	 &ESP_INSEC_FINE &kp FR_EXLM>
 	;
 };
 
@@ -125,10 +112,7 @@ SPACE_SCLN: espace_point_virgule {
 	compatible = "zmk,behavior-macro";
 	label = "_;";
 	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &ESP_INSEC_FINE &kp FR_SCLN>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
+	bindings = <&macro_tap     	 &ESP_INSEC_FINE &kp FR_SCLN>
 	;
 };
 
@@ -136,9 +120,6 @@ SPACE_COLN: espace_deux_points {
 	compatible = "zmk,behavior-macro";
 	label = "_:";
 	#binding-cells = <0>;
-	bindings = <&macro_release 	 &kp LSHFT>
-			 , <&macro_tap     	 &ESP_INSEC &kp FR_COLN>
-			 , <&macro_press 	 &kp LSHFT>
-        	 , <&macro_pause_for_release>
+	bindings = <&macro_tap     	 &ESP_INSEC &kp FR_COLN>
 	;
 };
