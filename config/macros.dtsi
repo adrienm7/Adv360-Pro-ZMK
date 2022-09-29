@@ -31,6 +31,17 @@ ALTGR_ENTER: altgr_enter {
 	;
 };
 
+ALTGR_DEL: altgr_bksp {
+	compatible = "zmk,behavior-macro";
+	label = "altgr_backspace";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp RALT>
+		, <&macro_tap 	  	&kp BACKSPACE>
+		, <&macro_release 	&kp RALT>
+	;
+};
+
 ALTGR_DEL: altgr_del {
 	compatible = "zmk,behavior-macro";
 	label = "altgr_del";

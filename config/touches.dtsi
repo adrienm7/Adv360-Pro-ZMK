@@ -72,7 +72,7 @@ RETOUR_ARRIERE: retour_arriere {
 	compatible = "zmk,behavior-mod-morph";
 	label = "suppr del";
 	#binding-cells = <0>;
-	bindings = <&kp BACKSPACE>, <&SUPPR>;
+	bindings = <&kp BACKSPACE>, <&kp DELETE>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -84,7 +84,7 @@ E_AIG: e_accent_aigu {
 	compatible = "zmk,behavior-mod-morph";
 	label = "éÉ";
 	#binding-cells = <0>;
-	bindings = <&E_AIG_MIN>, <&E_AIG_MAJ>;
+	bindings = <&kp FR_LEAC>, <&E_AIG_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -92,7 +92,7 @@ E_GRV: e_accent_grave {
 	compatible = "zmk,behavior-mod-morph";
 	label = "èÈ";
 	#binding-cells = <0>;
-	bindings = <&E_GRV_MIN>, <&E_GRV_MAJ>;
+	bindings = <&kp FR_LEGR>, <&E_GRV_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -110,7 +110,7 @@ A_GRV: a_accent_grave {
 	compatible = "zmk,behavior-mod-morph";
 	label = "àÀ";
 	#binding-cells = <0>;
-	bindings = <&A_GRV_MIN>, <&A_GRV_MAJ>;
+	bindings = <&kp FR_LAGR>, <&A_GRV_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -118,7 +118,7 @@ U_GRV: u_accent_grave {
 	compatible = "zmk,behavior-mod-morph";
 	label = "ùÙ";
 	#binding-cells = <0>;
-	bindings = <&U_GRV_MIN>, <&U_GRV_MAJ>;
+	bindings = <&kp FR_LUGR>, <&U_GRV_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -128,7 +128,7 @@ C_CED: c_cedille {
 	compatible = "zmk,behavior-mod-morph";
 	label = "çÇ";
 	#binding-cells = <0>;
-	bindings = <&C_CED_MIN>, <&C_CED_MAJ>;
+	bindings = <&kp FR_LCCE>, <&C_CED_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
