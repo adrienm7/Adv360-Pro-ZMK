@@ -65,7 +65,7 @@
          		&kp LC(FR_C)   	    &A_GRV		        &kp FR_Y            &kp FR_O            &kp FR_W	  		&kp FR_B            &dm1 RECORD 																																							       		&none               &kp FR_F            &kp FR_D            &kp FR_L      	    &kp FR_P  	  	     &APOS_QUES		     &CIRC_EXCL
            		&kp LC(FR_V)        &kp FR_A            &kp FR_I            &kp FR_E            &kp FR_U       		&COMM_SCLN	        &dm1 PLAY					  		    &kp ENTER       	&sk LEFT_ALT            				 				   &CTRL_SHIFT          &key_repeat       					    &none               &kp FR_M   	        &kp FR_S   	        &kp FR_N            &kp FR_T             &kp FR_R            &kp FR_EQUAL
 				&kp LC(FR_X)		&E_GRV		     	&kp FR_Z            &kp FR_DQUO		    &E_AIG		     	&TD_DOT	            				    &none          	    &none               &sk LGUI           &none          	    &none 	           &tog NAV     	   	&none    	       &none   					   			    &kp FR_V  		    &kp FR_C  	        &kp FR_H            &kp FR_G     	     &kp FR_X            &kp FR_PRCNT
-				&none				&kp LEFT  	   		&kp RIGHT           &E_CIRC		        &kp FR_K       											    &ESPACE             &RETOUR_ARRIERE     &kp TAB  						 					       &sk RCTRL		    &mo SYMB           &kp RShift			        					  		    &TOUCHE_QU       	&kp FR_J	        &kp UP  	  	     &kp DOWN            &kp FR_EURO
+				&none				&kp LEFT  	   		&kp RIGHT           &E_CIRC		        &kp FR_K       											    &ESPACE             &RETOUR_ARRIERE     &kp TAB  						 					       &sk RCTRL		    &mo SYMB           &kp RIGHT_SHIFT			       					  		    &TOUCHE_QU       	&kp FR_J	        &kp UP  	  	     &kp DOWN            &kp FR_EURO
             >;
         };
 
