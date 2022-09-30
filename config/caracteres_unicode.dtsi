@@ -22,6 +22,16 @@ E_AIG_MAJ: e_accent_aigu_majuscule {
 	;
 };
 
+S_E_AIG_MAJ: S_E_AIG_MAJ {
+	compatible = "zmk,behavior-macro";
+	label = "S_E_AIG_MAJ";
+	#binding-cells = <0>;
+	wait-ms = <40>;
+	tap-ms = <10>;
+	bindings = <&macro_tap    	 &kp FR_SECT &kp FR_LEAC>
+	;
+};
+
 
 
 E_GRV_MIN: e_accent_grave_minuscule {
@@ -72,6 +82,16 @@ E_CIRC_MIN: e_accent_circonflexe_minuscule {
 	;
 };
 
+S_E_CIRC_MIN: S_E_CIRC_MIN {
+	compatible = "zmk,behavior-macro";
+	label = "S_E_CIRC_MIN";
+	#binding-cells = <0>;
+	wait-ms = <40>;
+	tap-ms = <40>;
+	bindings = <&macro_tap    	 &kp FR_SECT &kp FR_E>
+	;
+};
+
 E_CIRC_MAJ: e_accent_circonflexe_majuscule {
 	compatible = "zmk,behavior-macro";
 	label = "Ê";
@@ -81,6 +101,16 @@ E_CIRC_MAJ: e_accent_circonflexe_majuscule {
 	bindings = <&macro_press   	 &kp LALT>
 			 , <&macro_tap     	 &kp KP_N2 &kp KP_N1 &kp KP_N0>
 			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+S_E_CIRC_MAJ: S_E_CIRC_MAJ {
+	compatible = "zmk,behavior-macro";
+	label = "S_E_CIRC_MAJ";
+	#binding-cells = <0>;
+	wait-ms = <40>;
+	tap-ms = <40>;
+	bindings = <&macro_tap    	 &kp FR_SECT &kp LS(FR_E)>
 	;
 };
 
@@ -107,6 +137,16 @@ A_GRV_MAJ: a_accent_grave_majuscule {
 	bindings = <&macro_press   	 &kp LALT>
 			 , <&macro_tap     	 &kp KP_N1 &kp KP_N8 &kp KP_N3>
 			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+S_A_GRV_MAJ: S_A_GRV_MAJ {
+	compatible = "zmk,behavior-macro";
+	label = "S_A_GRV_MAJ";
+	#binding-cells = <0>;
+	wait-ms = <40>;
+	tap-ms = <10>;
+	bindings = <&macro_tap    	 &kp FR_SECT &kp FR_LAGR>
 	;
 };
 
@@ -159,6 +199,16 @@ C_CED_MAJ: c_cedille_majuscule {
 	bindings = <&macro_press   	 &kp LALT>
 			 , <&macro_tap     	 &kp KP_N1 &kp KP_N2 &kp KP_N8>
 			 , <&macro_release 	 &kp LALT>
+	;
+};
+
+S_C_CED_MAJ: S_C_CED_MAJ {
+	compatible = "zmk,behavior-macro";
+	label = "S_C_CED_MAJ";
+	#binding-cells = <0>;
+	wait-ms = <40>;
+	tap-ms = <40>;
+	bindings = <&macro_tap    	 &kp FR_SECT &kp FR_LCCE>
 	;
 };
 
@@ -222,9 +272,7 @@ ESP_INSEC: espace_insecable {
 	#binding-cells = <0>;
 	wait-ms = <40>;
 	tap-ms = <40>;
-	bindings = <&macro_press   	 &kp LALT>
-			 , <&macro_tap     	 &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N0>
-			 , <&macro_release 	 &kp LALT>
+	bindings = <&macro_tap    	 &kp FR_SECT &kp SPACE>
 	;
 };
 
@@ -234,9 +282,7 @@ ESP_INSEC_FINE: espace_insecable_fine {
 	#binding-cells = <0>;
 	wait-ms = <40>;
 	tap-ms = <40>;
-	bindings = <&macro_press   	 &kp LALT>
-			 , <&macro_tap     	 &kp KP_N8 &kp KP_N2 &kp KP_N0 &kp KP_N1>
-			 , <&macro_release 	 &kp LALT>
+	bindings = <&macro_tap    	 &kp FR_SECT &kp SPACE>
 	;
 };
 

@@ -60,7 +60,7 @@
 		
         default_layer {
             bindings = <
-        		&kp DELETE 	   		&kp KP_N1   	    &kp KP_N2           &kp KP_N3           &kp KP_N4      		&kp FR_5            &none            																								    															    &mo MOD   	        &kp FR_6            &kp FR_7            &kp FR_8            &kp FR_9             &kp FR_0    	     &kp ESCAPE
+        		&kp DELETE 	   		&kp FR_1   	    	&kp FR_2           	&kp FR_3           	&kp FR_4      		&kp FR_5            &none            																								    															    &mo MOD   	        &kp FR_6            &kp FR_7            &kp FR_8            &kp FR_9             &kp FR_0    	     &kp ESCAPE
          		&kp LC(FR_C)   	    &A_GRV		        &kp FR_Y            &kp FR_O            &kp FR_W	  		&kp FR_B            &dm1 RECORD 																																							       		&none               &kp FR_F            &kp FR_D            &kp FR_L      	    &kp FR_P  	  	     &APOS_QUES		     &CIRC_EXCL
            		&kp LC(FR_V)        &kp FR_A            &kp FR_I            &kp FR_E            &kp FR_U       		&COMM_SCLN	        &dm1 PLAY					  		    &kp ENTER       	&CTRL_SHIFT         	    				 			   &sk LEFT_ALT         &tog NAV    	   					    &none               &kp FR_M   	        &kp FR_S   	        &kp FR_N            &kp FR_T             &kp FR_R            &kp FR_EQUAL
 				&kp LC(FR_X)		&E_GRV		     	&kp FR_Z            &kp FR_DQUO		    &E_AIG		     	&TD_DOT	            				    &none          	    &none               &mt LCTRL TAB      &none          	   &none 	           &sk RCTRL    	   	&none    	       &none   					   			    &kp FR_V  		    &kp FR_C  	        &kp FR_H            &kp FR_G     	     &kp FR_X            &kp FR_PRCNT
