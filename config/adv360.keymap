@@ -67,7 +67,7 @@
 				&kp LC(FR_X)		&E_GRV		     	&kp FR_Z            &kp FR_DQUO		    &E_AIG		     	&TD_DOT	            				    &none          	    &none               &sk LGUI           &none          	    &none 	           &key_repeat     	   	&none    	       &none   					   			    &kp FR_V  		    &kp FR_C  	        &kp FR_H            &kp FR_G     	     &kp FR_X            &kp FR_PRCNT
 				&none				&kp LEFT  	   		&kp RIGHT           &E_CIRC		        &kp FR_K       											    &ESPACE             &RETOUR_ARRIERE     &kp TAB  						 					       &sk RCTRL		    &mo SYMB           &TD_SHIFT				       					  		    &TOUCHE_QU       	&kp FR_J	        &kp UP  	  	     &kp DOWN            &kp FR_EURO
             >;
-        }
+        };
 
         layer_symb {
             bindings = <
