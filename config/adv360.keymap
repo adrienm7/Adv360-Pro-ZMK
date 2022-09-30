@@ -3,20 +3,33 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/dynamic-macros.h>
+
+#define DEFAULT 0
+#define SYMB   	1
+#define NAV   	2
+#define MOD   	3
+
+
 
 / {
     behaviors {
       #include "macros.dtsi"
 
-      hm: homerow_mods {
-          compatible = "zmk,behavior-hold-tap";
-          label = "HOMEROW_MODS";
-          #binding-cells = <2>;
-          tapping-term-ms = <200>;
-          quick_tap_ms = <175>;
-          flavor = "tap-preferred";
-          bindings = <&kp>, <&kp>;
-      };
+		dm1: dm1 {
+			compatible = "zmk,behavior-dynamic-macro";
+			label = "dynamic-macro-1";
+			wait-ms = <10>;
+			#binding-cells = <1>;
+		};
+		
+		TD_SHIFT: tap_dance_shift {
+			compatible = "zmk,behavior-tap-dance";
+			label = "TAP_DANCE_SHIFT";
+			#binding-cells = <0>;
+			tapping-term-ms = <200>;
+			bindings = <&sk RIGHT_SHIFT>, <&caps_word>;
+		};
     };
 
   keymap {
@@ -24,11 +37,11 @@
 
     default_layer {
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                                       &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &kp KP_NUMBER_1                                                      &kp KP_NUMBER_3 &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &kp KP_NUMBER_2    &kp LCTRL &kp LALT                    &kp LGUI  &kp RCTRL                   &kp KP_NUMBER_4 &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
-        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B        &none     &none     &kp HOME &none &none &kp PG_UP &none     &none            &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT               &kp SPACE &kp BKSP    &kp END              &kp PG_DN &kp ENTER  &kp RSHFT              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &kp DEL   &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 		&tog 1                                                                       													&mo 3 			&kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
+        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  		&kp KP_NUMBER_1                                                      															&kp KP_NUMBER_3 &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
+        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  		&kp KP_NUMBER_2    					&kp ENTER 	&kp LALT                    		&kp LALT  		&mo SYMB                   &kp KP_NUMBER_4 &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
+        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B        							&none     	&none     	&kp TAB 	&none 		&none 		&kp RCTRL 		&none     		&none            			&kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+        &mo 2     &kp LEFT &kp RIGHT		  &kp GRAVE &kp CAPS          						&kp SPACE 	&kp BKSP    &repeat              				&kp LGUI 		&kp RALT  		&kp RSHFT              		&kp LBKT &kp RBKT &kp UP &kp DOWN   &kp EQUAL
         >;
     };
     keypad {
