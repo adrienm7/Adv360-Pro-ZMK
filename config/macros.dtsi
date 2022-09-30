@@ -9,6 +9,17 @@ zed_em_kay: zed_em_kay {
 	;
 };
 
+ALT_TAB: alt_tab {
+	compatible = "zmk,behavior-macro";
+	label = "alt_tab";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press &kp LALT>
+		, <&macro_tap &kp TAB>
+		, <&macro_release &kp LALT>
+	;
+};
+
 
 
 //  dot -> space -> sticky shift
