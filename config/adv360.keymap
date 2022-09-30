@@ -32,6 +32,17 @@
 			tapping-term-ms = <200>;
 			bindings = <&sk RIGHT_SHIFT>, <&caps_word>;
 		};
+
+		ALT_TAB: alt_tab {
+			compatible = "zmk,behavior-macro";
+			label = "alt_tab";
+			#binding-cells = <0>;
+			bindings
+				= <&macro_press &kp LALT>
+				, <&macro_tap &kp TAB>
+				, <&macro_release &kp LALT>
+			;
+		};
     };
 
   keymap {
@@ -39,11 +50,11 @@
 
     default_layer {
       bindings = <
-        &kp DEL   	&kp N1    	&kp N2   &kp N3   &kp N4     &kp N5 		&tog 1                                                                       													&mo 3 			&kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp ESC
-        &kp LC(FR_C)   &kp Q     	&kp W    &kp E    &kp R      &kp T  		&dm1 RECORD                                                      															&kp KP_NUMBER_3 &kp Y  &kp U  &kp I     &kp O    &kp P    &kp RBKT
-        &kp LC(FR_V)   &kp A     	&kp S    &kp D    &kp F      &kp G  		&dm1 PLAY	    					&kp ENTER 	&kp LALT                    		&kp LALT  		&mo SYMB                   	&kp KP_NUMBER_4 &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp MINUS
-        &kp LC(FR_X) 	&kp NON_US_BSLH		&kp Z     &kp X    &kp C    &kp V              							&none     	&none     	&kp TAB 	&none 		&none 		&kp RCTRL 		&none     		&none            			&kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp EQUAL
-        &mo 2     	&kp LEFT &kp RIGHT		  &kp LBKT &kp B        				&kp SPACE 	&kp BKSP    &key_repeat              				&kp LGUI 		&kp RALT  		&TD_SHIFT              		&kp SQT &kp BSLH &kp UP &kp DOWN   &kp GRAVE
+        &kp DEL   		&kp N1    			&kp N2   		&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       													&mo 3 				&kp N6 			&kp N7 			&kp N8    		&kp N9   		&kp N0   			&kp ESC
+        &kp LC(OPT7_C)  &kp OPT7_A_GRV     	&kp OPT7_Y   	&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dm1 RECORD                                                      																&kp KP_NUMBER_3 	&kp OPT7_F 		&kp OPT7_D  	&kp OPT7_L     	&kp OPT7_P  	&kp OPT7_QUOTE    	&kp RBKT
+        &kp LC(OPT7_V)  &kp OPT7_A     		&kp OPT7_E    	&kp OPT7_I    		&kp OPT7_U      	&kp OPT7_COMMA  	&dm1 PLAY	    				&kp ENTER 	&kp LALT                    			&kp LALT  		&mo SYMB                   	&kp KP_NUMBER_4 	&kp OPT7_M		&kp OPT7_S  	&kp OPT7_N     	&kp OPT7_T    	&kp OPT7_R 			&kp MINUS
+        &kp LC(OPT7_X) 	&kp OPT7_E_GRV		&kp OPT7_Z     	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&kp OPT7_DOT              				&none     	&none     	&kp TAB 		&none 		&none 		&kp RCTRL 		&none     		&none            				&kp OPT7_V		&kp OPT7_C		&kp OPT7_H 		&kp OPT7_G 		&kp OPT7_X 			&kp EQUAL
+        &ALT_TAB   		&kp LEFT 			&kp RIGHT		&kp OPT7_E_CIRC		&kp OPT7_K        											&kp SPACE 	&kp BKSP    &key_repeat              				&kp LGUI 		&kp RALT  		&TD_SHIFT              							&kp OPT7_Q 		&kp OPT7_J 		&kp UP 			&kp DOWN   			&kp GRAVE
         >;
     };
     keypad {
