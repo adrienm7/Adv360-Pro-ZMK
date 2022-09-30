@@ -33,21 +33,21 @@
 			bindings = <&sk RIGHT_SHIFT>, <&caps_word>;
 		};
 
-		//  dot -> space -> sticky shift
-		DOT_SPC: DOT_SPC {
-			compatible = "zmk,behavior-macro";
-			label = "DOT_SPC";
-			#binding-cells = <0>;
-			bindings = <&kp FR_DOT &kp SPACE &sk LSHFT>;
-		};
+		// //  dot -> space -> sticky shift
+		// DOT_SPC: DOT_SPC {
+		// 	compatible = "zmk,behavior-macro";
+		// 	label = "DOT_SPC";
+		// 	#binding-cells = <0>;
+		// 	bindings = <&kp FR_DOT &kp SPACE &sk LSHFT>;
+		// };
 
-		TD_DOT: TD_DOT {
-			compatible = "zmk,behavior-tap-dance";
-			label = "TD_DOT";
-			#binding-cells = <0>;
-			tapping-term-ms = <200>;
-			bindings = <&kp OPT7_DOT>, <&DOT_SPC>;
-		};
+		// TD_DOT: TD_DOT {
+		// 	compatible = "zmk,behavior-tap-dance";
+		// 	label = "TD_DOT";
+		// 	#binding-cells = <0>;
+		// 	tapping-term-ms = <200>;
+		// 	bindings = <&kp OPT7_DOT>, <&DOT_SPC>;
+		// };
 
 		ALT_TAB: ALT_TAB {
 			compatible = "zmk,behavior-macro";
