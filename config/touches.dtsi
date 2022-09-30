@@ -92,7 +92,7 @@ E_GRV: e_accent_grave {
 	compatible = "zmk,behavior-mod-morph";
 	label = "èÈ";
 	#binding-cells = <0>;
-	bindings = <&kp FR_LEGR>, <&E_GRV_MAJ>;
+	bindings = <&kp FR_LEGR>, <&S_E_GRV_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 

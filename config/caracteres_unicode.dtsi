@@ -48,6 +48,16 @@ E_GRV_MAJ: e_accent_grave_majuscule {
 	;
 };
 
+S_E_GRV_MAJ: S_E_GRV_MAJ {
+	compatible = "zmk,behavior-macro";
+	label = "È";
+	#binding-cells = <0>;
+	wait-ms = <40>;
+	tap-ms = <10>;
+	bindings = <&macro_tap    	 &kp FR_SECT &kp FR_LEGR>
+	;
+};
+
 
 
 E_CIRC_MIN: e_accent_circonflexe_minuscule {
