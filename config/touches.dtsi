@@ -100,7 +100,7 @@ E_CIRC: e_accent_circonflexe {
 	compatible = "zmk,behavior-mod-morph";
 	label = "êÊ";
 	#binding-cells = <0>;
-	bindings = <&E_CIRC_MIN>, <&E_CIRC_MAJ>;
+	bindings = <&S_E_CIRC_MIN>, <&S_E_CIRC_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -110,7 +110,7 @@ A_GRV: a_accent_grave {
 	compatible = "zmk,behavior-mod-morph";
 	label = "àÀ";
 	#binding-cells = <0>;
-	bindings = <&kp FR_LAGR>, <&A_GRV_MAJ>;
+	bindings = <&kp FR_LAGR>, <&S_A_GRV_MAJ>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
