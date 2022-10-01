@@ -27,8 +27,8 @@
         	&kp DEL   			&kp N1    			&kp N2   			&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       																										&mo MOD 			&kp N6 				&kp N7 				&kp N8    			&kp N9   			&kp N0   			&kp ESC
         	&kp LC(OPT7_C)  	&kp OPT7_A_GRV     	&kp OPT7_Y   		&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dynamic_macro_1 RECORD                                                      																										&kp KP_NUMBER_3 	&kp OPT7_F 			&kp OPT7_D  		&kp OPT7_L  	   	&kp OPT7_P  		&kp OPT7_QUOTE    	&kp RBKT
         	&kp LC(OPT7_V)  	&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&kp ENTER 			&sk LALT                    								&sk LALT  			&sk RCTRL                   				&kp KP_NUMBER_4 	&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp MINUS
-        	&kp LC(OPT7_X) 		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&td_dot		              				&none     			&none     			&mt LCTRL TAB 		&none 				&none 				&sk LGUI 			&none     			&none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp EQUAL
-        	&alt_tab   			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&kp SPACE 			&bksp_del   		&key_repeat              									&td_nav 			&sk RALT  			&td_shift              										&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp GRAVE
+        	&kp LC(OPT7_X) 		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&td_dot		              				&none     			&none     			&key_repeat 		&none 				&none 				&sk LGUI 			&none     			&none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp EQUAL
+        	&alt_tab   			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&kp SPACE 			&bksp_del   		&mt LCTRL TAB              									&td_nav 			&sk RALT  			&td_shift              										&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp GRAVE
         >;
     };
 
