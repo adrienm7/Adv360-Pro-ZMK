@@ -20,10 +20,6 @@
     behaviors {
 		#include "macros.dtsi"
 		#include "macros_nav.dtsi"
-
-		&caps_word {
-			continue-list = <UNDERSCORE MINUS DOT COMMA BSLH SQT SEMI NON_US_BSLH LBKT>;
-		};
     };
 
   keymap {
