@@ -20,6 +20,7 @@
     behaviors {
 		#include "macros.dtsi"
 		#include "macros_nav.dtsi"
+		
     };
 
   keymap {
