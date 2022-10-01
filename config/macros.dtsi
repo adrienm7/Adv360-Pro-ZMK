@@ -20,6 +20,12 @@ alt_tab: alt_tab {
 
 
 
+&caps_word {
+    continue-list = <UNDERSCORE MINUS DOT COMMA BSLH SQT SEMI NON_US_BSLH LBKT>;
+};
+
+
+
 td_nav: td_nav {
 	compatible = "zmk,behavior-tap-dance";
 	label = "td_nav";

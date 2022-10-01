@@ -79,6 +79,18 @@ fenetre_d: deplacer_fenetre_droite {
 };
 
 
+fullscreen: fullscreen {
+	compatible = "zmk,behavior-macro";
+	label = "fullscreen";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp LGUI>
+		, <&macro_tap 	  	&kp UP>
+		, <&macro_release 	&kp LGUI>
+	;
+};
+
+
 
 ecran_g: deplacer_ecran_gauche {
 	compatible = "zmk,behavior-macro";
