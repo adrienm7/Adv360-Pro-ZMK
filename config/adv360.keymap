@@ -26,18 +26,18 @@
       bindings = <
         	&kp DEL   			&kp N1    			&kp N2   			&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       																										&mo MOD 			&kp N6 				&kp N7 				&kp N8    			&kp N9   			&kp N0   			&kp ESC
         	&kp LC(OPT7_C)  	&kp OPT7_A_GRV     	&kp OPT7_Y   		&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dynamic_macro_1 RECORD                                                      																										&kp KP_NUMBER_3 	&kp OPT7_F 			&kp OPT7_D  		&kp OPT7_L  	   	&kp OPT7_P  		&kp OPT7_QUOTE    	&kp RBKT
-        	&kp LC(OPT7_V)  	&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&kp ENTER 			&kp LALT                    								&kp LALT  			&td_nav                   				&kp KP_NUMBER_4 	&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp MINUS
-        	&kp LC(OPT7_X) 		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&td_dot		              				&none     			&none     			&mt LCTRL TAB 		&none 				&none 				&kp RCTRL 			&none     			&none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp EQUAL
-        	&alt_tab   			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&kp SPACE 			&bksp_del   		&key_repeat              									&kp LGUI 			&kp RALT  			&td_shift              										&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp GRAVE
+        	&kp LC(OPT7_V)  	&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&kp ENTER 			&sk LALT                    								&sk LALT  			&sk RCTRL                   				&kp KP_NUMBER_4 	&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp MINUS
+        	&kp LC(OPT7_X) 		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&td_dot		              				&none     			&none     			&mt LCTRL TAB 		&none 				&none 				&sk LGUI 			&none     			&none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp EQUAL
+        	&alt_tab   			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&kp SPACE 			&bksp_del   		&key_repeat              									&td_nav 			&sk RALT  			&td_shift              										&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp GRAVE
         >;
     };
 
 	layer_nav {
 		bindings = <
 			&trans          	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
-			&trans				&trans				&trans				&trans				&trans				&trans				&trans   																																											&trans  			&trans          	&copie_debut_doc   	&aller_debut_doc   	&aller_fin_doc     	 &copie_fin_doc    	 &kp F12
+			&trans				&select_mot_g		&mot_g				&mot_d				&select_mot_d		&trans				&trans   																																											&trans  			&trans          	&copie_debut_doc   	&aller_debut_doc   	&aller_fin_doc     	 &copie_fin_doc    	 &kp F12
 			&trans				&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&trans				&trans          						&trans              &trans          							               &trans              &trans   				                &trans              &trans  			&kp PAGE_UP  	 	&kp UP  		 	&kp DOWN    	 	 &kp PAGE_DOWN  	 &trans
-			&trans              &trans				&trans				&trans				&trans              &trans            		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&trans              &dupliquer_haut     &deplacer_haut     	&deplacer_bas        &dupliquer_bas  	 &trans
+			&trans              &ecran_g			&fenetre_g			&fenetre_d			&ecran_d            &trans            		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&trans              &dupliquer_haut     &deplacer_haut     	&deplacer_bas        &dupliquer_bas  	 &trans
 			&trans              &trans              &trans              &trans              &trans  						                			&trans              &trans              &trans          								           &trans              &trans              &trans          												&trans			 	&trans              &trans               &trans              &trans
 		>;
 	};
