@@ -1,5 +1,5 @@
 #define OPT7_A			A			// A
-#define OPT7_B			Q			// B
+#define OPT7_B			T			// B
 #define OPT7_C			M			// C
 #define OPT7_D			U			// D
 #define OPT7_E			D			// E
@@ -22,7 +22,7 @@
 #define OPT7_V			N			// V
 #define OPT7_W			R			// W
 #define OPT7_X			FSLH		// X
-#define OPT7_Y			T			// Y
+#define OPT7_Y			W			// Y
 #define OPT7_Z			Z			// Z
 #define OPT7_A_GRV		Q			// À
 #define OPT7_E_GRV		NON_US_BSLH	// È
