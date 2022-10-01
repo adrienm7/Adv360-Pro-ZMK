@@ -20,6 +20,16 @@ alt_tab: alt_tab {
 
 
 
+td_nav: td_nav {
+	compatible = "zmk,behavior-tap-dance";
+	label = "td_nav";
+	#binding-cells = <0>;
+	tapping-term-ms = <200>;
+	bindings = <&sl NAV>, <&tog NAV>;
+};
+
+
+
 td_shift: td_shift {
 	compatible = "zmk,behavior-tap-dance";
 	label = "td_shift";
@@ -30,7 +40,7 @@ td_shift: td_shift {
 
 bksp_del: bksp_del {
 	compatible = "zmk,behavior-mod-morph";
-	label = "Suppr Delete";
+	label = "Backspace Delete";
 	#binding-cells = <0>;
 	bindings = <&kp BACKSPACE>, <&kp DELETE>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -38,6 +48,7 @@ bksp_del: bksp_del {
 
 
 
+//  dot -> space -> sticky shift
 dot_spc: dot_spc {
 	compatible = "zmk,behavior-macro";
 	label = "dot_spc";
