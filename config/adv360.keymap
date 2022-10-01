@@ -25,13 +25,14 @@
 
     default_layer {
       bindings = <
-        &kp DEL   		&kp N1    			&kp N2   		&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       													&mo 3 				&kp N6 			&kp N7 			&kp N8    		&kp N9   		&kp N0   			&kp ESC
+        &kp DEL   		&kp N1    			&kp N2   		&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       													&mo MOD 			&kp N6 			&kp N7 			&kp N8    		&kp N9   		&kp N0   			&kp ESC
         &kp LC(OPT7_C)  &kp OPT7_A_GRV     	&kp OPT7_Y   	&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dynamic_macro_1 RECORD                                                      													&kp KP_NUMBER_3 	&kp OPT7_F 		&kp OPT7_D  	&kp OPT7_L     	&kp OPT7_P  	&kp OPT7_QUOTE    	&kp RBKT
-        &kp LC(OPT7_V)  &kp OPT7_A     		&kp OPT7_I    	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  		&kp ENTER 	&kp LALT                    			&kp LALT  		&mo SYMB                   	&kp KP_NUMBER_4 	&kp OPT7_M		&kp OPT7_S  	&kp OPT7_N     	&kp OPT7_T    	&kp OPT7_R 			&kp MINUS
+        &kp LC(OPT7_V)  &kp OPT7_A     		&kp OPT7_I    	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  		&kp ENTER 	&kp LALT                    			&kp LALT  		&mo NAV                   	&kp KP_NUMBER_4 	&kp OPT7_M		&kp OPT7_S  	&kp OPT7_N     	&kp OPT7_T    	&kp OPT7_R 			&kp MINUS
         &kp LC(OPT7_X) 	&kp OPT7_E_GRV		&kp OPT7_Z     	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&td_dot		              				&none     	&none     	&kp TAB 		&none 		&none 		&kp RCTRL 		&none     		&none            				&kp OPT7_V		&kp OPT7_C		&kp OPT7_H 		&kp OPT7_G 		&kp OPT7_X 			&kp EQUAL
         &alt_tab   		&kp LEFT 			&kp RIGHT		&kp OPT7_E_CIRC		&kp OPT7_K        											&kp SPACE 	&bksp_del   &key_repeat              				&kp LGUI 		&kp RALT  		&td_shift              							&kp OPT7_Q 		&kp OPT7_J 		&kp UP 			&kp DOWN   			&kp GRAVE
         >;
     };
+
     keypad {
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                                       &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
@@ -41,23 +42,26 @@
         &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT               &kp BKSP &kp DEL   &kp END              &kp PG_DN &kp ENTER &kp KP_N0               &kp UP     &kp DOWN     &kp KP_DOT    &kp RBKT         &mo 2
       >;
     };
-    fn {
-      bindings = <
-        &kp F1  &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                                          &mo 3 &kp F7  &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans  &trans &trans &trans &trans &trans  &none                                                          &none &trans  &trans &trans &trans  &trans  &trans
-        &trans  &trans &trans &trans &trans &trans  &none        &trans &trans             &trans &trans           &none &trans  &trans &trans &trans  &trans  &trans
-        &trans  &trans &trans &trans &trans &trans        &none  &none  &trans &none &none &trans &none  &none            &trans &trans &trans &trans  &trans  &trans
-        &trans  &trans &trans &trans &trans               &trans &trans &trans             &trans &trans &trans                  &trans &trans &trans  &trans  &trans
-      >;
-    };
-    mod {
-      bindings = <
-        &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none                                                                                                  &trans        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
-        &none &none        &none        &none        &none        &none        &bootloader                                                                                            &bootloader   &none        &none        &none        &none        &none        &none
-        &none &none        &none        &none        &none        &none        &rgb_ug RGB_MEFS_CMD 5    &bt BT_CLR &bt BT_CLR             &bt BT_CLR &bt BT_CLR         &rgb_ug RGB_MEFS_CMD 5    &none        &none        &none        &none        &none        &none
-        &none &none        &none        &none        &none        &none                   &none           &none      &none     &none &none &none      &none      &none                   &none        &none        &none        &none        &none        &none
-        &none &none        &none        &bl BL_INC   &bl BL_DEC                           &rgb_ug RGB_TOG &bl BL_TOG &none                 &none      &bl BL_TOG &rgb_ug RGB_TOG                      &bl BL_INC   &bl BL_DEC   &none        &none        &none
-      >;
-    };
+
+	layer_nav {
+		bindings = <
+			&trans          	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
+			&trans				&trans				&trans				&trans				&trans				&trans				&trans   																																											&trans  			&trans          	&copie_debut_doc   	&aller_debut_doc   	&aller_fin_doc     	 &copie_fin_doc    	 &kp F12
+			&trans				&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&trans				&trans          						&trans              &trans          							               &trans              &trans   				                &trans              &trans  			&kp PAGE_UP  	 	&kp UP  		 	&kp DOWN    	 	 &kp PAGE_DOWN  	 &trans
+			&trans              &trans				&trans				&trans				&trans              &trans            		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&trans              &dupliquer_haut     &deplacer_haut     	&deplacer_bas        &dupliquer_bas  	 &trans
+			&trans              &trans              &trans              &trans              &trans  						                			&trans              &trans              &trans          								           &trans              &trans              &trans          												&trans			 	&trans              &trans               &trans              &trans
+		>;
+	};
+
+	layer_mod {
+		bindings = <
+			&none  		    	&bt BT_SEL 0  		&bt BT_SEL 1  		&bt BT_SEL 2 		&bt BT_SEL 3   	    &bt BT_SEL 4   		&none       																																										&trans		        &bt BT_SEL 0    	&bt BT_SEL 1    	&bt BT_SEL 2 		&bt BT_SEL 3    	 &bt BT_SEL 4   	 &none
+			&none           	&none         		&none         		&none        		&none         	    &none          		&bootloader  																																										&bootloader         &none           	&none           	&none        		&none	             &none          	 &none
+			&none           	&none         		&none         		&none         		&none         	    &none          		&rgb_ug RGB_MEFS_CMD 5   				&bt BT_CLR          &none                 									   &bt BT_CLR          &bt BT_CLR  							&rgb_ug RGB_MEFS_CMD 5  &none	        	&none           	&none               &none   			 &none   			 &none
+			&none           	&none         		&none         		&none         		&none          	    &none                             	    &none        		&none         		&none         	   &none                &none              &none			   &none                &none   		    					&none   			&none  		    	&none   	        &none  		   		 &none  		     &none
+			&none          		&none         		&none    			&bl BL_INC    		&bl BL_DEC  								   			    &rgb_ug RGB_TOG 	&bl BL_TOG      	&none              										   &none    		   &bl BL_TOG  			&rgb_ug RGB_TOG    											&bl BL_INC    	    &bl BL_DEC          &none   			 &none   			 &none
+		>;
+	};
+
   };
 };
