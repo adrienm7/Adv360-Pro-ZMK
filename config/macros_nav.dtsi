@@ -1,0 +1,101 @@
+aller_debut_doc: aller_debut_doc {
+	compatible = "zmk,behavior-macro";
+	label = "aller_debut_doc";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp LCTRL>
+		, <&macro_tap 		&kp HOME>
+		, <&macro_release 	&kp LCTRL>
+	;
+};
+
+aller_fin_doc: aller_fin_doc {
+	compatible = "zmk,behavior-macro";
+	label = "aller_fin_doc";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press		&kp LCTRL>
+		, <&macro_tap 		&kp END>
+		, <&macro_release 	&kp LCTRL>
+	;
+};
+
+
+
+copie_debut_doc: copie_debut_doc {
+	compatible = "zmk,behavior-macro";
+	label = "copie_debut_doc";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp LSHIFT>
+		, <&macro_press 	&kp LCTRL>
+		, <&macro_tap 	  	&kp HOME>
+		, <&macro_release 	&kp LCTRL>
+		, <&macro_release 	&kp LSHIFT>
+	;
+};
+
+copie_fin_doc: copie_fin_doc {
+	compatible = "zmk,behavior-macro";
+	label = "copie_fin_doc";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp LSHIFT>
+		, <&macro_press 	&kp LCTRL>
+		, <&macro_tap 	  	&kp END>
+		, <&macro_release 	&kp LCTRL>
+		, <&macro_release 	&kp LSHIFT>
+	;
+};
+
+
+
+deplacer_haut: deplacer_haut {
+	compatible = "zmk,behavior-macro";
+	label = "deplacer_haut";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp LALT>
+		, <&macro_tap 	  	&kp UP>
+		, <&macro_release 	&kp LALT>
+	;
+};
+
+deplacer_bas: deplacer_bas {
+	compatible = "zmk,behavior-macro";
+	label = "deplacer_bas";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp LALT>
+		, <&macro_tap 	  	&kp DOWN>
+		, <&macro_release 	&kp LALT>
+	;
+};
+
+
+
+dupliquer_haut: dupliquer_haut {
+	compatible = "zmk,behavior-macro";
+	label = "dupliquer_haut";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp LALT>
+		, <&macro_press 	&kp LSHFT>
+		, <&macro_tap 	  	&kp UP>
+		, <&macro_release 	&kp LSHFT>
+		, <&macro_release 	&kp LALT>
+	;
+};
+
+dupliquer_bas: dupliquer_bas {
+	compatible = "zmk,behavior-macro";
+	label = "dupliquer_bas";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press 	&kp LALT>
+		, <&macro_press 	&kp LSHFT>
+		, <&macro_tap 	  	&kp DOWN>
+		, <&macro_release 	&kp LSHFT>
+		, <&macro_release 	&kp LALT>
+	;
+};
