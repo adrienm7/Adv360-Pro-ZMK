@@ -35,7 +35,7 @@ td_shift: td_shift {
 	label = "td_shift";
 	#binding-cells = <0>;
 	tapping-term-ms = <200>;
-	bindings = <&sk RIGHT_SHIFT>, <&caps_word>;
+	bindings = <&skq RIGHT_SHIFT>, <&caps_word>;
 };
 
 bksp_del: bksp_del {
@@ -53,7 +53,7 @@ dot_spc: dot_spc {
 	compatible = "zmk,behavior-macro";
 	label = "dot_spc";
 	#binding-cells = <0>;
-	bindings = <&kp OPT7_DOT &kp SPACE &sk LSHFT>;
+	bindings = <&kp OPT7_DOT &kp SPACE &skq LSHFT>;
 };
 
 td_dot: td_dot {
