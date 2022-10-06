@@ -13,6 +13,13 @@ dynamic_macro_2: dynamic_macro_2 {
 };
 
 
+gresc: grave_escape {
+	compatible = "zmk,behavior-mod-morph";
+	label = "GRAVE_ESCAPE";
+	#binding-cells = <0>;
+	bindings = <&kp LC(OPT7_V)>, <&kp LG(OPT7_V)>;
+	mods = <(MOD_RALT)>;
+};
 
 alt_tab: alt_tab {
 	compatible = "zmk,behavior-macro";
