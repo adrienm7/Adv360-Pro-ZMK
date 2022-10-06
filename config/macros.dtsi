@@ -5,6 +5,13 @@ dynamic_macro_1: dynamic_macro_1 {
 	#binding-cells = <1>;
 };
 
+dynamic_macro_2: dynamic_macro_2 {
+	compatible = "zmk,behavior-dynamic-macro";
+	label = "dynamic_macro_2";
+	wait-ms = <10>;
+	#binding-cells = <1>;
+};
+
 
 
 alt_tab: alt_tab {
