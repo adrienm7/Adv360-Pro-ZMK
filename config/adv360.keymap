@@ -47,7 +47,7 @@
 
     default_layer {
       bindings = <
-        	&kp LC(OPT7_T)		&kp N1    			&kp N2   			&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       																										&mo MOD 			&kp N6 				&kp N7 				&kp N8    			&kp N9   			&kp N0   			&kp ESC
+        	&ctrl_t_r			&kp N1    			&kp N2   			&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       																										&mo MOD 			&kp N6 				&kp N7 				&kp N8    			&kp N9   			&kp N0   			&kp ESC
         	&ctrl_c_f  			&kp OPT7_A_GRV     	&kp OPT7_Y   		&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dynamic_macro_1 RECORD                                                      																								&dynamic_macro_2 RECORD 	&kp OPT7_F 			&kp OPT7_D  		&kp OPT7_L  	   	&kp OPT7_P  		&kp OPT7_QUOTE    	&kp RBKT
         	&ctrl_v_win_v		&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&kp ENTER			&mt LALT ESCAPE                							   	&sk LALT  	      &dot_spc							&dynamic_macro_2 PLAY 		&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp MINUS
         	&ctrl_x_h 			&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&td_dot		              				&none     			&none     			&mt LCTRL DEL 	   &none 			   &none 			   	&kp RCTRL	   	  &none     		   &none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp EQUAL

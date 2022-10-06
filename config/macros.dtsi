@@ -13,6 +13,15 @@ dynamic_macro_2: dynamic_macro_2 {
 };
 
 
+
+ctrl_t_r: ctrl_t_r {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ctrl_t_r";
+	#binding-cells = <0>;
+	bindings = <&kp LC(OPT7_T)>, <&kp LC(OPT7_R)>;
+	mods = <(MOD_RALT)>;
+};
+
 ctrl_c_f: ctrl_c_f {
 	compatible = "zmk,behavior-mod-morph";
 	label = "ctrl_c_f";
