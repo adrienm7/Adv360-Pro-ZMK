@@ -24,7 +24,7 @@ hold_repeat: hold_repeat {
 	compatible = "zmk,behavior-hold-tap";
 	label = "hold_repeat";
 	#binding-cells = <2>;
-	flavor = "hold-preferred";
+	flavor = "tap-preferred";
 	tapping-term-ms = <200>;
 	bindings = <&kp>, <&key_repeat>;
 };
