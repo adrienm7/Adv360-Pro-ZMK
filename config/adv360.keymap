@@ -13,11 +13,6 @@
 
 
 
-&caps_word {
-	continue-list = <UNDERSCORE MINUS DOT COMMA BSLH SQT SEMI NON_US_BSLH LBKT OPT7_H OPT7_R>;
-};
-
-
 
 / {
     behaviors {
