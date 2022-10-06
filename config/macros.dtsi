@@ -13,11 +13,11 @@ dynamic_macro_2: dynamic_macro_2 {
 };
 
 
-gresc: grave_escape {
+tap_altgr: tap_altgr {
 	compatible = "zmk,behavior-mod-morph";
-	label = "GRAVE_ESCAPE";
-	#binding-cells = <0>;
-	bindings = <&kp LC(OPT7_V)>, <&kp LG(OPT7_V)>;
+	label = "tap_altgr";
+	#binding-cells = <2>;
+	bindings = <&kp>, <&kp>;
 	mods = <(MOD_RALT)>;
 };
 
