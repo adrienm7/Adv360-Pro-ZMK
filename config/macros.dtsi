@@ -13,11 +13,27 @@ dynamic_macro_2: dynamic_macro_2 {
 };
 
 
-tap_altgr: tap_altgr {
+ctrl_c_f: ctrl_c_f {
 	compatible = "zmk,behavior-mod-morph";
-	label = "tap_altgr";
+	label = "ctrl_c_f";
 	#binding-cells = <0>;
-	bindings = <&kp>, <&kp>;
+	bindings = <&kp LC(OPT7_C)>, <&kp LC(OPT7_F)>;
+	mods = <(MOD_RALT)>;
+};
+
+ctrl_x_h: ctrl_x_h {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ctrl_x_h";
+	#binding-cells = <0>;
+	bindings = <&kp LC(OPT7_X)>, <&kp LC(OPT7_H)>;
+	mods = <(MOD_RALT)>;
+};
+
+ctrl_v_win_v: ctrl_v_win_v {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ctrl_v_win_v";
+	#binding-cells = <0>;
+	bindings = <&kp LC(OPT7_V)>, <&kp LG(OPT7_V)>;
 	mods = <(MOD_RALT)>;
 };
 
