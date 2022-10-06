@@ -16,7 +16,7 @@ dynamic_macro_2: dynamic_macro_2 {
 tap_altgr: tap_altgr {
 	compatible = "zmk,behavior-mod-morph";
 	label = "tap_altgr";
-	#binding-cells = <2>;
+	#binding-cells = <0>;
 	bindings = <&kp>, <&kp>;
 	mods = <(MOD_RALT)>;
 };
