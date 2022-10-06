@@ -20,6 +20,17 @@ alt_tab: alt_tab {
 
 
 
+ctrl_repeat: ctrl_repeat {
+	compatible = "zmk,behavior-hold-tap";
+	label = "ctrl_repeat";
+	#binding-cells = <2>;
+	flavor = "hold-preferred";
+	tapping-term-ms = <200>;
+	bindings = <&kp RCTRL>, <&key_repeat>;
+};
+
+
+
 td_nav: td_nav {
 	compatible = "zmk,behavior-tap-dance";
 	label = "td_nav";
