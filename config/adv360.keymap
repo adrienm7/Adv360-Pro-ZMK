@@ -22,8 +22,7 @@
     behaviors {
 		#include "macros.dtsi"
 		#include "macros_nav.dtsi"
-		#include "macros_texte.dtsi"
-		#include "macros_nav_touches.dtsi"
+
 
 		skq: sticky_key_quick_release {
 			compatible = "zmk,behavior-sticky-key";
