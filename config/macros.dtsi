@@ -14,46 +14,6 @@ dynamic_macro_2: dynamic_macro_2 {
 
 
 
-ctrl_t_esc: ctrl_t_esc {
-	compatible = "zmk,behavior-mod-morph";
-	label = "ctrl_t_esc";
-	#binding-cells = <0>;
-	bindings = <&kp LC(OPT7_T)>, <&kp ESCAPE>;
-	mods = <(MOD_RALT)>;
-};
-
-ctrl_c_f: ctrl_c_f {
-	compatible = "zmk,behavior-mod-morph";
-	label = "ctrl_c_f";
-	#binding-cells = <0>;
-	bindings = <&kp LC(OPT7_C)>, <&kp LC(OPT7_F)>;
-	mods = <(MOD_RALT)>;
-};
-
-ctrl_x_h: ctrl_x_h {
-	compatible = "zmk,behavior-mod-morph";
-	label = "ctrl_x_h";
-	#binding-cells = <0>;
-	bindings = <&kp LC(OPT7_X)>, <&kp LC(OPT7_H)>;
-	mods = <(MOD_RALT)>;
-};
-
-ctrl_v_win_v: ctrl_v_win_v {
-	compatible = "zmk,behavior-mod-morph";
-	label = "ctrl_v_win_v";
-	#binding-cells = <0>;
-	bindings = <&kp LC(OPT7_V)>, <&kp LG(OPT7_V)>;
-	mods = <(MOD_RALT)>;
-};
-
-alt_tab_r: alt_tab_r {
-	compatible = "zmk,behavior-mod-morph";
-	label = "alt_tab_r";
-	#binding-cells = <0>;
-	bindings = <&alt_tab>, <&kp LC(OPT7_R)>;
-	mods = <(MOD_RALT)>;
-};
-
 alt_tab: alt_tab {
 	compatible = "zmk,behavior-macro";
 	label = "alt_tab";
@@ -66,6 +26,15 @@ alt_tab: alt_tab {
 };
 
 
+
+hold_spc: hold_spc {
+	compatible = "zmk,behavior-hold-tap";
+	label = "hold_spc";
+	#binding-cells = <2>;
+	flavor = "tap-preferred";
+	tapping-term-ms = <200>;
+	bindings = <&kp>, <&dot_spc>;
+};
 
 hold_repeat: hold_repeat {
 	compatible = "zmk,behavior-hold-tap";
@@ -120,4 +89,52 @@ td_dot: td_dot {
 	#binding-cells = <0>;
 	tapping-term-ms = <200>;
 	bindings = <&kp OPT7_DOT>, <&dot_spc>;
+};
+
+
+
+
+
+
+
+// Non utilisé
+
+ctrl_t_esc: ctrl_t_esc {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ctrl_t_esc";
+	#binding-cells = <0>;
+	bindings = <&kp LC(OPT7_T)>, <&kp ESCAPE>;
+	mods = <(MOD_RALT)>;
+};
+
+ctrl_c_f: ctrl_c_f {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ctrl_c_f";
+	#binding-cells = <0>;
+	bindings = <&kp LC(OPT7_C)>, <&kp LC(OPT7_F)>;
+	mods = <(MOD_RALT)>;
+};
+
+ctrl_x_h: ctrl_x_h {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ctrl_x_h";
+	#binding-cells = <0>;
+	bindings = <&kp LC(OPT7_X)>, <&kp LC(OPT7_H)>;
+	mods = <(MOD_RALT)>;
+};
+
+ctrl_v_win_v: ctrl_v_win_v {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ctrl_v_win_v";
+	#binding-cells = <0>;
+	bindings = <&kp LC(OPT7_V)>, <&kp LG(OPT7_V)>;
+	mods = <(MOD_RALT)>;
+};
+
+alt_tab_r: alt_tab_r {
+	compatible = "zmk,behavior-mod-morph";
+	label = "alt_tab_r";
+	#binding-cells = <0>;
+	bindings = <&alt_tab>, <&kp LC(OPT7_R)>;
+	mods = <(MOD_RALT)>;
 };
