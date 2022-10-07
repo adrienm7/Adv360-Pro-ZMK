@@ -56,5 +56,5 @@ testq: testq {
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_Q &kp OPT7_U &kp OPT7_E &kp OPT7_L>;
+	bindings = <&macro_tap &kp OPT7_Q &kp OPT7_U &kp OPT7_E &kp OPT7_L OPT7_Q &kp OPT7_U>;
 };
