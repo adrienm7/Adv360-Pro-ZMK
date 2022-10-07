@@ -1,4 +1,5 @@
-// D
+
+
 txt_ould: txt_ould {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ould";
