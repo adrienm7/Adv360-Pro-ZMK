@@ -48,3 +48,13 @@ txt_ation: txt_ation {
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_A &kp OPT7_T &kp OPT7_I &kp OPT7_O &kp OPT7_N>;
 };
+
+// Q
+testq: testq {
+	compatible = "zmk,behavior-macro";
+	label = "testq";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_Q &kp OPT7_U &kp OPT7_E &kp OPT7_L OPT7_Q &kp OPT7_U>;
+};
