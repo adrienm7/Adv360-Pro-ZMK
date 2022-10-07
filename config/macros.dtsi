@@ -1,3 +1,5 @@
+// Macros dynamiques
+
 dynamic_macro_1: dynamic_macro_1 {
 	compatible = "zmk,behavior-dynamic-macro";
 	label = "dynamic_macro_1";
@@ -14,6 +16,10 @@ dynamic_macro_2: dynamic_macro_2 {
 
 
 
+
+
+// Raccourcis
+
 alt_tab: alt_tab {
 	compatible = "zmk,behavior-macro";
 	label = "alt_tab";
@@ -25,11 +31,23 @@ alt_tab: alt_tab {
 	;
 };
 
+//  dot -> space -> sticky shift
+dot_spc: dot_spc {
+	compatible = "zmk,behavior-macro";
+	label = "dot_spc";
+	#binding-cells = <0>;
+	bindings = <&kp OPT7_DOT &kp SPACE &skq LSHFT>;
+};
 
 
-hold_spc: hold_spc {
+
+
+
+// Tap hold
+
+hold_dspc: hold_dspc {
 	compatible = "zmk,behavior-hold-tap";
-	label = "hold_spc";
+	label = "hold_dspc";
 	#binding-cells = <2>;
 	flavor = "tap-preferred";
 	tapping-term-ms = <200>;
@@ -47,6 +65,9 @@ hold_repeat: hold_repeat {
 
 
 
+
+// Tap dance
+
 td_nav: td_nav {
 	compatible = "zmk,behavior-tap-dance";
 	label = "td_nav";
@@ -55,32 +76,12 @@ td_nav: td_nav {
 	bindings = <&sl NAV>, <&tog NAV>;
 };
 
-
-
 td_shift: td_shift {
 	compatible = "zmk,behavior-tap-dance";
 	label = "td_shift";
 	#binding-cells = <0>;
 	tapping-term-ms = <200>;
 	bindings = <&skq RIGHT_SHIFT>, <&caps_word>;
-};
-
-bksp_del: bksp_del {
-	compatible = "zmk,behavior-mod-morph";
-	label = "Backspace Delete";
-	#binding-cells = <0>;
-	bindings = <&kp BACKSPACE>, <&kp DELETE>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
-};
-
-
-
-//  dot -> space -> sticky shift
-dot_spc: dot_spc {
-	compatible = "zmk,behavior-macro";
-	label = "dot_spc";
-	#binding-cells = <0>;
-	bindings = <&kp OPT7_DOT &kp SPACE &skq LSHFT>;
 };
 
 td_dot: td_dot {
@@ -95,9 +96,21 @@ td_dot: td_dot {
 
 
 
+// Mod morph
+
+bksp_del: bksp_del {
+	compatible = "zmk,behavior-mod-morph";
+	label = "Backspace Delete";
+	#binding-cells = <0>;
+	bindings = <&kp BACKSPACE>, <&kp DELETE>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
 
 
-// Non utilisé
+
+
+
+// Non utilisés
 
 ctrl_t_esc: ctrl_t_esc {
 	compatible = "zmk,behavior-mod-morph";
