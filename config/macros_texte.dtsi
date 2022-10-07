@@ -248,23 +248,3 @@ txt_ance: txt_ance {
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_A &kp OPT7_N &kp OPT7_C &kp OPT7_E>;
 };
-
-// W
-txt_was: txt_was {
-	compatible = "zmk,behavior-macro";
-	label = "txt_was"
-	wait-ms = <30>;
-	tap-ms = <40>;
-	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_W &kp OPT7_A &kp OPT7_S>;
-};
-
-// X
-txt_eux: txt_eux {
-	compatible = "zmk,behavior-macro";
-	label = "txt_eux";
-	wait-ms = <30>;
-	tap-ms = <40>;
-	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E &kp OPT7_U &kp OPT7_X>;
-};
