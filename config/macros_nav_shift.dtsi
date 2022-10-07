@@ -1,0 +1,18 @@
+mod_morph_t: mod_morph_t {
+	compatible = "zmk,behavior-mod-morph";
+	label = "mod_morph_t";
+	#binding-cells = <0>;
+	bindings = <&kp DOWN>, <&zed_em_kay>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+zed_em_kay: zed_em_kay {
+	label = "ZM_zed_em_kay";
+	compatible = "zmk,behavior-macro";
+	#binding-cells = <0>;
+	bindings
+		= <&macro_press &kp LSHFT>
+		, <&macro_tap &kp Z &kp M &kp K>
+		, <&macro_release &kp LSHFT>
+		;
+};
