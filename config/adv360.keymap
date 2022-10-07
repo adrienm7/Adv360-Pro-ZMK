@@ -22,7 +22,8 @@
     behaviors {
 		#include "macros.dtsi"
 		#include "macros_nav.dtsi"
-		#include "macros_nav_shift.dtsi"
+		#include "macros_texte.dtsi"
+		#include "macros_nav_touches.dtsi"
 
 		skq: sticky_key_quick_release {
 			compatible = "zmk,behavior-sticky-key";
@@ -51,7 +52,7 @@
         	&kp LC(OPT7_T)		&kp N1    			&kp N2   			&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       																										&mo MOD 			&kp N6 				&kp N7 				&kp N8    			&kp N9   			&kp N0   			&kp ESC
         	&kp LC(OPT7_C)  	&kp OPT7_A_GRV     	&kp OPT7_Y   		&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dynamic_macro_1 RECORD                                                      																								&dynamic_macro_2 RECORD 	&kp OPT7_F 			&kp OPT7_D  		&kp OPT7_L  	   	&kp OPT7_P  		&kp OPT7_QUOTE    	&kp RBKT
         	&kp LC(OPT7_V)		&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&kp ENTER			&mt LALT ESCAPE                							   	&sk LALT  	      &kp RCTRL							&dynamic_macro_2 PLAY 		&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp MINUS
-        	&kp LC(OPT7_X)		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&td_dot		              				&none     			&none     			&mt LCTRL DEL 	    &none 			    &none 			   	&kp RCTRL	   	  &none     		   &none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp EQUAL
+        	&kp LC(OPT7_X)		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&kp OPT7_DOT              				&none     			&none     			&mt LCTRL DEL 	    &none 			    &none 			   	&kp RCTRL	   	  &none     		   &none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp EQUAL
         	&alt_tab 			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&lt NAV SPACE 		&mt LCTRL TAB   	&kp BACKSPACE             							   		&kp LGUI   		  &hold_dspc RALT 0    &hold_repeat RSHIFT 0               							&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp GRAVE
         >;
     };
@@ -60,7 +61,7 @@
 		bindings = <
 			&kp LC(OPT7_D)     	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
 			&kp LC(OPT7_F)		&select_mot_g		&mot_g				&mot_d				&select_mot_d		&trans				&trans   																																											&trans  			&trans          	&copie_debut_doc   	&aller_debut_doc   	&aller_fin_doc     	 &copie_fin_doc    	 &kp F12
-			&kp LG(OPT7_V)		&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&trans				&trans          						&trans              &trans          							               &trans              &trans   				                &trans              &trans  			&kp PAGE_UP  	 	&mod_morph_n  	 	&mod_morph_t   	 	 &kp PAGE_DOWN  	 &trans
+			&kp LG(OPT7_V)		&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&trans				&trans          						&trans              &trans          							               &trans              &trans   				                &trans              &trans  			&kp PAGE_UP  	 	&nav_n UP	  	 	&mod_morph_t   	 	 &kp PAGE_DOWN  	 &trans
 			&kp LC(OPT7_H)      &ecran_g			&fenetre_g			&fenetre_d			&ecran_d            &fullscreen        		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&trans              &dupliquer_haut     &deplacer_haut     	&deplacer_bas        &dupliquer_bas  	 &trans
 			&trans              &trans              &trans              &trans              &trans  						                			&trans              &trans              &trans          								           &trans              &trans              &trans          												&trans			 	&trans              &trans               &trans              &trans
 		>;
