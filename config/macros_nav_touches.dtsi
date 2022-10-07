@@ -1,15 +1,15 @@
-mod_morph_t: mod_morph_t {
-	compatible = "zmk,behavior-mod-morph";
-	label = "mod_morph_t";
-	#binding-cells = <0>;
-	bindings = <&kp DOWN>, <&txt_ement>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
-};
-
 nav_n: nav_n {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_n";
 	#binding-cells = <2>;
-	bindings = <&kp>, <&txt_ation>;
+	bindings = <&kp UP>, <&txt_ation>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_t: nav_t {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_t";
+	#binding-cells = <0>;
+	bindings = <&kp DOWN>, <&txt_ement>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
