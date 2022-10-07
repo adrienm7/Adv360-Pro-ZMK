@@ -239,4 +239,12 @@ txt_eurs: txt_eurs {
 	bindings = <&macro_tap &kp OPT7_E &kp OPT7_U &kp OPT7_R &kp OPT7_S>;
 };
 
-
+// Y
+txt_ying: txt_ying {
+	compatible = "zmk,behavior-macro";
+	label = "txt_ying";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_Y &kp OPT7_I &kp OPT7_N &kp OPT7_G>;
+};
