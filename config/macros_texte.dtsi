@@ -28,3 +28,33 @@ txt_ight: txt_ight {
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_I &kp OPT7_G &kp OPT7_H &kp OPT7_T>;
 };
+
+// L
+txt_elle: txt_elle {
+	compatible = "zmk,behavior-macro";
+	label = "txt_elle";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_E &kp OPT7_L &kp OPT7_L &kp OPT7_E>;
+};
+
+// N
+txt_ation: txt_ation {
+	compatible = "zmk,behavior-macro";
+	label = "txt_ation";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_A &kp OPT7_T &kp OPT7_I &kp OPT7_O &kp OPT7_N>;
+};
+
+// Q
+txt_quelqu: txt_quelqu {
+	compatible = "zmk,behavior-macro";
+	label = "txt_quelqu";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_Q &kp OPT7_U &kp OPT7_E &kp OPT7_L OPT7_Q &kp OPT7_U>;
+};
