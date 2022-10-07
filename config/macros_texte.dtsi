@@ -239,9 +239,9 @@ txt_eurs: txt_eurs {
 };
 
 // W
-txt_eursa: txt_eursa {
+txt_was: txt_was {
 	compatible = "zmk,behavior-macro";
-	label = "txt_eursa";
+	label = "txt_was";
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
