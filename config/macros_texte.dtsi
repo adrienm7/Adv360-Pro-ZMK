@@ -1,4 +1,3 @@
-
 // D
 txt_ould: txt_ould {
 	compatible = "zmk,behavior-macro";
@@ -6,7 +5,7 @@ txt_ould: txt_ould {
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_L &kp OPT7_D>;
+	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_L &kp OPT7_D;
 };
 
 // G
@@ -16,7 +15,7 @@ txt_ting: txt_ting {
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_T &kp OPT7_I &kp OPT7_N &kp OPT7_G>;
+	bindings = <&macro_tap &kp OPT7_T &kp OPT7_I &kp OPT7_N &kp OPT7_G;
 };
 
 // I
@@ -26,7 +25,7 @@ txt_ight: txt_ight {
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_I &kp OPT7_G &kp OPT7_H &kp OPT7_T>;
+	bindings = <&macro_tap &kp OPT7_I &kp OPT7_G &kp OPT7_H &kp OPT7_T;
 };
 
 // L
@@ -36,7 +35,7 @@ txt_elle: txt_elle {
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E &kp OPT7_L &kp OPT7_L &kp OPT7_E>;
+	bindings = <&macro_tap &kp OPT7_E &kp OPT7_L &kp OPT7_L &kp OPT7_E;
 };
 
 // N
@@ -50,11 +49,51 @@ txt_ation: txt_ation {
 };
 
 // Q
-testq: testq {
+txt_quelqu: txt_quelqu {
 	compatible = "zmk,behavior-macro";
-	label = "testq";
+	label = "txt_quelqu";
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_Q &kp OPT7_U &kp OPT7_E &kp OPT7_L &kp OPT7_Q &kp OPT7_U>;
+	bindings = <&macro_tap &kp OPT7_Q &kp OPT7_E &kp OPT7_L &kp OPT7_Q;
+};
+
+// R
+txt_ring: txt_ring {
+	compatible = "zmk,behavior-macro";
+	label = "txt_ring";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_R &kp OPT7_I &kp OPT7_N &kp OPT7_G;
+};
+
+// T
+txt_ement: txt_ement {
+	compatible = "zmk,behavior-macro";
+	label = "txt_ement";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_E &kp OPT7_M &kp OPT7_E &kp OPT7_N &kp OPT7_T>;
+};
+
+// U
+txt_ought: txt_ought {
+	compatible = "zmk,behavior-macro";
+	label = "txt_ought";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_G &kp OPT7_H &kp OPT7_T;
+};
+
+// Y
+txt_ying: txt_ying {
+	compatible = "zmk,behavior-macro";
+	label = "txt_ying";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_Y &kp OPT7_I &kp OPT7_N &kp OPT7_G;
 };
