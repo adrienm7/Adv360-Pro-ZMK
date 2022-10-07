@@ -2,17 +2,14 @@ mod_morph_t: mod_morph_t {
 	compatible = "zmk,behavior-mod-morph";
 	label = "mod_morph_t";
 	#binding-cells = <0>;
-	bindings = <&kp DOWN>, <&zed_em_kay>;
+	bindings = <&kp DOWN>, <&txt_ement>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-zed_em_kay: zed_em_kay {
-	label = "ZM_zed_em_kay";
+txt_ement: txt_ement {
 	compatible = "zmk,behavior-macro";
+	label = "txt_ement";
+	tap-ms = <10>;
 	#binding-cells = <0>;
-	bindings
-		= <&macro_press &kp LSHFT>
-		, <&macro_tap &kp Z &kp M &kp K>
-		, <&macro_release &kp LSHFT>
-		;
+	bindings = <&macro_tap &kp E &kp M &kp E &kp N &kp T>;
 };
