@@ -118,6 +118,16 @@ txt_tion: txt_tion {
 	bindings = <&macro_tap &kp OPT7_T &kp OPT7_I &kp OPT7_O &kp OPT7_N>;
 };
 
+// O
+txt_ought: txt_ought {
+	compatible = "zmk,behavior-macro";
+	label = "txt_ought";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_G &kp OPT7_H &kp OPT7_T>;
+};
+
 // Q
 txt_quelqu: txt_quelqu {
 	compatible = "zmk,behavior-macro";
@@ -149,13 +159,23 @@ txt_ement: txt_ement {
 };
 
 // U
-txt_ought: txt_ought {
+txt_eurs: txt_eurs {
 	compatible = "zmk,behavior-macro";
-	label = "txt_ought";
+	label = "txt_eurs";
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_G &kp OPT7_H &kp OPT7_T>;
+	bindings = <&macro_tap &kp OPT7_E &kp OPT7_U &kp OPT7_R &kp OPT7_S>;
+};
+
+// X
+txt_eux: txt_eux {
+	compatible = "zmk,behavior-macro";
+	label = "txt_eux";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_E &kp OPT7_U &kp OPT7_X>;
 };
 
 // Y
