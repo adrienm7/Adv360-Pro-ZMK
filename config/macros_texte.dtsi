@@ -128,6 +128,16 @@ txt_ight: txt_ight {
 	bindings = <&macro_tap &kp OPT7_I &kp OPT7_G &kp OPT7_H &kp OPT7_T>;
 };
 
+// J
+txt_toujours: txt_toujours {
+	compatible = "zmk,behavior-macro";
+	label = "txt_toujours";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_T &kp OPT7_O &kp OPT7_U &kp OPT7_J &kp OPT7_O &kp OPT7_U &kp OPT7_R &kp OPT7_S> &kp SPACE;
+};
+
 // K
 txt_ique: txt_ique {
 	compatible = "zmk,behavior-macro";
@@ -278,6 +288,16 @@ txt_ying: txt_ying {
 	bindings = <&macro_tap &kp OPT7_Y &kp OPT7_I &kp OPT7_N &kp OPT7_G>;
 };
 
+// Z
+txt_vez_vous: txt_vez_vous {
+	compatible = "zmk,behavior-macro";
+	label = "txt_vez_vous";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_V &kp OPT7_E &kp OPT7_Z &kp LS(SPACE) &kp OPT7_V &kp OPT7_O &kp OPT7_U &kp OPT7_S &kp SPACE>;
+};
+
 // ’
 txt_n_t: txt_n_t {
 	compatible = "zmk,behavior-macro";
@@ -286,4 +306,14 @@ txt_n_t: txt_n_t {
 	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_N &kp OPT7_DQUOTE &kp OPT7_T>;
+};
+
+// ^
+txt_meme: txt_meme {
+	compatible = "zmk,behavior-macro";
+	label = "txt_circ";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_M &kp OPT7_E_CIRC &kp OPT7_M &kp OPT7_E>;
 };
