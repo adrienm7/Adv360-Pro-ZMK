@@ -135,7 +135,7 @@ txt_toujours: txt_toujours {
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_T &kp OPT7_O &kp OPT7_U &kp OPT7_J &kp OPT7_O &kp OPT7_U &kp OPT7_R &kp OPT7_S> &kp SPACE;
+	bindings = <&macro_tap &kp OPT7_T &kp OPT7_O &kp OPT7_U &kp OPT7_J &kp OPT7_O &kp OPT7_U &kp OPT7_R &kp OPT7_S &kp SPACE>;
 };
 
 // K
