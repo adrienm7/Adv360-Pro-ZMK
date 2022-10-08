@@ -4,6 +4,148 @@
 
 
 
+// ======= Main gauche, haut =======
+
+
+nav_a_grv: nav_a_grv {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_a_grv";
+	#binding-cells = <0>;
+	bindings = <&select_mot_g>, <&txt_for>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_y: nav_y {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_y";
+	#binding-cells = <0>;
+	bindings = <&mot_g>, <&txt_ying>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_o: nav_o {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_o";
+	#binding-cells = <0>;
+	bindings = <&mot_d>, <&txt_ought>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_w: nav_w {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_w";
+	#binding-cells = <0>;
+	bindings = <&select_mot_d>, <&txt_was>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_b: nav_b {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_b";
+	#binding-cells = <0>;
+	bindings = <&trans>, <&txt_able>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+// ======= Main gauche, milieu =======
+
+
+nav_a: nav_a {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_a";
+	#binding-cells = <0>;
+	bindings = <&kp HOME>, <&txt_ation>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_i: nav_i {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_i";
+	#binding-cells = <0>;
+	bindings = <&kp LEFT>, <&txt_ight>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_e: nav_e {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_e";
+	#binding-cells = <0>;
+	bindings = <&kp RIGHT>, <&txt_ement>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_u: nav_u {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_u";
+	#binding-cells = <0>;
+	bindings = <&kp END>, <&txt_eurs>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+// ======= Main gauche, bas =======
+
+
+nav_e_grv: nav_e_grv {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_e_grv";
+	#binding-cells = <0>;
+	bindings = <&ecran_g>, <&txt_ere>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_z: nav_z {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_z";
+	#binding-cells = <0>;
+	bindings = <&fenetre_g>, <&txt_vez_vous>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_e_aig: nav_e_aig {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_e_aig";
+	#binding-cells = <0>;
+	bindings = <&ecran_d>, <&txt_ite>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_dot: nav_dot {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_dot";
+	#binding-cells = <0>;
+	bindings = <&fullscreen>, <&txt_deja>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+// ======= Main gauche, dernière ligne =======
+
+
+nav_k: nav_k {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_k";
+	#binding-cells = <0>;
+	bindings = <&trans>, <&txt_ique>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_e_circ: nav_e_circ {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_e_circ";
+	#binding-cells = <0>;
+	bindings = <&trans>, <&txt_etre>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+
+
 
 
 // ===========================

@@ -60,10 +60,10 @@
 	layer_nav {
 		bindings = <
 			&kp LC(OPT7_D)     	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
-			&kp LC(OPT7_F)		&select_mot_g		&mot_g				&mot_d				&select_mot_d		&trans				&trans   																																											&trans  			&nav_f          	&nav_d			   	&nav_l			   	&nav_p		     	 &nav_quote	    	 &nav_circ
-			&kp LG(OPT7_V)		&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&trans				&trans          						&trans              &trans          							               &trans              &trans   				                &trans              &nav_m  			&nav_s		  	 	&nav_n	 	  	 	&nav_t   	 	 	 &nav_r			  	 &trans
-			&kp LC(OPT7_H)      &ecran_g			&fenetre_g			&fenetre_d			&ecran_d            &fullscreen        		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&nav_v              &nav_c			    &nav_h		     	&nav_g		         &nav_x			  	 &trans
-			&trans              &trans              &trans              &trans              &trans  						                			&trans              &trans              &trans          								           &trans              &trans              &trans          												&nav_q			 	&nav_j              &trans               &trans              &trans
+			&kp LC(OPT7_F)		&nav_a_grv			&nav_y				&nav_o				&nav_w				&nav_b				&trans   																																											&trans  			&nav_f          	&nav_d			   	&nav_l			   	&nav_p		     	 &nav_quote	    	 &nav_circ
+			&kp LG(OPT7_V)		&nav_a				&nav_i				&nav_e				&nav_u				&trans				&trans          						&trans              &trans          							               &trans              &trans   				                &trans              &nav_m  			&nav_s		  	 	&nav_n	 	  	 	&nav_t   	 	 	 &nav_r			  	 &trans
+			&kp LC(OPT7_H)      &nav_e_grv			&nav_z				&fenetre_d			&nav_e_aig          &nav_dot        		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&nav_v              &nav_c			    &nav_h		     	&nav_g		         &nav_x			  	 &trans
+			&kp LC(OPT7_L)      &trans              &trans              &nav_e_circ         &nav_k  						                			&trans              &trans              &trans          								           &trans              &trans              &trans          												&nav_q			 	&nav_j              &trans               &trans              &trans
 		>;
 	};
 

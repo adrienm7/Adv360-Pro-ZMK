@@ -85,7 +85,7 @@ txt_etre: txt_etre {
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp SPACE &kp OPT7_E_CIRC &kp OPT7_T &kp OPT7_R &kp OPT7_E &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_E_CIRC &kp OPT7_T &kp OPT7_R &kp OPT7_E>;
 };
 
 // F
@@ -135,7 +135,7 @@ txt_toujours: txt_toujours {
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_T &kp OPT7_O &kp OPT7_U &kp OPT7_J &kp OPT7_O &kp OPT7_U &kp OPT7_R &kp OPT7_S &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_T &kp OPT7_O &kp OPT7_U &kp OPT7_J &kp OPT7_O &kp OPT7_U &kp OPT7_R &kp OPT7_S>;
 };
 
 // K
@@ -295,7 +295,7 @@ txt_vez_vous: txt_vez_vous {
 	wait-ms = <30>;
 	tap-ms = <40>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_V &kp OPT7_E &kp OPT7_Z &kp LS(SPACE) &kp OPT7_V &kp OPT7_O &kp OPT7_U &kp OPT7_S &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_V &kp OPT7_E &kp OPT7_Z &kp LS(SPACE) &kp OPT7_V &kp OPT7_O &kp OPT7_U &kp OPT7_S>;
 };
 
 // ’
@@ -316,4 +316,14 @@ txt_meme: txt_meme {
 	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_M &kp OPT7_E_CIRC &kp OPT7_M &kp OPT7_E>;
+};
+
+// .
+txt_deja: txt_deja {
+	compatible = "zmk,behavior-macro";
+	label = "txt_deja";
+	wait-ms = <30>;
+	tap-ms = <40>;
+	#binding-cells = <0>;
+	bindings = <&macro_tap &kp OPT7_D &kp OPT7_E_AIG &kp OPT7_J &kp OPT7_A_GRV>;
 };
