@@ -1,3 +1,89 @@
+// ===========================
+// ======= Main gauche =======
+// ===========================
+
+
+
+
+
+// ===========================
+// ======= Main droite =======
+// ===========================
+
+
+
+// ======= Main droite, haut =======
+
+
+nav_f: nav_f {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_f";
+	#binding-cells = <0>;
+	bindings = <&trans>, <&txt_for>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_d: nav_d {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_d";
+	#binding-cells = <0>;
+	bindings = <&copie_debut_doc>, <&txt_ould>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_l: nav_l {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_l";
+	#binding-cells = <0>;
+	bindings = <&aller_debut_doc>, <&txt_elle>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_p: nav_p {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_p";
+	#binding-cells = <0>;
+	bindings = <&aller_fin_doc>, <&txt_mpl>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_quote: nav_quote {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_quote";
+	#binding-cells = <0>;
+	bindings = <&copie_fin_doc>, <&txt_n_t>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_circ: nav_circ {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_circ";
+	#binding-cells = <0>;
+	bindings = <&kp F12>, <&txt_meme>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+// ======= Main droite, milieu =======
+
+
+nav_m: nav_m {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_m";
+	#binding-cells = <0>;
+	bindings = <&trans>, <&txt_ment>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_s: nav_s {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_s";
+	#binding-cells = <0>;
+	bindings = <&kp PAGE_UP>, <&txt_sc>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
 nav_n: nav_n {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_n";
@@ -11,5 +97,79 @@ nav_t: nav_t {
 	label = "nav_t";
 	#binding-cells = <0>;
 	bindings = <&kp DOWN>, <&txt_ement>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_r: nav_r {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_r";
+	#binding-cells = <0>;
+	bindings = <&kp PAGE_DOWN>, <&txt_aire>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+// ======= Main droite, bas =======
+
+
+nav_v: nav_v {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_v";
+	#binding-cells = <0>;
+	bindings = <&trans>, <&txt_ance>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_c: nav_c {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_c";
+	#binding-cells = <0>;
+	bindings = <&dupliquer_haut>, <&txt_ence>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_h: nav_h {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_h";
+	#binding-cells = <0>;
+	bindings = <&deplacer_haut>, <&txt_chn>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_g: nav_g {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_g";
+	#binding-cells = <0>;
+	bindings = <&deplacer_bas>, <&txt_ing>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_x: nav_x {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_x";
+	#binding-cells = <0>;
+	bindings = <&dupliquer_bas>, <&txt_eux>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+
+
+// ======= Main droite, dernière ligne =======
+
+
+nav_q: nav_q {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_q";
+	#binding-cells = <0>;
+	bindings = <&trans>, <&txt_quelqu>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+nav_j: nav_j {
+	compatible = "zmk,behavior-mod-morph";
+	label = "nav_j";
+	#binding-cells = <0>;
+	bindings = <&trans>, <&txt_toujours>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
