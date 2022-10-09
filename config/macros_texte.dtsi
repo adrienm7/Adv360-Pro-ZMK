@@ -135,7 +135,7 @@ txt_toujours: txt_toujours {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_COMMA OPT7_J>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_J>;
 };
 
 // K
@@ -255,7 +255,7 @@ txt_ance: txt_ance {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_COMMA  &kp OPT7_V>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_V>;
 };
 
 // W
@@ -335,5 +335,5 @@ txt_eurs: txt_eurs {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E &kp OPT7_U &kp OPT7_R &kp OPT7_S>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_COMMA>;
 };
