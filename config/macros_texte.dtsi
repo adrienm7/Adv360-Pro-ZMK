@@ -2,8 +2,8 @@
 txt_ajout: txt_ajout {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ajout";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_A &kp OPT7_J &kp OPT7_O &kp OPT7_U &kp OPT7_T>;
 };
@@ -12,8 +12,8 @@ txt_ajout: txt_ajout {
 txt_ation: txt_ation {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ation";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_A &kp OPT7_T &kp OPT7_I &kp OPT7_O &kp OPT7_N>;
 };
@@ -22,8 +22,8 @@ txt_ation: txt_ation {
 txt_able: txt_able {
 	compatible = "zmk,behavior-macro";
 	label = "txt_able";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_A &kp OPT7_B &kp OPT7_L &kp OPT7_E>;
 };
@@ -32,8 +32,8 @@ txt_able: txt_able {
 txt_ence: txt_ence {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ence";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_E &kp OPT7_N &kp OPT7_C &kp OPT7_E>;
 };
@@ -42,8 +42,8 @@ txt_ence: txt_ence {
 txt_and: txt_and {
 	compatible = "zmk,behavior-macro";
 	label = "txt_and";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp SPACE &kp OPT7_A &kp OPT7_N &kp OPT7_D &kp SPACE>;
 };
@@ -52,8 +52,8 @@ txt_and: txt_and {
 txt_ement: txt_ement {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ement";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_E &kp OPT7_M &kp OPT7_E &kp OPT7_N &kp OPT7_T>;
 };
@@ -62,8 +62,8 @@ txt_ement: txt_ement {
 txt_ere: txt_ere {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ere";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_E_GRV &kp OPT7_R &kp OPT7_E>;
 };
@@ -72,8 +72,8 @@ txt_ere: txt_ere {
 txt_ite: txt_ite {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ite";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_I &kp OPT7_T &kp OPT7_E_AIG>;
 };
@@ -82,8 +82,8 @@ txt_ite: txt_ite {
 txt_etre: txt_etre {
 	compatible = "zmk,behavior-macro";
 	label = "txt_etre";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_E_CIRC &kp OPT7_T &kp OPT7_R &kp OPT7_E &kp SPACE>;
 };
@@ -92,8 +92,8 @@ txt_etre: txt_etre {
 txt_for: txt_for {
 	compatible = "zmk,behavior-macro";
 	label = "txt_for";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_F &kp OPT7_O &kp OPT7_R &kp SPACE>;
 };
@@ -102,8 +102,8 @@ txt_for: txt_for {
 txt_ing: txt_ing {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ing";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_I &kp OPT7_N &kp OPT7_G &kp SPACE>;
 };
@@ -112,8 +112,8 @@ txt_ing: txt_ing {
 txt_techn: txt_techn {
 	compatible = "zmk,behavior-macro";
 	label = "txt_techn";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp SPACE &kp OPT7_T &kp OPT7_E &kp OPT7_C &kp OPT7_H &kp OPT7_N>;
 };
@@ -122,8 +122,8 @@ txt_techn: txt_techn {
 txt_ight: txt_ight {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ight";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_I &kp OPT7_G &kp OPT7_H &kp OPT7_T>;
 };
@@ -132,8 +132,8 @@ txt_ight: txt_ight {
 txt_toujours: txt_toujours {
 	compatible = "zmk,behavior-macro";
 	label = "txt_toujours";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp SPACE &kp OPT7_T &kp OPT7_O &kp OPT7_U &kp OPT7_J &kp OPT7_O &kp OPT7_U &kp OPT7_R &kp OPT7_S &kp SPACE>;
 };
@@ -142,8 +142,8 @@ txt_toujours: txt_toujours {
 txt_ique: txt_ique {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ique";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_I &kp OPT7_Q &kp OPT7_E>;
 };
@@ -152,8 +152,8 @@ txt_ique: txt_ique {
 txt_elle: txt_elle {
 	compatible = "zmk,behavior-macro";
 	label = "txt_elle";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_E &kp OPT7_L &kp OPT7_L &kp OPT7_E>;
 };
@@ -162,8 +162,8 @@ txt_elle: txt_elle {
 txt_ment: txt_ment {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ment";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_M &kp OPT7_E &kp OPT7_N &kp OPT7_T>;
 };
@@ -172,8 +172,8 @@ txt_ment: txt_ment {
 txt_ction: txt_ction {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ction";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_C &kp OPT7_T &kp OPT7_I &kp OPT7_O &kp OPT7_N>;
 };
@@ -182,8 +182,8 @@ txt_ction: txt_ction {
 txt_ould: txt_ould {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ould";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_L &kp OPT7_D &kp SPACE>;
 };
@@ -192,8 +192,8 @@ txt_ould: txt_ould {
 txt_mpl: txt_mpl {
 	compatible = "zmk,behavior-macro";
 	label = "txt_mpl";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_M &kp OPT7_P &kp OPT7_L>;
 };
@@ -202,8 +202,8 @@ txt_mpl: txt_mpl {
 txt_quelqu: txt_quelqu {
 	compatible = "zmk,behavior-macro";
 	label = "txt_quelqu";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp SPACE &kp OPT7_Q &kp OPT7_E &kp OPT7_L &kp OPT7_Q>;
 };
@@ -212,8 +212,8 @@ txt_quelqu: txt_quelqu {
 txt_aire: txt_aire {
 	compatible = "zmk,behavior-macro";
 	label = "txt_aire";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_A &kp OPT7_I &kp OPT7_R &kp OPT7_E>;
 };
@@ -222,8 +222,8 @@ txt_aire: txt_aire {
 txt_sc: txt_sc {
 	compatible = "zmk,behavior-macro";
 	label = "txt_sc";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_S &kp OPT7_C>;
 };
@@ -232,8 +232,8 @@ txt_sc: txt_sc {
 txt_ette: txt_ette {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ette";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_E &kp OPT7_T &kp OPT7_T &kp OPT7_E>;
 };
@@ -242,8 +242,8 @@ txt_ette: txt_ette {
 txt_ought: txt_ought {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ought";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_G &kp OPT7_H &kp OPT7_T &kp SPACE>;
 };
@@ -252,8 +252,8 @@ txt_ought: txt_ought {
 txt_ance: txt_ance {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ance";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_A &kp OPT7_N &kp OPT7_C &kp OPT7_E>;
 };
@@ -262,8 +262,8 @@ txt_ance: txt_ance {
 txt_was: txt_was {
 	compatible = "zmk,behavior-macro";
 	label = "txt_was";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp SPACE &kp OPT7_W &kp OPT7_A &kp OPT7_S &kp SPACE>;
 };
@@ -272,8 +272,8 @@ txt_was: txt_was {
 txt_eux: txt_eux {
 	compatible = "zmk,behavior-macro";
 	label = "txt_eux";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_E &kp OPT7_U &kp OPT7_X &kp SPACE>;
 };
@@ -282,8 +282,8 @@ txt_eux: txt_eux {
 txt_ying: txt_ying {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ying";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_Y &kp OPT7_I &kp OPT7_N &kp OPT7_G &kp SPACE>;
 };
@@ -292,8 +292,8 @@ txt_ying: txt_ying {
 txt_vez_vous: txt_vez_vous {
 	compatible = "zmk,behavior-macro";
 	label = "txt_vez_vous";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_V &kp OPT7_E &kp OPT7_Z &kp LS(SPACE) &kp OPT7_V &kp OPT7_O &kp OPT7_U &kp OPT7_S &kp SPACE>;
 };
@@ -302,8 +302,8 @@ txt_vez_vous: txt_vez_vous {
 txt_n_t: txt_n_t {
 	compatible = "zmk,behavior-macro";
 	label = "txt_n_t";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_N &kp LS(OPT7_DQUOTE) &kp OPT7_T &kp SPACE>;
 };
@@ -312,8 +312,8 @@ txt_n_t: txt_n_t {
 txt_meme: txt_meme {
 	compatible = "zmk,behavior-macro";
 	label = "txt_circ";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp SPACE &kp OPT7_M &kp OPT7_E_CIRC &kp OPT7_M &kp OPT7_E &kp SPACE>;
 };
@@ -322,8 +322,8 @@ txt_meme: txt_meme {
 txt_deja: txt_deja {
 	compatible = "zmk,behavior-macro";
 	label = "txt_deja";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp SPACE &kp OPT7_D &kp OPT7_E_AIG &kp OPT7_J &kp OPT7_A_GRV &kp SPACE>;
 };
@@ -332,8 +332,8 @@ txt_deja: txt_deja {
 txt_eurs: txt_eurs {
 	compatible = "zmk,behavior-macro";
 	label = "txt_eurs";
-	wait-ms = <20>;
-	tap-ms = <30>;
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_E &kp OPT7_U &kp OPT7_R &kp OPT7_S>;
 };

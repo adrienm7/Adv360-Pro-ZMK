@@ -11,7 +11,7 @@ nav_a_grv: nav_a_grv {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_a_grv";
 	#binding-cells = <0>;
-	bindings = <&select_mot_g>, <&txt_for>;
+	bindings = <&select_mot_g>, <&txt_ajout>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
