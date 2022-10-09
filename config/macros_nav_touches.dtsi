@@ -12,7 +12,7 @@ nav_a_grv: nav_a_grv {
 	label = "nav_a_grv";
 	#binding-cells = <0>;
 	bindings = <&select_mot_g>, <&txt_ajout>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_y: nav_y {
@@ -20,7 +20,7 @@ nav_y: nav_y {
 	label = "nav_y";
 	#binding-cells = <0>;
 	bindings = <&mot_g>, <&txt_ying>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_o: nav_o {
@@ -28,7 +28,7 @@ nav_o: nav_o {
 	label = "nav_o";
 	#binding-cells = <0>;
 	bindings = <&mot_d>, <&txt_ould>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_w: nav_w {
@@ -36,7 +36,7 @@ nav_w: nav_w {
 	label = "nav_w";
 	#binding-cells = <0>;
 	bindings = <&select_mot_d>, <&txt_was>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_b: nav_b {
@@ -44,7 +44,7 @@ nav_b: nav_b {
 	label = "nav_b";
 	#binding-cells = <0>;
 	bindings = <&trans>, <&txt_able>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 
@@ -57,7 +57,7 @@ nav_a: nav_a {
 	label = "nav_a";
 	#binding-cells = <0>;
 	bindings = <&kp HOME>, <&txt_ation>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_i: nav_i {
@@ -65,7 +65,7 @@ nav_i: nav_i {
 	label = "nav_i";
 	#binding-cells = <0>;
 	bindings = <&kp LEFT>, <&txt_ight>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_e: nav_e {
@@ -73,7 +73,7 @@ nav_e: nav_e {
 	label = "nav_e";
 	#binding-cells = <0>;
 	bindings = <&kp RIGHT>, <&txt_ement>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_u: nav_u {
@@ -81,7 +81,7 @@ nav_u: nav_u {
 	label = "nav_u";
 	#binding-cells = <0>;
 	bindings = <&kp END>, <&txt_ought>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_comma: nav_comma {
@@ -89,7 +89,7 @@ nav_comma: nav_comma {
 	label = "nav_comma";
 	#binding-cells = <0>;
 	bindings = <&trans>, <&txt_eurs>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 
@@ -102,7 +102,7 @@ nav_e_grv: nav_e_grv {
 	label = "nav_e_grv";
 	#binding-cells = <0>;
 	bindings = <&ecran_g>, <&txt_ere>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_z: nav_z {
@@ -110,7 +110,7 @@ nav_z: nav_z {
 	label = "nav_z";
 	#binding-cells = <0>;
 	bindings = <&fenetre_g>, <&txt_vez_vous>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_e_aig: nav_e_aig {
@@ -118,7 +118,7 @@ nav_e_aig: nav_e_aig {
 	label = "nav_e_aig";
 	#binding-cells = <0>;
 	bindings = <&ecran_d>, <&txt_ite>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_dot: nav_dot {
@@ -126,7 +126,7 @@ nav_dot: nav_dot {
 	label = "nav_dot";
 	#binding-cells = <0>;
 	bindings = <&fullscreen>, <&txt_deja>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 
@@ -139,7 +139,7 @@ nav_k: nav_k {
 	label = "nav_k";
 	#binding-cells = <0>;
 	bindings = <&trans>, <&txt_ique>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_e_circ: nav_e_circ {
@@ -147,7 +147,7 @@ nav_e_circ: nav_e_circ {
 	label = "nav_e_circ";
 	#binding-cells = <0>;
 	bindings = <&trans>, <&txt_etre>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 
@@ -170,7 +170,7 @@ nav_f: nav_f {
 	label = "nav_f";
 	#binding-cells = <0>;
 	bindings = <&trans>, <&txt_for>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_d: nav_d {
@@ -178,7 +178,7 @@ nav_d: nav_d {
 	label = "nav_d";
 	#binding-cells = <0>;
 	bindings = <&copie_debut_doc>, <&txt_and>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_l: nav_l {
@@ -186,7 +186,7 @@ nav_l: nav_l {
 	label = "nav_l";
 	#binding-cells = <0>;
 	bindings = <&aller_debut_doc>, <&txt_elle>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_p: nav_p {
@@ -194,7 +194,7 @@ nav_p: nav_p {
 	label = "nav_p";
 	#binding-cells = <0>;
 	bindings = <&aller_fin_doc>, <&txt_mpl>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_quote: nav_quote {
@@ -202,7 +202,7 @@ nav_quote: nav_quote {
 	label = "nav_quote";
 	#binding-cells = <0>;
 	bindings = <&copie_fin_doc>, <&txt_n_t>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_circ: nav_circ {
@@ -210,7 +210,7 @@ nav_circ: nav_circ {
 	label = "nav_circ";
 	#binding-cells = <0>;
 	bindings = <&kp F12>, <&txt_meme>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 
@@ -223,7 +223,7 @@ nav_m: nav_m {
 	label = "nav_m";
 	#binding-cells = <0>;
 	bindings = <&trans>, <&txt_ment>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_s: nav_s {
@@ -231,7 +231,7 @@ nav_s: nav_s {
 	label = "nav_s";
 	#binding-cells = <0>;
 	bindings = <&kp PAGE_UP>, <&txt_sc>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_n: nav_n {
@@ -239,7 +239,7 @@ nav_n: nav_n {
 	label = "nav_n";
 	#binding-cells = <0>;
 	bindings = <&kp UP>, <&txt_ation>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_t: nav_t {
@@ -247,7 +247,7 @@ nav_t: nav_t {
 	label = "nav_t";
 	#binding-cells = <0>;
 	bindings = <&kp DOWN>, <&txt_ette>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_r: nav_r {
@@ -255,7 +255,7 @@ nav_r: nav_r {
 	label = "nav_r";
 	#binding-cells = <0>;
 	bindings = <&kp PAGE_DOWN>, <&txt_aire>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 
@@ -268,7 +268,7 @@ nav_v: nav_v {
 	label = "nav_v";
 	#binding-cells = <0>;
 	bindings = <&trans>, <&txt_ance>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_c: nav_c {
@@ -276,7 +276,7 @@ nav_c: nav_c {
 	label = "nav_c";
 	#binding-cells = <0>;
 	bindings = <&dupliquer_haut>, <&txt_ence>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_h: nav_h {
@@ -284,7 +284,7 @@ nav_h: nav_h {
 	label = "nav_h";
 	#binding-cells = <0>;
 	bindings = <&deplacer_haut>, <&txt_techn>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_g: nav_g {
@@ -292,7 +292,7 @@ nav_g: nav_g {
 	label = "nav_g";
 	#binding-cells = <0>;
 	bindings = <&deplacer_bas>, <&txt_ing>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_x: nav_x {
@@ -300,7 +300,7 @@ nav_x: nav_x {
 	label = "nav_x";
 	#binding-cells = <0>;
 	bindings = <&dupliquer_bas>, <&txt_eux>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 
@@ -313,7 +313,7 @@ nav_q: nav_q {
 	label = "nav_q";
 	#binding-cells = <0>;
 	bindings = <&trans>, <&txt_quelqu>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
 
 nav_j: nav_j {
@@ -321,5 +321,5 @@ nav_j: nav_j {
 	label = "nav_j";
 	#binding-cells = <0>;
 	bindings = <&trans>, <&txt_toujours>;
-	mods = <(MOD_LSFT|MOD_RSFT)>;
+	mods = <MOD_RALT>;
 };
