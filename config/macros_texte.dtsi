@@ -52,8 +52,8 @@ txt_and: txt_and {
 txt_ement: txt_ement {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ement";
-	wait-ms = <30>;
-	tap-ms = <40>;
+	wait-ms = <10>;
+	tap-ms = <20>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_E &kp OPT7_M &kp OPT7_E &kp OPT7_N &kp OPT7_T>;
 };
@@ -122,8 +122,8 @@ txt_techn: txt_techn {
 txt_ight: txt_ight {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ight";
-	wait-ms = <30>;
-	tap-ms = <40>;
+	wait-ms = <20>;
+	tap-ms = <30>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_I &kp OPT7_G &kp OPT7_H &kp OPT7_T>;
 };
@@ -242,8 +242,8 @@ txt_ette: txt_ette {
 txt_ought: txt_ought {
 	compatible = "zmk,behavior-macro";
 	label = "txt_ought";
-	wait-ms = <30>;
-	tap-ms = <40>;
+	wait-ms = <10>;
+	tap-ms = <10>;
 	#binding-cells = <0>;
 	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_G &kp OPT7_H &kp OPT7_T &kp SPACE>;
 };
