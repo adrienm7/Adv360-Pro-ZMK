@@ -53,7 +53,7 @@
         	&kp LC(OPT7_C)  	&kp OPT7_A_GRV     	&kp OPT7_Y   		&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dynamic_macro_1 RECORD                                                      																								&dynamic_macro_2 RECORD 	&kp OPT7_F 			&kp OPT7_D  		&kp OPT7_L  	   	&kp OPT7_P  		&kp OPT7_QUOTE    	&kp RBKT
         	&kp LC(OPT7_V)		&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&kp ENTER			&mt LALT ESCAPE                							   	&sk LALT  	      &kp RCTRL							&dynamic_macro_2 PLAY 		&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp MINUS
         	&kp LC(OPT7_X)		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&kp OPT7_DOT              				&none     			&none     			&mt LCTRL DEL 	    &none 			    &none 			   	&kp RCTRL	   	  &none     		   &none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp EQUAL
-        	&alt_tab 			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&lt NAV SPACE 		&mt LCTRL TAB   	&kp BACKSPACE             							   		&kp LGUI   		  &hold_dspc RSHIFT 0  &hold_repeat RALT 0               							&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp GRAVE
+        	&alt_tab 			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&lt NAV SPACE 		&mt LCTRL TAB   	&kp BACKSPACE             							   		&kp LGUI   		  &hold_dspc RALT 0    &hold_repeat RSHIFT 0               							&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp GRAVE
         >;
     };
 
