@@ -5,7 +5,7 @@ txt_ajout: txt_ajout {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_A &kp OPT7_J &kp OPT7_O &kp OPT7_U &kp OPT7_T>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_A_GRV>;
 };
 
 // A
@@ -15,7 +15,7 @@ txt_ation: txt_ation {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_A &kp OPT7_T &kp OPT7_I &kp OPT7_O &kp OPT7_N>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_A>;
 };
 
 // B
@@ -25,7 +25,7 @@ txt_able: txt_able {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_A &kp OPT7_B &kp OPT7_L &kp OPT7_E>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_B>;
 };
 
 // C
@@ -35,7 +35,7 @@ txt_ence: txt_ence {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E &kp OPT7_N &kp OPT7_C &kp OPT7_E>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_C>;
 };
 
 // D
@@ -45,7 +45,7 @@ txt_and: txt_and {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp SPACE &kp OPT7_A &kp OPT7_N &kp OPT7_D &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_D>;
 };
 
 // E
@@ -55,7 +55,7 @@ txt_ement: txt_ement {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E &kp OPT7_M &kp OPT7_E &kp OPT7_N &kp OPT7_T>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_E>;
 };
 
 // È
@@ -65,7 +65,7 @@ txt_ere: txt_ere {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E_GRV &kp OPT7_R &kp OPT7_E>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_E_GRV>;
 };
 
 // É
@@ -75,7 +75,7 @@ txt_ite: txt_ite {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_I &kp OPT7_T &kp OPT7_E_AIG>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_E_AIG>;
 };
 
 // Ê
@@ -85,7 +85,7 @@ txt_etre: txt_etre {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E_CIRC &kp OPT7_T &kp OPT7_R &kp OPT7_E &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_E_CIRC>;
 };
 
 // F
@@ -95,7 +95,7 @@ txt_for: txt_for {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_F &kp OPT7_O &kp OPT7_R &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_F>;
 };
 
 // G
@@ -105,7 +105,7 @@ txt_ing: txt_ing {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_I &kp OPT7_N &kp OPT7_G &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_G>;
 };
 
 // H
@@ -115,7 +115,7 @@ txt_techn: txt_techn {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp SPACE &kp OPT7_T &kp OPT7_E &kp OPT7_C &kp OPT7_H &kp OPT7_N>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_H>;
 };
 
 // I
@@ -125,7 +125,7 @@ txt_ight: txt_ight {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_I &kp OPT7_G &kp OPT7_H &kp OPT7_T>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_I>;
 };
 
 // J
@@ -135,7 +135,7 @@ txt_toujours: txt_toujours {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp SPACE &kp OPT7_T &kp OPT7_O &kp OPT7_U &kp OPT7_J &kp OPT7_O &kp OPT7_U &kp OPT7_R &kp OPT7_S &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA OPT7_J>;
 };
 
 // K
@@ -145,7 +145,7 @@ txt_ique: txt_ique {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_I &kp OPT7_Q &kp OPT7_E>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_K>;
 };
 
 // L
@@ -155,7 +155,7 @@ txt_elle: txt_elle {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E &kp OPT7_L &kp OPT7_L &kp OPT7_E>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_L>;
 };
 
 // M
@@ -165,7 +165,7 @@ txt_ment: txt_ment {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_M &kp OPT7_E &kp OPT7_N &kp OPT7_T>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_M>;
 };
 
 // N
@@ -175,7 +175,7 @@ txt_ction: txt_ction {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_C &kp OPT7_T &kp OPT7_I &kp OPT7_O &kp OPT7_N>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_N>;
 };
 
 // O
@@ -185,7 +185,7 @@ txt_ould: txt_ould {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_L &kp OPT7_D &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_O>;
 };
 
 // P
@@ -195,7 +195,7 @@ txt_mpl: txt_mpl {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_M &kp OPT7_P &kp OPT7_L>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_P>;
 };
 
 // Q
@@ -205,7 +205,7 @@ txt_quelqu: txt_quelqu {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp SPACE &kp OPT7_Q &kp OPT7_E &kp OPT7_L &kp OPT7_Q>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_Q>;
 };
 
 // R
@@ -215,7 +215,7 @@ txt_aire: txt_aire {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_A &kp OPT7_I &kp OPT7_R &kp OPT7_E>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_R>;
 };
 
 // S
@@ -225,7 +225,7 @@ txt_sc: txt_sc {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_S &kp OPT7_C>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_S>;
 };
 
 // T
@@ -235,7 +235,7 @@ txt_ette: txt_ette {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E &kp OPT7_T &kp OPT7_T &kp OPT7_E>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_T>;
 };
 
 // U
@@ -245,7 +245,7 @@ txt_ought: txt_ought {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_O &kp OPT7_U &kp OPT7_G &kp OPT7_H &kp OPT7_T &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_U>;
 };
 
 // V
@@ -255,7 +255,7 @@ txt_ance: txt_ance {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_A &kp OPT7_N &kp OPT7_C &kp OPT7_E>;
+	bindings = <&macro_tap &kp OPT7_COMMA  &kp OPT7_V>;
 };
 
 // W
@@ -265,7 +265,7 @@ txt_was: txt_was {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp SPACE &kp OPT7_W &kp OPT7_A &kp OPT7_S &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_W>;
 };
 
 // X
@@ -275,7 +275,7 @@ txt_eux: txt_eux {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_E &kp OPT7_U &kp OPT7_X &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_X>;
 };
 
 // Y
@@ -285,7 +285,7 @@ txt_ying: txt_ying {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_Y &kp OPT7_I &kp OPT7_N &kp OPT7_G &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_Y>;
 };
 
 // Z
@@ -295,7 +295,7 @@ txt_vez_vous: txt_vez_vous {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_V &kp OPT7_E &kp OPT7_Z &kp LS(SPACE) &kp OPT7_V &kp OPT7_O &kp OPT7_U &kp OPT7_S &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_Z>;
 };
 
 // ’
@@ -305,7 +305,7 @@ txt_n_t: txt_n_t {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_N &kp LS(OPT7_DQUOTE) &kp OPT7_T &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_DQUOTE>;
 };
 
 // ^
@@ -315,7 +315,7 @@ txt_meme: txt_meme {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp SPACE &kp OPT7_M &kp OPT7_E_CIRC &kp OPT7_M &kp OPT7_E &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp RBKT>;
 };
 
 // .
@@ -325,7 +325,7 @@ txt_deja: txt_deja {
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
-	bindings = <&macro_tap &kp SPACE &kp OPT7_D &kp OPT7_E_AIG &kp OPT7_J &kp OPT7_A_GRV &kp SPACE>;
+	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_DOT>;
 };
 
 // ,
