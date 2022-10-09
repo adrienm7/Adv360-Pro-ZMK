@@ -88,7 +88,7 @@ nav_comma: nav_comma {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_comma";
 	#binding-cells = <0>;
-	bindings = <&trans>, <&txt_eurs>;
+	bindings = <&kp BACKSPACE>, <&txt_eurs>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
