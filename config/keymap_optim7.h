@@ -32,3 +32,7 @@
 #define OPT7_DOT		V			// .
 #define OPT7_DQUOTE		X			// "
 #define OPT7_QUOTE		P			// ’
+#define OPT7_CIRC		RBKT		// ^
+#define OPT7_EQUAL		MINUS		// =
+#define OPT7_PERCENT	EQUAL		// %
+#define OPT7_EURO		GRAVE		// €

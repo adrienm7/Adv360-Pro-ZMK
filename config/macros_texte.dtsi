@@ -1,7 +1,7 @@
 // À
-txt_ajout: txt_ajout {
+txt_a_grv: txt_a_grv {
 	compatible = "zmk,behavior-macro";
-	label = "txt_ajout";
+	label = "txt_a_grv";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -9,9 +9,9 @@ txt_ajout: txt_ajout {
 };
 
 // A
-txt_ation: txt_ation {
+txt_a: txt_a {
 	compatible = "zmk,behavior-macro";
-	label = "txt_ation";
+	label = "txt_a";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -19,9 +19,9 @@ txt_ation: txt_ation {
 };
 
 // B
-txt_able: txt_able {
+txt_b: txt_b {
 	compatible = "zmk,behavior-macro";
-	label = "txt_able";
+	label = "txt_b";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -29,9 +29,9 @@ txt_able: txt_able {
 };
 
 // C
-txt_ence: txt_ence {
+txt_c: txt_c {
 	compatible = "zmk,behavior-macro";
-	label = "txt_ence";
+	label = "txt_c";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -39,9 +39,9 @@ txt_ence: txt_ence {
 };
 
 // D
-txt_and: txt_and {
+txt_d: txt_d {
 	compatible = "zmk,behavior-macro";
-	label = "txt_and";
+	label = "txt_d";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -49,9 +49,9 @@ txt_and: txt_and {
 };
 
 // E
-txt_ement: txt_ement {
+txt_e: txt_e {
 	compatible = "zmk,behavior-macro";
-	label = "txt_ement";
+	label = "txt_e";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -59,9 +59,9 @@ txt_ement: txt_ement {
 };
 
 // È
-txt_ere: txt_ere {
+txt_e_grv: txt_e_grv {
 	compatible = "zmk,behavior-macro";
-	label = "txt_ere";
+	label = "txt_e_grv";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -69,9 +69,9 @@ txt_ere: txt_ere {
 };
 
 // É
-txt_ite: txt_ite {
+txt_e_aig: txt_e_aig {
 	compatible = "zmk,behavior-macro";
-	label = "txt_ite";
+	label = "txt_e_aig";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -79,9 +79,9 @@ txt_ite: txt_ite {
 };
 
 // Ê
-txt_etre: txt_etre {
+txt_e_circ: txt_e_circ {
 	compatible = "zmk,behavior-macro";
-	label = "txt_etre";
+	label = "txt_e_circ";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -89,9 +89,9 @@ txt_etre: txt_etre {
 };
 
 // F
-txt_for: txt_for {
+txt_f: txt_f {
 	compatible = "zmk,behavior-macro";
-	label = "txt_for";
+	label = "txt_f";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -99,9 +99,9 @@ txt_for: txt_for {
 };
 
 // G
-txt_ing: txt_ing {
+txt_g: txt_g {
 	compatible = "zmk,behavior-macro";
-	label = "txt_ing";
+	label = "txt_g";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -109,9 +109,9 @@ txt_ing: txt_ing {
 };
 
 // H
-txt_techn: txt_techn {
+txt_h: txt_h {
 	compatible = "zmk,behavior-macro";
-	label = "txt_techn";
+	label = "txt_h";
 	wait-ms = <20>;
 	tap-ms = <30>;
 	#binding-cells = <0>;
@@ -119,14 +119,11 @@ txt_techn: txt_techn {
 };
 
 // I
-txt_ight: txt_ight {
-	compatible = "zmk,behavior-macro";
-	label = "txt_ight";
-	wait-ms = <20>;
-	tap-ms = <30>;
-	#binding-cells = <0>;
-	bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_I>;
-};
+    ZMK_MACRO(txt_i,
+        wait-ms = <30>;
+        tap-ms = <40>;
+		bindings = <&macro_tap &kp OPT7_COMMA &kp OPT7_I>;
+    )
 
 // J
 txt_toujours: txt_toujours {
