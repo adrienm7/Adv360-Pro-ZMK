@@ -12,7 +12,7 @@ nav_a_grv: nav_a_grv {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_a_grv";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LS(LEFT))>, <&txt_a_grv>;
+	bindings = <&kp LC(LEFT)>, <&txt_a_grv>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -39,7 +39,7 @@ nav_w: nav_w {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_w";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LS(RIGHT))>, <&txt_w>;
+	bindings = <&kp LC(RIGHT)>, <&txt_w>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -106,7 +106,7 @@ nav_e_grv: nav_e_grv {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_e_grv";
 	#binding-cells = <0>;
-	bindings = <&kp LG(LS(LEFT))>, <&txt_e_grv>;
+	bindings = <&kp LG(LEFT)>, <&txt_e_grv>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -133,7 +133,7 @@ nav_e_aig: nav_e_aig {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_e_aig";
 	#binding-cells = <0>;
-	bindings = <&kp LG(LS(RIGHT))>, <&txt_e_aig>;
+	bindings = <&kp LG(RIGHT)>, <&txt_e_aig>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
