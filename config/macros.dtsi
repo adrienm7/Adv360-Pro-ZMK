@@ -35,6 +35,8 @@ alt_tab: alt_tab {
 dot_spc: dot_spc {
 	compatible = "zmk,behavior-macro";
 	label = "dot_spc";
+	wait-ms = <30>;
+	tap-ms = <40>;
 	#binding-cells = <0>;
 	bindings = <&kp OPT7_DOT &kp SPACE &skq LSHFT>;
 };
