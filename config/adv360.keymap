@@ -21,6 +21,7 @@
 / {
     behaviors {
 		#include "macros.dtsi"
+		#include "macros_nav.dtsi"
 		#include "macros_texte.dtsi"
 		#include "macros_nav_touches.dtsi"
 

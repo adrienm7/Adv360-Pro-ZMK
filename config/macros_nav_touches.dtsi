@@ -7,39 +7,35 @@
 // ======= Main gauche, haut =======
 
 
-// deplacer_mot_gauche
 nav_a_grv: nav_a_grv {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_a_grv";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LEFT)>, <&txt_a_grv>;
+	bindings = <&select_mot_g>, <&txt_a_grv>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// deplacer_selection_mot_gauche
 nav_y: nav_y {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_y";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LEFT)>, <&txt_y>;
+	bindings = <&mot_g>, <&txt_y>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// deplacer_selection_mot_droite
 nav_o: nav_o {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_o";
 	#binding-cells = <0>;
-	bindings = <&kp LC(RIGHT)>, <&txt_o>;
+	bindings = <&mot_d>, <&txt_o>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-deplacer_mot_droite
 nav_w: nav_w {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_w";
 	#binding-cells = <0>;
-	bindings = <&kp LC(RIGHT)>, <&txt_w>;
+	bindings = <&select_mot_d>, <&txt_w>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -101,48 +97,43 @@ nav_comma: nav_comma {
 // ======= Main gauche, bas =======
 
 
-// deplacer_ecran_gauche
 nav_e_grv: nav_e_grv {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_e_grv";
 	#binding-cells = <0>;
-	bindings = <&kp LG(LEFT)>, <&txt_e_grv>;
+	bindings = <&ecran_g>, <&txt_e_grv>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// deplacer_fenetre_gauche
 nav_z: nav_z {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_z";
 	#binding-cells = <0>;
-	bindings = <&kp LG(LEFT)>, <&txt_z>;
+	bindings = <&fenetre_g>, <&txt_z>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// deplacer_fenetre_droite
 nav_dquote: nav_dquote {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_z";
 	#binding-cells = <0>;
-	bindings = <&kp LG(RIGHT)>, <&txt_dquote>;
+	bindings = <&fenetre_d>, <&txt_dquote>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// deplacer_ecran_droite
 nav_e_aig: nav_e_aig {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_e_aig";
 	#binding-cells = <0>;
-	bindings = <&kp LG(RIGHT)>, <&txt_e_aig>;
+	bindings = <&ecran_d>, <&txt_e_aig>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// Fullscreen
 nav_dot: nav_dot {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_dot";
 	#binding-cells = <0>;
-	bindings = <&kp LG(UP)>, <&txt_dot>;
+	bindings = <&fullscreen>, <&txt_dot>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -190,39 +181,35 @@ nav_f: nav_f {
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// copie_debut_doc
 nav_d: nav_d {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_d";
 	#binding-cells = <0>;
-	bindings = <&kp LC(HOME)>, <&txt_d>;
+	bindings = <&copie_debut_doc>, <&txt_d>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// aller_debut_doc
 nav_l: nav_l {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_l";
 	#binding-cells = <0>;
-	bindings = <&kp LC(HOME)>, <&txt_l>;
+	bindings = <&aller_debut_doc>, <&txt_l>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// aller_fin_doc
 nav_p: nav_p {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_p";
 	#binding-cells = <0>;
-	bindings = <&kp LC(END)>, <&txt_p>;
+	bindings = <&aller_fin_doc>, <&txt_p>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// copie_fin_doc
 nav_quote: nav_quote {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_quote";
 	#binding-cells = <0>;
-	bindings = <&kp LC(END)>, <&txt_quote>;
+	bindings = <&copie_fin_doc>, <&txt_quote>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -292,39 +279,35 @@ nav_v: nav_v {
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// dupliquer_haut
 nav_c: nav_c {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_c";
 	#binding-cells = <0>;
-	bindings = <&kp LA(UP)>, <&txt_c>;
+	bindings = <&dupliquer_haut>, <&txt_c>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// deplacer_haut
 nav_h: nav_h {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_h";
 	#binding-cells = <0>;
-	bindings = <&kp LA(UP)>, <&txt_h>;
+	bindings = <&deplacer_haut>, <&txt_h>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// deplacer_bas
 nav_g: nav_g {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_g";
 	#binding-cells = <0>;
-	bindings = <&kp LA(DOWN)>, <&txt_g>;
+	bindings = <&deplacer_bas>, <&txt_g>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
-// dupliquer_bas
 nav_x: nav_x {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_x";
 	#binding-cells = <0>;
-	bindings = <&kp LA(DOWN)>, <&txt_x>;
+	bindings = <&dupliquer_bas>, <&txt_x>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
