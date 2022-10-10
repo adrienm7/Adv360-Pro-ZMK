@@ -238,7 +238,7 @@ nav_n: nav_n {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_n";
 	#binding-cells = <0>;
-	bindings = <&kp UP>, <&txt_ation>;
+	bindings = <&kp UP>, <&txt_a>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
