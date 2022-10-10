@@ -195,7 +195,7 @@ nav_d: nav_d {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_d";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LS(HOME))>, <&txt_d>;
+	bindings = <&kp LC(HOME)>, <&txt_d>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -222,7 +222,7 @@ nav_quote: nav_quote {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_quote";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LS(END))>, <&txt_quote>;
+	bindings = <&kp LC(END)>, <&txt_quote>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -297,7 +297,7 @@ nav_c: nav_c {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_c";
 	#binding-cells = <0>;
-	bindings = <&kp LA(LS(UP))>, <&txt_c>;
+	bindings = <&kp LA(UP)>, <&txt_c>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -324,7 +324,7 @@ nav_x: nav_x {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_x";
 	#binding-cells = <0>;
-	bindings = <&kp LA(LS(DOWN))>, <&txt_x>;
+	bindings = <&kp LA(DOWN)>, <&txt_x>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
