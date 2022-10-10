@@ -51,9 +51,9 @@
       bindings = <
         	&kp LC(OPT7_T)		&kp N1    			&kp N2   			&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       																										&mo MOD 			&kp N6 				&kp N7 				&kp N8    			&kp N9   			&kp N0   			&kp ESC
         	&kp LC(OPT7_C)  	&kp OPT7_A_GRV     	&kp OPT7_Y   		&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dynamic_macro_1 RECORD                                                      																								&dynamic_macro_2 RECORD 	&kp OPT7_F 			&kp OPT7_D  		&kp OPT7_L  	   	&kp OPT7_P  		&kp OPT7_QUOTE    	&kp OPT7_CIRC
-        	&kp LC(OPT7_V)		&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&kp ENTER			&mt LALT ESCAPE                							   	&sk LALT  	      &kp RCTRL							&dynamic_macro_2 PLAY 		&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp OPT7_EQUAL
-        	&kp LC(OPT7_X)		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&kp OPT7_DOT              				&none     			&none     			&mt LCTRL DEL 	    &none 			    &none 			   	&kp RCTRL	   	  &none     		   &none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp OPT7_PERCENT
-        	&alt_tab 			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&lt NAV SPACE 		&mt LCTRL TAB   	&kp BACKSPACE             							   		&kp LGUI   		  &hold_dspc RALT 0    &hold_repeat RSHIFT 0               							&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp OPT7_EURO
+        	&kp LC(OPT7_V)		&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&dot_spc			&kp ENTER   	       	      							   &ESCAPE	  	      &kp LALT							&dynamic_macro_2 PLAY 		&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp OPT7_EQUAL
+        	&kp LC(OPT7_X)		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&kp OPT7_DOT              				&none     			&none     			&kp BACKSPACE      &none 			    &none 			   &kp RCTRL	   	  &none     		   &none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp OPT7_PERCENT
+        	&alt_tab 			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&lt NAV SPACE 		&mt LCTRL TAB   	&kp DELETE             							   	   	   &kp LGUI   		  &mt RALT ENTER	   &hold_repeat RSHIFT 0               							&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp OPT7_EURO
         >;
     };
 
@@ -61,9 +61,9 @@
 		bindings = <
 			&kp LC(OPT7_D)     	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
 			&kp LC(OPT7_F)		&nav_a_grv			&nav_y				&nav_o				&nav_w				&nav_b				&trans   																																											&trans  			&nav_f          	&nav_d			   	&nav_l			   	&nav_p		     	 &nav_quote	    	 &nav_circ
-			&kp LG(OPT7_V)		&nav_a				&nav_i				&nav_e				&nav_u				&nav_comma			&trans          						&trans              &trans          							               &trans              &trans   				                &trans              &nav_m  			&nav_s		  	 	&nav_n	 	  	 	&nav_t   	 	 	 &nav_r			  	 &trans
-			&kp LC(OPT7_H)      &nav_e_grv			&nav_z				&fenetre_d			&nav_e_aig          &nav_dot        		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&nav_v              &nav_c			    &nav_h		     	&nav_g		         &nav_x			  	 &trans
-			&kp LC(OPT7_L)      &trans              &trans              &nav_e_circ         &nav_k  						                			&trans              &trans              &trans          								           &trans              &kp LS(BACKSPACE)   &kp BACKSPACE   												&nav_q			 	&nav_j              &trans               &trans              &trans
+			&kp LG(OPT7_V)		&nav_a				&nav_i				&nav_e				&nav_u				&nav_comma			&trans          						&trans              &trans          							               &trans              &kp LC(DELETE)   		                &trans              &nav_m  			&nav_s		  	 	&nav_n	 	  	 	&nav_t   	 	 	 &nav_r			  	 &trans
+			&kp LC(OPT7_H)      &nav_e_grv			&nav_z				&nav_dquote			&nav_e_aig          &nav_dot        		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&nav_v              &nav_c			    &nav_h		     	&nav_g		         &nav_x			  	 &trans
+			&kp LC(OPT7_L)      &trans              &trans              &nav_e_circ         &nav_k  						                			&trans              &trans              &trans          								           &trans              &kp LC(BACKSPACE)   &kp BACKSPACE   												&nav_q			 	&nav_j              &trans               &trans              &trans
 		>;
 	};
 
