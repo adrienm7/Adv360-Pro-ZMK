@@ -60,7 +60,7 @@ nav_a: nav_a {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_a";
 	#binding-cells = <0>;
-	bindings = <&kp HOME>, <&txt_a>;
+	bindings = <&kp HOME>, <&kp HYPER(OPT7_A)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
