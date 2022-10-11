@@ -122,7 +122,7 @@ nav_z: nav_z {
 // deplacer_fenetre_droite
 nav_dquote: nav_dquote {
 	compatible = "zmk,behavior-mod-morph";
-	label = "nav_z";
+	label = "nav_dquote";
 	#binding-cells = <0>;
 	bindings = <&kp LG(RIGHT)>, <&kp WINCTRL(OPT7_DQUOTE)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
