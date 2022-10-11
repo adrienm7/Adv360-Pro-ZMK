@@ -12,7 +12,7 @@ nav_a_grv: nav_a_grv {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_a_grv";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LS(LEFT))>, <&txt_a_grv>;
+	bindings = <&kp LC(LS(LEFT))>, <&kp HYPER(OPT7_A_GRV)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -21,7 +21,7 @@ nav_y: nav_y {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_y";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LEFT)>, <&txt_y>;
+	bindings = <&kp LC(LEFT)>, <&kp HYPER(OPT7_Y)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -30,7 +30,7 @@ nav_o: nav_o {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_o";
 	#binding-cells = <0>;
-	bindings = <&kp LC(RIGHT)>, <&txt_o>;
+	bindings = <&kp LC(RIGHT)>, <&kp HYPER(OPT7_O)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -39,7 +39,7 @@ nav_w: nav_w {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_w";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LS(RIGHT))>, <&txt_w>;
+	bindings = <&kp LC(LS(RIGHT))>, <&kp HYPER(OPT7_W)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -47,7 +47,7 @@ nav_b: nav_b {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_b";
 	#binding-cells = <0>;
-	bindings = <&trans>, <&txt_b>;
+	bindings = <&trans>, <&kp HYPER(OPT7_B)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -68,7 +68,7 @@ nav_i: nav_i {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_i";
 	#binding-cells = <0>;
-	bindings = <&kp LEFT>, <&txt_i>;
+	bindings = <&kp LEFT>, <&kp HYPER(OPT7_I)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -76,7 +76,7 @@ nav_e: nav_e {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_e";
 	#binding-cells = <0>;
-	bindings = <&kp RIGHT>, <&txt_e>;
+	bindings = <&kp RIGHT>, <&kp HYPER(OPT7_E)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -84,7 +84,7 @@ nav_u: nav_u {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_u";
 	#binding-cells = <0>;
-	bindings = <&kp END>, <&txt_u>;
+	bindings = <&kp END>, <&kp HYPER(OPT7_U)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -92,7 +92,7 @@ nav_comma: nav_comma {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_comma";
 	#binding-cells = <0>;
-	bindings = <&kp ESCAPE>, <&txt_comma>;
+	bindings = <&kp ESCAPE>, <&kp HYPER(OPT7_COMMA)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -106,7 +106,7 @@ nav_e_grv: nav_e_grv {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_e_grv";
 	#binding-cells = <0>;
-	bindings = <&kp LG(LS(LEFT))>, <&txt_e_grv>;
+	bindings = <&kp LG(LS(LEFT))>, <&kp HYPER(OPT7_E_GRV)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -115,7 +115,7 @@ nav_z: nav_z {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_z";
 	#binding-cells = <0>;
-	bindings = <&kp LG(LEFT)>, <&txt_z>;
+	bindings = <&kp LG(LEFT)>, <&kp HYPER(OPT7_Z)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -124,7 +124,7 @@ nav_dquote: nav_dquote {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_z";
 	#binding-cells = <0>;
-	bindings = <&kp LG(RIGHT)>, <&txt_dquote>;
+	bindings = <&kp LG(RIGHT)>, <&kp HYPER(OPT7_DQUOTE)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -133,7 +133,7 @@ nav_e_aig: nav_e_aig {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_e_aig";
 	#binding-cells = <0>;
-	bindings = <&kp LG(LS(RIGHT))>, <&txt_e_aig>;
+	bindings = <&kp LG(LS(RIGHT))>, <&kp HYPER(OPT7_E_AIG)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -142,7 +142,7 @@ nav_dot: nav_dot {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_dot";
 	#binding-cells = <0>;
-	bindings = <&kp LG(UP)>, <&txt_dot>;
+	bindings = <&kp LG(UP)>, <&kp HYPER(OPT7_DOT)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -155,7 +155,7 @@ nav_k: nav_k {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_k";
 	#binding-cells = <0>;
-	bindings = <&trans>, <&txt_k>;
+	bindings = <&trans>, <&kp HYPER(OPT7_C)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -163,7 +163,7 @@ nav_e_circ: nav_e_circ {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_e_circ";
 	#binding-cells = <0>;
-	bindings = <&trans>, <&txt_e_circ>;
+	bindings = <&trans>, <&kp HYPER(OPT7_E_CIRC)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -186,7 +186,7 @@ nav_f: nav_f {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_f";
 	#binding-cells = <0>;
-	bindings = <&trans>, <&txt_f>;
+	bindings = <&trans>, <&kp HYPER(OPT7_F)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -195,7 +195,7 @@ nav_d: nav_d {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_d";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LS(HOME))>, <&txt_d>;
+	bindings = <&kp LC(LS(HOME))>, <&kp HYPER(OPT7_D)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -204,7 +204,7 @@ nav_l: nav_l {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_l";
 	#binding-cells = <0>;
-	bindings = <&kp LC(HOME)>, <&txt_l>;
+	bindings = <&kp LC(HOME)>, <&kp HYPER(OPT7_L)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -213,7 +213,7 @@ nav_p: nav_p {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_p";
 	#binding-cells = <0>;
-	bindings = <&kp LC(END)>, <&txt_p>;
+	bindings = <&kp LC(END)>, <&kp HYPER(OPT7_P)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -222,7 +222,7 @@ nav_quote: nav_quote {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_quote";
 	#binding-cells = <0>;
-	bindings = <&kp LC(LS(END))>, <&txt_quote>;
+	bindings = <&kp LC(LS(END))>, <&kp HYPER(OPT7_QUOTE)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -230,7 +230,7 @@ nav_circ: nav_circ {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_circ";
 	#binding-cells = <0>;
-	bindings = <&kp F12>, <&txt_circ>;
+	bindings = <&kp F12>, <&kp HYPER(OPT7_CIRC)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -243,7 +243,7 @@ nav_m: nav_m {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_m";
 	#binding-cells = <0>;
-	bindings = <&trans>, <&txt_m>;
+	bindings = <&trans>, <&kp HYPER(OPT7_M)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -251,7 +251,7 @@ nav_s: nav_s {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_s";
 	#binding-cells = <0>;
-	bindings = <&kp PAGE_UP>, <&txt_s>;
+	bindings = <&kp PAGE_UP>, <&kp HYPER(OPT7_S)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -259,7 +259,7 @@ nav_n: nav_n {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_n";
 	#binding-cells = <0>;
-	bindings = <&kp UP>, <&txt_n>;
+	bindings = <&kp UP>, <&kp HYPER(OPT7_N)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -267,7 +267,7 @@ nav_t: nav_t {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_t";
 	#binding-cells = <0>;
-	bindings = <&kp DOWN>, <&txt_t>;
+	bindings = <&kp DOWN>, <&kp HYPER(OPT7_T)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -275,7 +275,7 @@ nav_r: nav_r {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_r";
 	#binding-cells = <0>;
-	bindings = <&kp PAGE_DOWN>, <&txt_r>;
+	bindings = <&kp PAGE_DOWN>, <&kp HYPER(OPT7_R)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -288,7 +288,7 @@ nav_v: nav_v {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_v";
 	#binding-cells = <0>;
-	bindings = <&trans>, <&txt_v>;
+	bindings = <&trans>, <&kp HYPER(OPT7_V)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -297,7 +297,7 @@ nav_c: nav_c {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_c";
 	#binding-cells = <0>;
-	bindings = <&kp LA(LS(UP))>, <&txt_c>;
+	bindings = <&kp LA(LS(UP))>, <&kp HYPER(OPT7_C)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -306,7 +306,7 @@ nav_h: nav_h {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_h";
 	#binding-cells = <0>;
-	bindings = <&kp LA(UP)>, <&txt_h>;
+	bindings = <&kp LA(UP)>, <&kp HYPER(OPT7_H)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -315,7 +315,7 @@ nav_g: nav_g {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_g";
 	#binding-cells = <0>;
-	bindings = <&kp LA(DOWN)>, <&txt_g>;
+	bindings = <&kp LA(DOWN)>, <&kp HYPER(OPT7_G)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -324,7 +324,7 @@ nav_x: nav_x {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_x";
 	#binding-cells = <0>;
-	bindings = <&kp LA(LS(DOWN))>, <&txt_x>;
+	bindings = <&kp LA(LS(DOWN))>, <&kp HYPER(OPT7_X)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -337,7 +337,7 @@ nav_q: nav_q {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_q";
 	#binding-cells = <0>;
-	bindings = <&trans>, <&txt_q>;
+	bindings = <&trans>, <&kp HYPER(OPT7_Q)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
 
@@ -345,6 +345,6 @@ nav_j: nav_j {
 	compatible = "zmk,behavior-mod-morph";
 	label = "nav_j";
 	#binding-cells = <0>;
-	bindings = <&trans>, <&txt_j>;
+	bindings = <&trans>, <&kp HYPER(OPT7_J)>;
 	mods = <(MOD_LSFT|MOD_RSFT)>;
 };
