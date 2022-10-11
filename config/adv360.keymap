@@ -11,7 +11,7 @@
 #define NAV   	1
 #define MOD   	2
 
-#define WINALT(key) LA(LG(key))
+#define WINCTRL(key) LC(LG(key))
 
 
 
