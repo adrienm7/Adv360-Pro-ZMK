@@ -58,10 +58,10 @@
 	layer_nav {
 		bindings = <
 			&kp LC(OPT7_D)     	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
-			&kp LC(OPT7_F)		&nav_a_grv			&nav_y				&nav_o				&nav_w				&nav_b				&trans   																																											&trans  			&nav_f          	&nav_d			   	&nav_l			   	&nav_p		     	 &nav_quote	    	 &nav_circ
-			&kp LG(OPT7_V)		&nav_a				&nav_i				&nav_e				&nav_u				&nav_comma			&trans          						&trans              &trans          							               &trans              &kp LC(DELETE)   		                &trans              &nav_m  			&nav_s		  	 	&nav_n	 	  	 	&nav_t   	 	 	 &nav_r			  	 &trans
-			&kp LC(OPT7_H)      &nav_e_grv			&nav_z				&nav_dquote			&nav_e_aig          &nav_dot        		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&nav_v              &nav_c			    &nav_h		     	&nav_g		         &nav_x			  	 &trans
-			&kp LC(OPT7_L)      &trans              &trans              &nav_e_circ         &nav_k  						                			&trans              &trans              &trans          								           &trans              &kp LC(BACKSPACE)   &trans		   												&nav_q			 	&nav_j              &trans               &trans              &trans
+			&kp LC(OPT7_F)		&kp LC(LS(LEFT))	&kp LC(LEFT)		&kp LC(RIGHT)		&kp LC(LS(RIGHT))	&trans				&trans   																																											&trans  			&trans          	&kp LC(LS(HOME))	&kp LC(HOME)		&kp LC(END)		     &kp LC(LS(END))	 &kp F12
+			&kp LG(OPT7_V)		&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&kp ESCAPE			&trans          						&trans              &trans          							               &trans              &kp LC(DELETE)   		                &trans              &trans  			&kp PAGE_UP		  	&kp UP	 	  	 	&kp DOWN   	 	 	 &kp PAGE_DOWN		 &trans
+			&kp LC(OPT7_H)      &kp LG(LS(LEFT))	&kp LG(LEFT)		&kp LG(RIGHT)		&kp LG(LS(RIGHT))   &kp LG(UP)        		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&trans              &kp LA(LS(UP))		&kp LA(UP)		    &kp LA(DOWN)		 &kp LA(LS(DOWN))	 &trans
+			&kp LC(OPT7_L)      &trans              &trans              &trans         		&trans  						                			&trans              &trans              &trans          								           &trans              &kp LC(BACKSPACE)   &kp BACKSPACE		   										&trans			 	&trans              &trans               &trans              &trans
 		>;
 	};
 
