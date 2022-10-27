@@ -62,7 +62,7 @@ sticky_shift: sticky_shift {
 	#binding-cells = <2>;
 	flavor = "tap-preferred";
 	tapping-term-ms = <200>;
-	bindings = <&kp>, <&skq>;
+	bindings = <&kp>, <&skq LSHFT>;
 };
 
 hold_repeat: hold_repeat {
