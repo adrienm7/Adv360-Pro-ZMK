@@ -47,21 +47,21 @@
 
     default_layer {
       bindings = <
-        	&kp LC(OPT7_T)		&kp N1    			&kp N2   			&kp N3   			&kp N4     			&kp N5 				&tog 1                                                                       																										&mo MOD 			&kp N6 				&kp N7 				&kp N8    			&kp N9   			&kp N0   			&kp ESC
-        	&kp LC(OPT7_C)  	&kp OPT7_A_GRV     	&kp OPT7_Y   		&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dynamic_macro_1 RECORD                                                      																								&dynamic_macro_2 RECORD 	&kp OPT7_F 			&kp OPT7_D  		&kp OPT7_L  	   	&kp OPT7_P  		&kp OPT7_QUOTE    	&kp OPT7_CIRC
-        	&kp LC(OPT7_V)		&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&hold_dspc LALT 0	&kp ESCAPE   	       	      							   &kp ESCAPE	  	  &kp LALT							&dynamic_macro_2 PLAY 		&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp OPT7_EQUAL
-        	&kp LC(OPT7_X)		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&kp OPT7_DOT              				&none     			&none     			&kp DELETE        &none 			    &none 			   &kp RCTRL	   	  &none     		   &none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp OPT7_PERCENT
-        	&alt_tab 			&kp LEFT 			&kp RIGHT			&kp OPT7_E_CIRC		&kp OPT7_K        											&lt NAV SPACE 		&mt LCTRL TAB   	&kp BACKSPACE           							   	   &kp LGUI   		  &mt RALT ENTER	   &hold_repeat RSHIFT 0               							&kp OPT7_Q 			&kp OPT7_J 			&kp UP 				&kp DOWN   			&kp OPT7_EURO
+        	&kp OPT7_PERCENT	&kp N1    			&kp N2   			&kp N3   			&kp N4     			&kp N5 				&mo MOD                                                                      																										&mo MOD 			&kp N6 				&kp N7 				&kp N8    			&kp N9   			&kp N0   			&kp OPT7_EURO
+        	&kp LC(OPT7_C)  	&kp OPT7_A_GRV     	&kp OPT7_Y   		&kp OPT7_O    		&kp OPT7_W      	&kp OPT7_B  		&dynamic_macro_1 RECORD                                                      																								&dynamic_macro_2 RECORD 	&kp OPT7_F 			&kp OPT7_D  		&kp OPT7_L  	   	&kp OPT7_P  		&kp OPT7_QUOTE    	&kp OPT7_E_CIRC
+        	&kp LC(OPT7_V)		&kp OPT7_A     		&kp OPT7_I   	 	&kp OPT7_E    		&kp OPT7_U      	&kp OPT7_COMMA  	&dynamic_macro_1 PLAY	  				&hold_dspc LALT 0	&kp ESCAPE   	       	      							   &kp ESCAPE	  	  &kp LALT							&dynamic_macro_2 PLAY 		&kp OPT7_M			&kp OPT7_S  		&kp OPT7_N  	   	&kp OPT7_T   	 	&kp OPT7_R 			&kp OPT7_Q
+        	&kp LC(OPT7_X)		&kp OPT7_E_GRV		&kp OPT7_Z    	 	&kp OPT7_DQUOTE		&kp OPT7_E_AIG		&kp OPT7_DOT              				&none     			&none     			&kp DELETE        &none 			    &none 			   &kp RCTRL	   	  &none     		   &none            						&kp OPT7_V			&kp OPT7_C			&kp OPT7_H 			&kp OPT7_G 			&kp OPT7_X 			&kp OPT7_J
+        	&alt_tab 			&kp OPT7_EQUAL		&kp LC(OPT7_T)		&kp OPT7_CIRC		&kp OPT7_K        											&lt NAV SPACE 		&mt LCTRL TAB   	&kp BACKSPACE           							   	   &kp LGUI   		  &mt RALT ENTER	   &hold_repeat RSHIFT 0               							&kp UP				&kp LEFT			&kp RIGHT 			&kp DOWN   			&none
         >;
     };
 
 	layer_nav {
 		bindings = <
-			&kp LC(OPT7_D)     	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
+			&kp LC(OPT7_L)     	&kp F1          	&kp F2          	&kp F3          	&kp F4          	&kp F5          	&trans  																																											&trans          	&kp F6          	&kp F7           	&kp F8          	&kp F9          	 &kp F10        	 &kp F11
 			&kp LC(OPT7_F)		&kp LC(LS(LEFT))	&kp LC(LEFT)		&kp LC(RIGHT)		&kp LC(LS(RIGHT))	&kp ESCAPE			&trans   																																											&trans  			&kp LA(N6)          &kp LC(LS(HOME))	&kp LC(HOME)		&kp LC(END)		     &kp LC(LS(END))	 &kp F12
-			&kp LG(OPT7_V)		&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&kp ENTER			&trans          						&trans              &trans          							               &trans              &kp LC(DELETE)   		                &trans              &kp LC(LS(OPT7_M)) 	&kp PAGE_UP		  	&kp UP	 	  	 	&kp DOWN   	 	 	 &kp PAGE_DOWN		 &trans
+			&kp LG(OPT7_V)		&kp HOME			&kp LEFT			&kp RIGHT			&kp END				&kp ENTER			&trans          						&trans              &trans          							               &trans              &kp LC(DELETE)   		                &trans              &kp LC(LG(OPT7_M)) 	&kp PAGE_UP		  	&kp UP	 	  	 	&kp DOWN   	 	 	 &kp PAGE_DOWN		 &trans
 			&kp LC(OPT7_H)      &kp LG(LS(LEFT))	&kp LG(LEFT)		&kp LG(RIGHT)		&kp LG(LS(RIGHT))   &kp LG(UP)        		                &trans              &trans              &trans             &trans               &trans             &trans              &trans              &trans  		 							&kp LC(LS(ENTER))   &kp LA(LS(UP))		&kp LA(UP)		    &kp LA(DOWN)		 &kp LA(LS(DOWN))	 &trans
-			&kp LC(OPT7_L)      &kp LG(OPT7_E_GRV)  &kp LG(OPT7_F)      &kp LG(OPT7_S)      &kp LG(OPT7_E_AIG)  				    					&trans              &trans              &trans          								           &trans              &kp LC(BACKSPACE)   &kp BACKSPACE		   										&trans			 	&trans              &trans               &trans              &trans
+			&kp LC(OPT7_D)      &kp LG(OPT7_E_GRV)  &kp LG(OPT7_F)      &kp LG(OPT7_S)      &kp LG(OPT7_E_AIG)  				    					&trans              &trans              &trans          								           &trans              &kp LC(BACKSPACE)   &kp BACKSPACE		   										&trans			 	&trans              &trans               &trans              &trans
 		>;
 	};
 
