@@ -34,5 +34,5 @@
 #define OPT7_DQUOTE		X			// "
 #define OPT7_CIRC		RBKT		// ^
 #define OPT7_EQUAL		MINUS		// =
-#define OPT7_PERCENT	EQUAL		// %
-#define OPT7_EURO		GRAVE		// €
+#define OPT7_PERCENT	GRAVE		// %
+#define OPT7_EURO		EQUAL		// €
