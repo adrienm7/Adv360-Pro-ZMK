@@ -14,7 +14,7 @@
 #define OPT7_N			K			// N
 #define OPT7_O			E			// O
 #define OPT7_P			O			// P
-#define OPT7_Q			MINUS		// Q
+#define OPT7_Q			SQT			// Q
 #define OPT7_R			SEMI		// R
 #define OPT7_S			J			// S
 #define OPT7_T			L			// T
@@ -27,12 +27,12 @@
 #define OPT7_A_GRV		Q			// À
 #define OPT7_E_GRV		NON_US_BSLH	// È
 #define OPT7_E_AIG		C			// É
-#define OPT7_E_CIRC		EQUAL		// Ê
+#define OPT7_E_CIRC		LBKT		// Ê
 #define OPT7_COMMA		G			// ,
 #define OPT7_DOT		V			// .
 #define OPT7_QUOTE		P			// ’
 #define OPT7_DQUOTE		X			// "
 #define OPT7_CIRC		RBKT		// ^
-#define OPT7_EQUAL		SQT			// =
-#define OPT7_PERCENT	LBKT		// %
+#define OPT7_EQUAL		MINUS		// =
+#define OPT7_PERCENT	EQUAL		// %
 #define OPT7_EURO		GRAVE		// €
