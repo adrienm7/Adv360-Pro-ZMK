@@ -56,6 +56,15 @@ hold_dspc: hold_dspc {
 	bindings = <&kp>, <&dot_spc>;
 };
 
+sticky_shift: sticky_shift {
+	compatible = "zmk,behavior-hold-tap";
+	label = "sticky_shift";
+	#binding-cells = <2>;
+	flavor = "tap-preferred";
+	tapping-term-ms = <200>;
+	bindings = <&kp>, <&skq>;
+};
+
 hold_repeat: hold_repeat {
 	compatible = "zmk,behavior-hold-tap";
 	label = "hold_repeat";
