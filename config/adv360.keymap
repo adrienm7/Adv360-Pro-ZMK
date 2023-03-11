@@ -37,7 +37,7 @@
 			label = "hold_repeat";
 			#binding-cells = <2>;
 			flavor = "tap-preferred";
-			tapping-term-ms = <300>;
+			tapping-term-ms = <200>;
 			bindings = <&kp>, <&kp>;
 		};
   };
