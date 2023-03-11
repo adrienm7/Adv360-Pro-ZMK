@@ -51,7 +51,7 @@
             bindings = <
         &trans           &kp F1        &kp F2        &kp F3            &kp F4       &kp F5            &tog 1                                                   &mo 3         &kp F6            &kp F7        &kp F8         &kp F9            &kp F10  &kp F11
      &kp RC(Y)  &kp RS(RC(END))  &kp RC(HOME)   &kp RC(END)   &kp RS(RC(END))      &kp ESC             &none                                                   &none  &kp RS(ENTER)  &kp RS(RC(LEFT))  &kp RC(LEFT)  &kp RC(RIGHT)  &kp RS(RC(RIGHT))  &kp F12
-     &kp LG(V)      &kp PAGE_UP        &kp UP      &kp DOWN     &kp PAGE_DOWN  &kp RS(END)             &none  &trans  &trans   &none   &none  &trans  &trans   &none   &kp RS(HOME)          &kp HOME      &kp LEFT      &kp RIGHT            &kp END   &trans
+     &kp LG(N)      &kp PAGE_UP        &kp UP      &kp DOWN     &kp PAGE_DOWN  &kp RS(END)             &none  &trans  &trans   &none   &none  &trans  &trans   &none   &kp RS(HOME)          &kp HOME      &kp LEFT      &kp RIGHT            &kp END   &trans
  &kp RC(COMMA)   &kp RS(LA(UP))    &kp LA(UP)  &kp LA(DOWN)  &kp RS(LA(DOWN))      &kp TAB             &none   &none  &trans   &none   &none  &trans   &none   &none  &kp RC(ENTER)  &kp RS(LG(LEFT))  &kp LG(LEFT)  &kp LG(RIGHT)  &kp RS(LG(RIGHT))   &trans
         &trans           &trans        &trans        &trans       &kp RS(TAB)                         &trans  &trans  &trans                  &trans  &trans  &trans                           &trans        &trans         &trans             &trans   &trans
             >;
